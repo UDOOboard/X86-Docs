@@ -1,0 +1,24 @@
+{
+    "title": "UDOO Neo Docs",
+    "tagline": "UDOO Board Documentation",
+    "author": "UDOO Team",
+    "image": "/udoo/images/logoogo.png",
+    "ignore": {
+        "files": [
+        ]
+    },
+    "html": {
+	    "theme": "daux-navy",
+	    "toggle_code": false,
+	    "breadcrumbs": false,
+	    "date_modified": false,
+	    "float": false,
+	    "repo": "UDOOboard/Neo-Docs",
+	    "links": {
+	        "Home": "http://www.udoo.org",
+	        "Downloads": "http://www.udoo.org/downloads",
+	        "Tutorials": "http://www.udoo.org/tutorial",
+	        "Forum": "http://www.udoo.org/forum"
+	    }
+    }
+}
