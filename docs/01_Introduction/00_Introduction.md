@@ -5,7 +5,7 @@
 On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
 
 UDOO X86 embeds two processors made by Intel&reg;:
-* a Quad Core 64-bit new-generation x86 Braswell processors, designed for the PC domain
+* a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain
 * the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
@@ -30,42 +30,43 @@ UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_ve
 ### Technical specifications
 
 <hr/>
-<img src="../img/udoo_neo_docs.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
+<TODO: change image>
+<img src="../img/x86_adv_ultra_top.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
-* NXP® i.MX 6SoloX applications processor with an embedded ARM Cortex-A9 core and a Cortex-M4 Core
-* 512MB (Basic) or 1GB (only Extended and Full)
-* Integrated 2d/3d graphics controller
-* Micro HDMI interface
-* LVDS interface + touch (I2C signals)
-* Analog camera connection supporting NTSC and PAL
-* 8-bit parallel camera interface*
-* HDMI audio transmitter
-* S/PIDF & I2S*
-* 1x USB 2.0 Type A ports
-* 1x USB OTG (micro-AB connector)
-* Fast ethernet RJ45 – 10/100Mbps (only Basic and Full)
-* Wi-Fi 802.11 b/g/n,Direct Mode SmartConfig and Bluetooth 4.0 Low Energy (only Extended and Full)
-* 3x UART ports*
-* 2x CAN Bus interfaces*
-* 8x PWM signals*
-* 3x I2C interface*
-* 1x SPI interface*
-* 6x multiplexable signals*
-* 5 V DC Micro USB
-* 6-15 V DC Power Jack
-* RTC Battery Connector
-* Green Power Status LED
-* User Configurable LEDs (Red and Orange)
-* 3-Axis Accelerometer (only Extended and Full)
-* 3-Axis Magnetometer (only Extended and Full)
-* 3-Axis Digital Gyroscope (only Extended and Full)
-* 1x Sensor Snap-In I2C connector (only Extended and Full)
-* 89mm x59mm (3.50″ x 2.32″)
-* Arduino-Compatible through the standard Arduino Pins layout and compatible with Arduino shields.
-* 32 extended GPIOs (A9 dedicated)
-* 22 Arduino GPIOs (M4 dedicated)
-* 6 available Pins
-* Android Lollipop & Linux UDOObuntu2 (14.04 LTS)
+* Processor:
+  * CPU Intel&reg; Pentium N3710 2.56 Ghz (ULTRA version)
+  * CPU Intel&reg; Celeron N3160 2.24 Ghz (ADVANCED PLUS & ADVANCED versions)
+  * CPU Intel&reg; Atom X5-E8000 2.00 Ghz (BASIC version)
+* GPU:
+  * Intel&reg; HD Graphics 405 Up to 700 MHz 16 execution units (ULTRA version)
+  * Intel&reg; HD Graphics 400 Up to 640 MHz 12 execution units (ADVANCED PLUS & ADVANCED versions)
+  * Intel&reg; HD Graphics Up to 320 MHz 12 execution units (BASIC version)
+* RAM:
+  * 8 GB DDR3L Dual Channel (ULTRA version)
+  * 4 GB DDR3L Dual Channel (ADVANCED PLUS & ADVANCED versions)
+  * 2 GB DDR3L (BASIC version)
+* Intel&reg; Curie&trade; module (Quark SE core 32 MHz plus 32-bit ARC core 32 MHz) features Bluetooth LE, 6-axis accelerometer/gyro
+* Video interfaces:
+  * 1x HDMI 1.4 (CEC)
+  * 2x Mini DisplayPort ++ (mDP++)
+* 3x USB 3.0 type-A sockets
+* Networking:
+  * 1x Gigabit Ethernet LAN interface
+  * M.2 Key E slot for optional Wireless(WiFi+BT) Module
+* Audio interfaces:
+  * HD Audio Codec ALC283CG
+  * Microphone + Headphone Combo Connector (TRRS)
+  * Preamplified Speaker output
+  * S/PDIF output*
+* 2x UART ports*
+* 2x I2C interface*
+* 1x SDIO interface*
+* 1x LPC interface*
+* 12V (± 5%) DC Power Jack (standard 5.5mm/2.1mm barrel jack: internal positive)
+* RTC Battery Connector + RTC Coin Battery
+* Bi-color Power Status LED
+* 1x Sensor Snap-In I2C connector
+* Arduino&trade; 101-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
 
 &#42;Available on Pin Header
 
