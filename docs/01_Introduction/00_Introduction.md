@@ -1,12 +1,14 @@
 
-# UDOO NEO
-**UDOO NEO** is an all-in-one open hardware low-cost computer equipped with a NXP&trade; i.MX 6SoloX applications processor for Android and Linux.
+# UDOO X86
+**UDOO X86** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
 
-UDOO NEO embeds two cores on the same processor: a powerful 1GHz ARM® Cortex-A9, and an ARM Cortex-M4 I/O real-time co-processor that can run up to 200Mhz.
+On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
 
-While the Cortex-A9 can run both Android Lollipop and [UDOObuntu 2](../Software_&_Operating_Systems/UDOObuntu.html) - a dedicated Ubuntu-based Linux distro - the Cortex-M4 allows easy access to a Arduino&trade; environment. The snap-in connector ensures a plug-and-play interaction with most sensors and actuators.
+UDOO X86 embeds two processors made by Intel&reg;:
+* a Quad Core 64-bit new-generation x86 Braswell processors, designed for the PC domain
+* the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
 
-Thanks to its embedded 9-axis motion sensors and a Wi-Fi + Bluetooth 4.0 module, the board is ideal to create robots, drones and rovers as well as any Mobile IoT project you can imagine.
+While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
 
 <hr/>
 
@@ -14,11 +16,13 @@ Thanks to its embedded 9-axis motion sensors and a Wi-Fi + Bluetooth 4.0 module,
 
 * Never provide more than 3.3V in input to the GPIOs
 * Never keep the board in touch with metal objects or surfaces while it is powered up
+* Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%)
 
 
 ### Lineup
-UDOO NEO retail line up consists of [three models](../Hardware_Reference/Board%20versions.html).
+UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_versions.html).
 
+<TODO: change image>
 <img src="../img/udoo_neo_versions.jpg" alt="UDOO versions" class="img-responsive" >
 
 
