@@ -29,7 +29,7 @@ UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_ve
 
 <hr/>
 
-<img src="../img/x86_adv_ultra_top.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
+<img src="../img/x86_ultra_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
 * Processor:
   * CPU Intel&reg; Pentium N3710 2.56 Ghz (ULTRA version)
