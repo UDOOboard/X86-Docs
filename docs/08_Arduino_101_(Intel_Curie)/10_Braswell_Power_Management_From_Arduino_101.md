@@ -3,7 +3,7 @@ It can act as the Power Button(PWR) of the board connected directly to the Brasw
 
 The Arduino 101 on board can wake up the Braswell processor depending on various triggers. For example, it can wake up the Braswell prcessor if the temperature, registered by a connected temperature sensor, increases over a certain threshold. Other examples of triggers may be a BLE signal or a movement tracked by the 6-axis motion sensor on board, defining features of Arduino 101. By exploiting the Arduino capabilities, you can set up the trigger you want to get the behaviour you expect from the system.
 
-The Arduino 101 (Intel® Curie™) can trigger a power signal of the Braswell processor by producing a **20ms low pulse** in the **Arduino Pin 9** (IO9/PWM3 signal of the schematics).
+The Arduino 101 (Intel® Curie™) can trigger a power signal of the Braswell processor by producing a **20ms low pulse** in the **Arduino Pin 9** (IO9/PWM3 signal in the schematics). Technically speaking the pulse is catched by a SMT32 microcontroller onboard(STM32F100R4H6) and propagated to the Braswell to wake it up.
 
 You need to enable this feature of the UDOO X86 board in the BIOS setup(SCU). You can find the **Curie Power Management** option in the menu **Power**:
 
