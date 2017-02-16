@@ -1,6 +1,11 @@
+<br/>
+
 <img src="../img/udoox86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
-The main differences between the four versions of the UDOO X86 are shown in the following table.
+<br/>
+
+The main differences between the four versions of the UDOO X86 are shown in the following table.    
+
 
 |              |                    ULTRA                    |                 ADVANCED PLUS                |               ADVANCED              |                BASIC               |
 |--------------|:-------------------------------------------:|:--------------------------------------------:|:-----------------------------------:|:----------------------------------:|
