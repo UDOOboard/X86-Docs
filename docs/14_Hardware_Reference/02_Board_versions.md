@@ -1,5 +1,7 @@
 <img src="../img/udoox86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
+The main differences between the four versions of the UDOO X86 are shown in the following table.
+
 |              |                    ULTRA                    |                 ADVANCED PLUS                |               ADVANCED              |                BASIC               |
 |--------------|:-------------------------------------------:|:--------------------------------------------:|:-----------------------------------:|:----------------------------------:|
 | Processor    | CPU INTEL PENTIUM N3710 2.56 GHZ            | CPU INTEL CELERON N3160 2.24 GHZ              | CPU INTEL CELERON N3160 2.24 GHZ     | CPU INTEL ATOM X5-E8000 2.00 GHZ    |
