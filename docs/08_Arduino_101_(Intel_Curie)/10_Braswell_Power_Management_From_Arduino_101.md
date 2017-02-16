@@ -37,23 +37,30 @@ int reset_pin = 9;    /* Triggers the power signal */
 int input_pin = 2;    /* Input Button connected. Set in pull down with a resistor */
 
 int pulse_time = 20;
+volatile boolean power_pressed = false;
+
+void power_interrupt() {
+  /* When the button (connected to the Pin 2) is pressed, the attached interupt runs this routine */
+  power_pressed = true;
+}
 
 void setup() {
   pinMode(reset_pin, OUTPUT);
   digitalWrite(reset_pin, HIGH);
 
   pinMode(input_pin, INPUT);
+  attachInterrupt(digitalPinToInterrupt(input_pin), power_interrupt, RISING);
 }
 
 void loop() {
-  /* When the button (connected to the Pin 2) is pressed, the Pin 9  
-  *  goes LOW for 20ms.
-  */
-  if (digitalRead(input_pin) == HIGH) {
+  if (power_pressed) {
     digitalWrite(reset_pin, LOW);
-    delay(pulse_time);
+    delay(pulse_time);    /*  Reset pin goes LOW for 20ms */
     digitalWrite(reset_pin, HIGH);
+    power_pressed = false;
   }
+
+  /* Your main code goes in this loop, as before  */
   delay(10);
 }
 ```
