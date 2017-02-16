@@ -14,7 +14,7 @@ While the X86 Braswell processor can run all the Windows, Linux, Android X86 64b
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
-* Never provide more than 3.3V in input to the GPIOs
+* Never provide more than 5V in input to the GPIOs of the Arduino 101(Intel&reg; Curie&trade;), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.
 * Never keep the board in touch with metal objects or surfaces while it is powered up
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%)
 
