@@ -40,6 +40,8 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
 
 ## Cases
 
