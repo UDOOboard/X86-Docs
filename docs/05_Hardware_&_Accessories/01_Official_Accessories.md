@@ -82,6 +82,8 @@ Dimensions: 2.9 cm height, 2.9 cm width, 1cm depth
 </br>
 </br>
 </br>
+</br>
+</br>
 
 ### Cables and Power Supply
 
