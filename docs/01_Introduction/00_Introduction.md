@@ -10,7 +10,7 @@ UDOO X86 embeds two processors made by Intel&reg;:
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
 
-<hr/>
+------
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
@@ -27,7 +27,7 @@ UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_ve
 
 ### Technical specifications
 
-<hr/>
+------
 
 <img src="../img/x86_ultra_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
@@ -68,7 +68,9 @@ UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_ve
 
 &#42;Available on Pin Header
 
-<hr/>
+Visit the [official accessories](../Hardware_Reference/Official_Accessories.html) sections.
+
+------
 
 ## Community
 * Official web site [www.udoo.org](http://www.udoo.org)
@@ -77,7 +79,8 @@ UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_ve
 ### Forums
 The official UDOO forums can be found at [www.udoo.org/forum](http://www.udoo.org/forum)
 
-The forum search facility has been tweaked to allow more general searching. <b>Please</b> do a search before making a post as the issue may already have been raised and answered.
+The forum search facility has been tweaked to allow more general searching.
+**Please** do a search before making a post as the issue may already have been raised and answered.
 
 ### IRC channel
 There is an (unofficial) UDOO discussion channel on IRC. Using the IRC client of your choice, use server information: `irc.freenode.net`. Room name is `#udoo`.
