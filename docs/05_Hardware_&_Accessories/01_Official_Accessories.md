@@ -15,6 +15,8 @@ In the [UDOO Shop](http://shop.udoo.org/) you can also find some accessories for
 * Operating Voltage: DC 3.3V±5%
 * Operating Temperature: 0°C (32°F) to 70°C (158°F)
 
+For more info about this SSD module you can check the [official Transcend page](https://www.transcend-info.com/Products/No-643)
+
 <br/>
 <br/>
 <br/>
