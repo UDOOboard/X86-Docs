@@ -71,11 +71,11 @@ $('#ip-examples a').click(function (e) {
 </script>
 
 
-## Second method: use the `Fing - Network Tools` Mobile App
+## Second method: use the Fing - Network Tools Mobile App
 
 Fing is a network scanner app, which will help you to discover every device connected into your network. Simply go to the Android or Ios market, download and launch it. If UDOO X86 is properly connected to the same network your phone is (whether via Wi-Fi or ethernet), you should see it and discover its IP address.
 
-<a href="../img/ip_find/fing.png"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/fing.jpg" alt="fing.jpg" width="500" height="193" /></a>
+<a href="../img/ip_find/fing.jpg"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/fing.jpg" alt="fing.jpg" width="500" height="193" /></a>
 
 Link to the stores: [Android Google Play](https://play.google.com/store/apps/details?id=com.overlook.android.fing) and [IOS App Store](https://itunes.apple.com/us/app/fing-network-scanner/id430921107?mt=8)
 
