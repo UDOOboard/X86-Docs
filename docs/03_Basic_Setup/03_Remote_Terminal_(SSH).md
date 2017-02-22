@@ -92,8 +92,10 @@ On `ArchLinux` type the following command:
   </div>
   <div role="tabpanel" class="tab-pane" id="ssh-windows-client">
 
-There's a lot of valid SSH clients for Windows.   
+There's a lot of valid SSH clients for Windows.  
+
 We suggest to use [MobaXterm](http://mobaxterm.mobatek.net/), a complete enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.  
+
 Another famous SSH client is [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 
   </div>
