@@ -47,7 +47,7 @@ You need to turn on the Remote Desktop feature on the UDOO X86 in this way:
 3. Check the **Allow remote connections to this computer** radio button. For a higher level of security, check the **Allow connections only from computers running Remote Desktop with Network Level Authentication(recommended)**
 4. Click **Apply** and **OK**
 
-Now the Remote Desktop service is enabled an ready to accept remote connections. You can use the *IP Address* or the *Computer Name* assigned to your UDOO X86 to connnect from remote. We suggest to use IP Address.  
+Now the Remote Desktop service is enabled an ready to accept remote connections.
 You can find other infos [here](https://support.microsoft.com/en-us/help/17463/windows-7-connect-to-another-computer-remote-desktop-connection).
 
   </div>
@@ -84,6 +84,8 @@ Choose the one you prefer and install it in the remote PC.
   <div role="tabpanel" class="tab-pane" id="vnc-windows-client">
 
 Windows 10 comes with a VNC Client already installed. In the search box of the Windows taskbar, type **Remote Desktop Connection** to find it.
+
+In the **Computer** box you can use the *IP Address* or the *Computer Name* assigned to your UDOO X86. We suggest to use IP Address.  
 
 There also are lots of valid VNC clients for Windows.  
 
