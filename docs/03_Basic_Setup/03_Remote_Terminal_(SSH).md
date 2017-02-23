@@ -59,7 +59,7 @@ $('#ssh-server a').click(function (e) {
 })
 </script>
 
-## SSH client
+## SSH Client on the remote PC
 
 On the PC from which you want to connect to UDOO X86 choose the client for the OS you use.
 
