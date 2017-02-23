@@ -20,8 +20,8 @@ A VNC server is a program that shares a desktop with other computers over the In
  <div class="tab-content">
   <div role="tabpanel" class="tab-pane active" id="vnc-linux-server">
 
-On Linux you usually need to install VNC Server. There are various alternatives.  
-For example you can install of these through the package manager of your Linux Distro or downloading from the official websites:
+On Linux you usually need to install a VNC Server. There are various alternatives.  
+For example you can install one of these through the package manager of your Linux Distro or downloading from the official websites:
 
 * [x11vnc](http://www.karlrunge.com/x11vnc/)
 * [tightvncserver](http://www.tightvnc.com/licensing-tvnserver.php)
@@ -30,7 +30,7 @@ For example you can install of these through the package manager of your Linux D
 
 Some distros comes with a functional preinstalled VNC Server, so you can check if the distro are you using already has a desktop sharing software.
 
-For example [Vino](https://help.ubuntu.com/community/VNC/Servers#vino) is the default VNC server in `Ubuntu` to share your existing UDOO X86 desktop.  
+For example [Vino](https://help.ubuntu.com/community/VNC/Servers#vino) is the default VNC server in `Ubuntu` to share your existing UDOO X86 desktop. Follow the instruction in the link to enable the desktop sharing feature.    
 At this page you can find a list of the most common VNC Servers used in Ubuntu: [Ubuntu VNC/Servers](https://help.ubuntu.com/community/VNC/Servers).  
 If you come across an encryption Vino error trying connecting follow this page. [Vnc Vino Ubuntu Security fix](http://tiemensfamily.com/TimOnCS/2014/04/12/vnc-vino-ubuntu-security-fix/)
 
