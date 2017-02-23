@@ -54,9 +54,9 @@ Alternatively you can also use the command `ifconfig`.
   </div>
   <div role="tabpanel" class="tab-pane" id="ip-windows">
 
-A quick way to find your IP address in Windows is by running the ipconfig command in a Command Prompt window. You’ll see your IP address in the IPv4 Address row beneath the name of your connection.  
+A quick way to find your IP address in Windows is by running the `ipconfig` command in a Command Prompt window. You’ll see your IP address in the IPv4 Address row beneath the name of your connection.  
 
-Using Windows 10 you can right-click the **Start Button**. In the Menu appeared click on **Command Prompt**.
+Using Windows 10 you can right-click the **Start** button. In the Menu appeared click on **Command Prompt**.
 
 <a href="../img/ip_find/win_ipconfig.png"><img class="alignnone size-full wp-image-2486" src="../img/ip_find/win_ipconfig.png" alt="fing-network-scanner" width="540" height="290" /></a>
 

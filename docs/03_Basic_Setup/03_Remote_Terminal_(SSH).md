@@ -4,7 +4,7 @@ You can use UDOO X86 as a Desktop PC, connected up to 3 4K resolution monitor, k
 A first condition to establish a SSH connection with your UDOO X86 is to have previously completed the tutorial about [Find IP Address](../Basic_Setup/Find_IP_Address.html).  
 A second condition is to install a `SSH Server` on your UDOO X86 system, and install an `SSH Client` on the PC from which you want to connect to UDOO X86.
 
-## SSH Server
+## SSH Server on UDOO X86
 
 Choose the software for the OS you've installed on your UDOO X86.
 
@@ -92,7 +92,7 @@ On `ArchLinux` type the following command:
   </div>
   <div role="tabpanel" class="tab-pane" id="ssh-windows-client">
 
-There's a lot of valid SSH clients for Windows.  
+There are lots of valid SSH clients for Windows.  
 
 We suggest to use [MobaXterm](http://mobaxterm.mobatek.net/), a complete enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.  
 
