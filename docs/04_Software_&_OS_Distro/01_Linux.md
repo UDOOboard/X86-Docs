@@ -6,6 +6,9 @@ We suggest to always use a **64-bit** OS version.
 
 <span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO X*^ ULTRA version would be usable only with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (less than 4GB, however).
 
+<TODO: fix link>
+In the [Getting Started](../Getting_Started/..html) section you can a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
+
 Here you can find an unordered list of 10 of the most popular Linux distribution:
 
 * [Ubuntu](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
@@ -28,9 +31,13 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 
 * [Puppy Linux](http://puppylinux.org/) is another fairly well-known Linux distribution. Previous versions have been built on Ubuntu, but the latest is built on Slackware. Puppy is designed to be a small, lightweight operating system that can run well on very old computers.
 
-* [Lakka ](http://www.lakka.tv/) is a lightweight Linux distribution that transforms a computer into a full blown game console
+Others useful distributions:
+
+* [Lakka ](http://www.lakka.tv/) is a lightweight Linux distribution that transforms a computer into a full blown game console for retrogaming.
+
+* [LibreELEC](https://libreelec.tv/) Kodi is a free and open-source media player software application developed by the XBMC Foundation. LibreELEC (short for Libre Embedded Linux Entertainment Center) is a distro based on Kodi, is a non-profit fork of OpenELEC as an open source just enough OS (JeOS) Linux software appliance distro for Kodi.
 
 
 *source [www.howtogeek.com](https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/)*
 
-To choice you favorite distro you can also check this [linux.org articole](https://www.linux.com/news/best-linux-distros-2016).
+To help choosing your favorite distro you can also check this [linux.org article](https://www.linux.com/news/best-linux-distros-2016).
