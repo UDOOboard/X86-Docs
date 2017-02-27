@@ -1,15 +1,15 @@
 UDOO X86 is a Single Board Computer based on the *N-Series Intel® Pentium® / Celeron® and x5-Series Atom* family of System-on-Chips (SoCs) formerly coded as **Braswell**, a series of Quad Core SoCs with **64-bit instruction set** and very low TDP.
 
-Thanks to the processor 64-bit version of the x86 instruction set, the **UDOO X86** supports all the *x86 Linux* distribution for **32-bit**(aka i386, IA-32, x86-32, x86_32) and **64-bit**(aka x64, x86-64, x86_64).
+Thanks to the x86_64 instruction set, the **UDOO X86** supports all the *x86 Linux* distribution for **32-bit**(aka i386, IA-32, x86-32, x86_32) and **64-bit**(aka x64, x86-64, x86_64).
 
 We suggest to always use a **64-bit** OS version.
 
 <span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO X86 ULTRA version would be usable only with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (less than 4GB, however).
 
 <TODO: fix link>
-In the [Getting Started](../Getting_Started/..html) section you can a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
+In the [Getting Started](../Getting_Started/..html) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
-Here you can find an unordered list of 10 of the most popular Linux distribution:
+Here you can find an unordered list of 10 of the most popular Linux distributions:
 
 * [Ubuntu](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
 
