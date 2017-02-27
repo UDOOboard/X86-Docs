@@ -1,11 +1,11 @@
+## UDOO X86
 
-# UDOO X86
 **UDOO X86** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
 
 On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
 
 UDOO X86 embeds two processors made by Intel&reg;:
-* a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain
+* a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP.)
 * the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
@@ -19,13 +19,13 @@ While the X86 Braswell processor can run all the Windows, Linux, Android X86 64b
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%)
 
 
-### Lineup
+## Lineup
 UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_versions.html).
 
 <img src="../img/udoox86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
 
-### Technical specifications
+## Technical specifications
 
 ------
 
