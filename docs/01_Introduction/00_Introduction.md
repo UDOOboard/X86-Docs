@@ -1,5 +1,4 @@
-## UDOO X86
-
+# UDOO X86
 **UDOO X86** is the New PC: the most powerful maker board ever and an Arduino&trade; 101-compatible platform, all embedded on the same board.
 
 On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
@@ -10,7 +9,7 @@ UDOO X86 embeds two processors made by Intel&reg;:
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
 
-------
+<hr/>
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
 
