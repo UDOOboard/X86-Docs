@@ -3,6 +3,6 @@ The UDOO X86 contains an embedded Intel Arduino 101, powered by Intel's Curie&tr
 * The ARC, a 32 MHz Argonaut RISC Core. This is where compiled Arduino Sketches are executed. The ARC can communicate directly with the six-axis accelerometer/gyroscope. The memory subsystem is shared with the Quark SE&trade;, which also manages the communication between the two cores.
 
 ### Integrated device references
-* Intel Curie&trade; - https://software.intel.com/en-us/iot/hardware/curie
-* Bosch BMI160 six-axis sensor - https://www.bosch-sensortec.com/bst/products/all_products/bmi160
-* nRF51822 Bluetooth Low Energy chip - https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822
+* [Intel Curie&trade;](https://software.intel.com/en-us/iot/hardware/curie)
+* [Bosch BMI160 six-axis sensor](https://www.bosch-sensortec.com/bst/products/all_products/bmi160)
+* [nRF51822 Bluetooth Low Energy chip](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822)
