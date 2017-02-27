@@ -9,6 +9,8 @@ We suggest to always use a **64-bit** OS version.
 <TODO: fix link>
 In the [Getting Started](../Getting_Started/..html) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
+<span class="label label-warning">Heads up!</span> The Processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
+
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
 * [Ubuntu](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
