@@ -33,6 +33,8 @@ To preserve the original archive, add the `-k` option:
         bzip2 -dk core-image-sato-seco-64-udoo-logo.iso.bz2
 
 3. Create a bootable USB installation drive as for the other Linux distributions following the guide [Getting Started](../Getting_Started/..html)<TODO: fix link>
-4. During the installation pres `Y` and `0` when requested. The installation should take about a minute.
+4. If the eMMC device is properly detected, the installation will ask if you want to install the image there, type `Y` and press `Enter`.
+5. Choose the percentage of swap on total drive size. You can type `0` and press `Enter`
+5. The installation should take about a minute.
 
 <span class="label label-warning">Heads up!</span> Once the installation is complete if you want the fastest boot as possible we suggest to modify the file `grub.cfg` changing the `timeout` voice to `0` (10 seconds are set by default).
