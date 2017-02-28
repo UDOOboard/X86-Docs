@@ -1,6 +1,8 @@
 UDOO X86 is a Single Board Computer based on the N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell, a series of Quad Core SoCs with 64-bit instruction set and very low TDP.
 
-Thanks to the x86_64 instruction set, the UDOO X86 supports all the x86 Android distribution for 32-bit(aka i386, IA-32, x86-32, x86_32) and 64-bit(aka x64, x86-64, x86_64).
+Thanks to the x86_64 instruction set, the UDOO X86 supports all the x86 Android distribution for 32-bit(aka i386, IA-32, x86-32, x86_32) and 64-bit(aka x64, x86-64, x86_64).  
+
+We suggest to always use a **64-bit** OS version.
 
 ## Android-x86 Project - Run Android on Your UDOO X86
 
