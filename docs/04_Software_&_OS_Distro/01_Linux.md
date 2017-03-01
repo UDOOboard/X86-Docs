@@ -9,13 +9,13 @@ We suggest to always use a **64-bit** OS version.
 <TODO: fix link>
 In the Getting Started section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
-<span class="label label-warning">Heads up!</span> The Processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
+<span class="label label-warning">Heads up!</span> The processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
 * [Ubuntu](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
 
-<span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 16.04, 16.10) need at least 8.4GB of free space for the installation. If you have oe of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the max 8GB size. Here you can find a modified version of **Ubuntu 16.10**. This iso installer won't install few stuff to let you install Ubuntu in the 8GB eMMC.
+<span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 16.04, 16.10) need at least 8.4GB of free space for the installation. If you have one of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the lack of storage space. Here you can find a modified version of **Ubuntu 16.10**. This .iso installer won't install a few stuff to let you install Ubuntu in the 8GB eMMC.
 
 <TODO: fix link>
 [Ubuntu 16.10 slim]()  

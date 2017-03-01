@@ -21,7 +21,7 @@ SHA1: 47b370600a7b1e6f45c0f19bbd93bd29091a1ccb
 # Installation
 To install Yocto on the eMMC of the UDOO X86 follow this steps:
 
-<span class="label label-warning">Heads up!</span> to not risk to flash any other drive we suggest to disconnect any other SATA or M.2 SSD connected
+<span class="label label-warning">Heads up!</span> In order not to risk to flash other drives we suggest to disconnect other storage devices connected.
 
 1. Download the image above on you PC
 2. Extract the iso from the .bz2 file using this command from the directory when you downloaded the file:  
@@ -38,4 +38,4 @@ To preserve the original archive, add the `-k` option:
 5. Choose the percentage of swap on total drive size. You can type `0` and press `Enter`
 5. The installation should take about a minute.
 
-<span class="label label-warning">Heads up!</span> Once the installation is complete if you want the fastest boot as possible we suggest to modify the file `grub.cfg` changing the `timeout` voice to `0` (10 seconds are set by default).
+<span class="label label-warning">Heads up!</span> If you want the fastest boot as possible, once the installation is complete we suggest to modify the file `grub.cfg` changing the `timeout` voice to `0` (10 seconds are set by default).

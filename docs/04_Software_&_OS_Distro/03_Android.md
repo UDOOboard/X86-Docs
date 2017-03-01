@@ -18,14 +18,14 @@ This is tested and perfectly working on UDOO X86.
 <TODO: fix link>
 To prepare a bootable USB with the installer you can follow the UDOO Getting Started guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
 
-<span class="label label-warning">Heads up!</span> Sometimes we noticed some issue during the installation so we suggest to choose the `Legacy` mode at boot.
+<span class="label label-warning">Heads up!</span> We have noticed some issues during the installation so we suggest to choose the `Legacy` mode at boot.
 
-<span class="label label-warning">Heads up!</span> If after a complete installation, Android-x86 doesn't boot properly we suggest to prepare the partition where you want to install the OS formatting it in `ext4` and **do not** format again the partition during the Android-x86 wizard installation. This is a known issue, we found this solution in different articles, like in [this one](https://techposts.org/install-android-6-marshmallow-laptop-pc/), for example.
+<span class="label label-warning">Heads up!</span> If after a complete installation Android-x86 doesn't boot properly, we suggest to prepare the partition where you want to install the OS formatting it in `ext4` and **do not** format again the partition during the Android-x86 wizard installation. This is a known issue, we found this solution in different articles, like [this one](https://techposts.org/install-android-6-marshmallow-laptop-pc/), for example.
 
 
 ## Remix OS for PC
 
-Another of the most famous Android projects for x86 is Remix OS.  
+Another one of the most famous Android projects for x86 is Remix OS.  
 From the official [remixos](http://www.jide.com/remixos-for-pc) website.
 
 > Remix OS from Jide is a reimagination of Android that provides a desktop-like windowed environment, powered by Android, to grant the benefits of the mobile OS with productivity characteristics of a desktop operating system such as a taskbar, true multi-tasking, and more. It's currently available on hardware made by Jide, such as the Remix Mini, but is also available as a bootable operating system for X86 devices.
@@ -40,7 +40,7 @@ To prepare a bootable USB with the installer you can follow the UDOO Getting Sta
 
 ## BlissRom
 
-This is another useful Open-Source Android ROM for x86. You can find some additional features preinstalled in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
+Another one useful Open-Source Android ROM for x86. You can find some additional features preinstalled in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
 
 ### Installation
 
