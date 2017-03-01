@@ -15,6 +15,12 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 
 * [Ubuntu](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
 
+<span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 16.04, 16.10) need at least 8.4GB of free space for the installation. If you have oe of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the max 8GB size. Here you can find a modified version of **Ubuntu 16.10**. This iso installer won't install few stuff to let you install Ubuntu in the 8GB eMMC.
+
+<TODO: fix link>
+[Ubuntu 16.10 slim]()  
+sha1:
+
 * [Linux Mint](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 
 * [Debian](https://www.debian.org/) is an operating system composed only of free, open-source software. The Debian project has been operating since 1993 — over 20 years ago! This widely respected project is still releasing new versions of Debian, but it’s known for moving much more slowly than distributions like Ubuntu or Linux Mint. This can make it more stable and conservative, which is ideal for some systems.  

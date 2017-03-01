@@ -4,9 +4,9 @@ In the [UDOO Shop](http://shop.udoo.org/) you can also find some accessories for
 
 ### M.2 SSD Transcend MTS600
 
-<img src="../img/accessories/m2_ssd_mts600.jpg" alt="m2_ssd_mts600" class="img-responsive pull-right" height="400px" width="300px" style="margin-left:30px;margin-top:20px">
+<img src="../img/accessories/m2_ssd_mts600.jpg" alt="m2_ssd_mts600" class="img-responsive pull-right" height="300px" width="225px" style="margin-left:30px;margin-top:20px">
 
-[Buy it into the shop](http://shop.udoo.org/m-2-ssd-transcend-mts600.html)
+[Buy it from the shop](http://shop.udoo.org/m-2-ssd-transcend-mts600.html)
 
 * Capacity: 128GB/256GB/512GB
 * Dimensions: 60.0mm × 22.0mm × 3.58mm (2.36" x 0.87" x 0.14")
@@ -26,9 +26,9 @@ For more info about this SSD module you can check the [official Transcend page](
 
 ### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5ghz + antenna adhesive
 
-<img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-left" height="275px" width="370px" style="margin-right:30px;margin-top:20px">
+<img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-left" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
 
-[Buy it into the shop](http://shop.udoo.org/m-2-wi-fi-intel-dual-band-ac-wi-fi-bt-4-0-5ghz-antenna-adhesive.html)
+[Buy it from the shop](http://shop.udoo.org/m-2-wi-fi-intel-dual-band-ac-wi-fi-bt-4-0-5ghz-antenna-adhesive.html)
 
 * Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (AC3168)
 * Dimensions: 4.9 x 3.5 x 0.4 inches
@@ -51,7 +51,7 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 
 <img src="../img/accessories/acrylic_case_side.jpg" alt="acrylic_case_side" class="img-responsive pull-right" height="345px" width="460px" style="margin-left:30px;">
 
-[Buy it into the shop](http://shop.udoo.org/acrylic-case-for-udoo-x86.html)
+[Buy it from the shop](http://shop.udoo.org/acrylic-case-for-udoo-x86.html)
 
 Top and Bottom plexiglass acrylic case for UDOO X86
 
@@ -74,7 +74,7 @@ Top and Bottom plexiglass acrylic case for UDOO X86
 
 <img src="../img/accessories/fan_cpu.jpg" alt="fan_cpu" class="img-responsive pull-left" height="275px" width="370px" style="margin-right:30px;">
 
-[Buy it into the shop](http://shop.udoo.org/cpu-fan-for-udoo-x86-heatsink.html)
+[Buy it from the shop](http://shop.udoo.org/cpu-fan-for-udoo-x86-heatsink.html)
 
 You don’t need a CPU fan for your ordinary activities, but the fan will help you out with complex projects that require a lot of power. The CPU fan is applied on the heatsink. It has 3 pins and you can set up thresholds inside the BIOS to automate it. It’s pretty much plug-and-play.
 

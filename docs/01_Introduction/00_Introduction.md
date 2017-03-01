@@ -26,8 +26,6 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 
 ## Technical specifications
 
-<hr/>
-
 <img src="../img/x86_ultra_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
 * Processor:
@@ -68,8 +66,6 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 &#42;Available on Pin Header
 
 Visit the [official accessories](!Hardware_&_Accessories/Official_Accessories) sections.
-
-<hr/>
 
 ## Community
 * Official web site [www.udoo.org](http://www.udoo.org)
