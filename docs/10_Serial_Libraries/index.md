@@ -1,5 +1,4 @@
-UDOO X86 Serial Libraries Examples
-==========
+## UDOO X86 Serial Libraries Examples
 
 Serial Libraries Communication Samples for [UDOO Board](http://www.udoo.org)
 
@@ -36,3 +35,13 @@ Program the Arduino&trade; embedded with the sketch named `arduino_serial_exampl
     java_serial_example_bidirectional.java
     php_serial_example_bidirectional.php
     python_serial_example_bidirectional.py
+
+
+## Useful libraries to communicate with Arduino from a software on the Braswell processor
+
+### Firmata
+
+The Firmata library implements the [Firmata protocol](https://github.com/firmata/protocol) for communicating with software on the host computer. This allows you to write custom firmware without having to create your own protocol and objects for the programming environment that you are using.
+
+You can check the Firmata documentation in the [Arduino Reference page](https://www.arduino.cc/en/Reference/Firmata).  
+You can install the Firmata library directly from the Arduino IDE library manager.
