@@ -1,4 +1,4 @@
-UDOO NEO Serial Libraries Examples
+UDOO X86 Serial Libraries Examples
 ==========
 
 Serial Libraries Communication Samples for [UDOO Board](http://www.udoo.org)
@@ -12,7 +12,7 @@ The Arduino sketch will remain the same no matter which programming language you
 There are two example scripts for each programming language: C, Java, PHP, Python.
 
 You can find the whole repo in our [Github Channel](https://github.com/UDOOboard/serial_libraries_examples).
-Clone the repo in your system using this command on a terminal:
+Clone the repo in your system and switch to proper `udoo-x86` branch using these commands on a terminal:
 
     git clone https://github.com/UDOOboard/serial_libraries_examples.git
     cd serial_libraries_examples
