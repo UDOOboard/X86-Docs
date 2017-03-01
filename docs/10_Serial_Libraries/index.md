@@ -15,6 +15,7 @@ You can find the whole repo in our [Github Channel](https://github.com/UDOOboard
 Clone the repo in your system using this command on a terminal:
 
     git clone https://github.com/UDOOboard/serial_libraries_examples.git
+    cd serial_libraries_examples
     git checkout udoo-x86
 
 <span class="label label-warning">Heads up!</span> Make sure the user has the proper permission to read and write from the Arduino&trade; 101 serial device (`/dev/ttyACM0` by default)
