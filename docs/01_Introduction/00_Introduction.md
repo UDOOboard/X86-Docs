@@ -19,7 +19,7 @@ While the X86 Braswell processor can run all the Windows, Linux, Android X86 64b
 
 
 ## Lineup
-UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_versions.html).
+UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_versions).
 
 <img src="../img/udoox86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
@@ -67,7 +67,7 @@ UDOO X86 retail line up consists of [four models](../Hardware_Reference/Board_ve
 
 &#42;Available on Pin Header
 
-Visit the [official accessories](../Hardware_Reference/Official_Accessories.html) sections.
+Visit the [official accessories](!Hardware_&_Accessories/Official_Accessories) sections.
 
 <hr/>
 

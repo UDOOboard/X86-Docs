@@ -1,8 +1,8 @@
 {
-    "title": "UDOO Neo Docs",
-    "tagline": "UDOO Board Documentation",
+    "title": "UDOO X86 Docs",
+    "tagline": "UDOO X86 Documentation",
     "author": "UDOO Team",
-    "image": "/udoo/images/logoogo.png",
+    "image": "http://www.udoo.org/docs-x86/img/logo_docs.png",
     "ignore": {
         "files": [
         ]

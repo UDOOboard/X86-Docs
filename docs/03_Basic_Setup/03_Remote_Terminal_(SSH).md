@@ -1,7 +1,7 @@
 You can use UDOO X86 as a Desktop PC, connected up to 3 4K resolution monitor, keyboard and mouse. This is probably the most used setup, but if you want you can communicate with the board in remote way, so long as you leaving the board connected to a network.
 
 ## Requirements
-A first condition to establish a SSH connection with your UDOO X86 is to have previously completed the tutorial about [Find IP Address](../Basic_Setup/Find_IP_Address.html).  
+A first condition to establish a SSH connection with your UDOO X86 is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
 A second condition is to install a `SSH Server` on your UDOO X86 system, and install an `SSH Client` on the PC from which you want to connect to UDOO X86.
 
 ## SSH Server on UDOO X86
@@ -47,7 +47,7 @@ If you want to use another SSH Server different from OpenSSh, you can find a [co
   </div>
   <div role="tabpanel" class="tab-pane" id="ssh-windows">
 
-On Windows you usually won't use the SSH connection to access a terminal, so we suggest to follow the docs on the next page to use a complete [Remote Desktop (VNC)](../Basic_Setup/Remote_Desktop_(VNC).html) connection.
+On Windows you usually won't use the SSH connection to access a terminal, so we suggest to follow the docs on the next page to use a complete [Remote Desktop (VNC)](!Basic_Setup/Remote_Desktop_(VNC)) connection.
 
   </div>
  </div>

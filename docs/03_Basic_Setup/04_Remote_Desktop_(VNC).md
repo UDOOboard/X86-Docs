@@ -3,7 +3,7 @@ You can use UDOO X86 as a Desktop PC, connected up to 3 4K resolution monitor, k
 [Virtual Network Computing (VNC)](https://en.wikipedia.org/wiki/Virtual_Network_Computing) is a graphical desktop sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. Basically VNC allows you to use your keyboard and mouse of your PC to interact with the graphical desktop environment of the UDOO X86 from remote.
 
 ## Requirements
-A first condition to establish a VNC connection with your UDOO X86 is to have previously completed the tutorial about [Find IP Address](../Basic_Setup/Find_IP_Address.html).  
+A first condition to establish a VNC connection with your UDOO X86 is to have previously completed the tutorial about [Find IP Address](!Basic_Setup/Find_IP_Address).  
 A second condition is to install a `VNC Server` on your UDOO X86 system, and install an `VNC Client` on the PC from which you want to connect to UDOO X86.
 
 

@@ -16,7 +16,7 @@ You can download the file `android-x86_64-6.0-r1.iso` from the official [downalo
 This is tested and perfectly working on UDOO X86.
 
 <TODO: fix link>
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](../Getting_Started/create_linux.html) guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
+To prepare a bootable USB with the installer you can follow the UDOO Getting Started guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
 
 <span class="label label-warning">Heads up!</span> Sometimes we noticed some issue during the installation so we suggest to choose the `Legacy` mode at boot.
 
@@ -36,7 +36,7 @@ You can download the iso `Remix_OS_for_PC_Android_64bit` from the official [down
 This is tested and perfectly working on UDOO X86.
 
 <TODO: fix link>
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](../Getting_Started/create_linux.html) guide, or the official RemixOS [video-guide for Windows users](https://www.youtube.com/watch?v=At7_g9ZXu8s).
+To prepare a bootable USB with the installer you can follow the UDOO Getting Started guide, or the official RemixOS [video-guide for Windows users](https://www.youtube.com/watch?v=At7_g9ZXu8s).
 
 ## BlissRom
 
@@ -47,4 +47,4 @@ This is another useful Open-Source Android ROM for x86. You can find some additi
 You can download the builds in the official [download page](http://blissroms.com/downloads/devices.html).
 
 <TODO: fix link>
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](../Getting_Started/create_linux.html) guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions.html).
+To prepare a bootable USB with the installer you can follow the UDOO Getting Started guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions).
