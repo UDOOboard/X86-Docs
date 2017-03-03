@@ -43,6 +43,6 @@ Program the Arduino&trade; embedded with the sketch named `arduino_serial_exampl
 
 The Firmata library implements the [Firmata protocol](https://github.com/firmata/protocol) for communicating with software on the host computer. This allows you to write custom firmware without having to create your own protocol and objects for the programming environment that you are using.
 
-You can check the Firmata documentation in the [Arduino Reference page](https://www.arduino.cc/en/Reference/Firmata) or the [firmata wiki page](http://firmata.org/wiki/Main_Page).
-Here you find the [Firmata firmware for Arduino](https://github.com/firmata/arduino).
+You can check the Firmata documentation in the [Arduino Reference page](https://www.arduino.cc/en/Reference/Firmata) or the [firmata wiki page](http://firmata.org/wiki/Main_Page).  
+Here you find the [Firmata firmware for Arduino](https://github.com/firmata/arduino).  
 You can install the Firmata library directly from the Arduino IDE library manager.
