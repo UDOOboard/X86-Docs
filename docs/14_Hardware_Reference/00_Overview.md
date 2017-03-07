@@ -1,6 +1,6 @@
-<img src="../img/X86_top.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/x86_top.png" alt="UDOO versions" class="img-responsive" >
 
-<img src="../img/X86_bottom.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/x86_bottom.png" alt="UDOO versions" class="img-responsive" >
 
 ## FULL SPECS INTEL BRASWELL SOC
 
