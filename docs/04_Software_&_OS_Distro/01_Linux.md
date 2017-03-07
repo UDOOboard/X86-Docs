@@ -48,4 +48,6 @@ Others useful distributions:
 
 *source [www.howtogeek.com](https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/)*
 
-To help choosing your favorite distro you can also check this [linux.org article](https://www.linux.com/news/best-linux-distros-2016).
+To help choosing your favorite distro you can also check this [linux.org article](https://www.linux.com/news/best-linux-distros-2016).  
+
+A very updated resource to watch "which is the most used Linux Distro" and to choose one is [Distro Watch](https://distrowatch.com/)

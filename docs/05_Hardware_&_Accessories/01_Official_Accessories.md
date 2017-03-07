@@ -4,7 +4,7 @@ In the [UDOO Shop](http://shop.udoo.org/) you can also find some accessories for
 
 ### M.2 SSD Transcend MTS600
 
-<img src="../img/accessories/m2_ssd_mts600.jpg" alt="m2_ssd_mts600" class="img-responsive pull-right" height="300px" width="225px" style="margin-left:30px;margin-top:20px">
+<img src="../img/accessories/m2_ssd_mts600.jpg" alt="m2_ssd_mts600" class="img-responsive pull-right" height="250px" width="225px" style="margin-left:30px;margin-top:20px">
 
 [Buy it from the shop](http://shop.udoo.org/m-2-ssd-transcend-mts600.html)
 
