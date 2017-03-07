@@ -10,7 +10,7 @@ The **external Pinout header** (Pins from 16 to 47) are connected to the **Intel
 ## Pinmuxing
 The image below shows the list of all possible functions assigned to each Pin.
 
-<a href="../img/uefibios_bootmanager.BMP" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
+<a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
 
 ### UART 1 and UART 2
 
