@@ -10,7 +10,7 @@ The **external Pinout header** (Pins from 16 to 47) are connected to the **Intel
 ## Pinmuxing
 The image below shows the list of all possible functions assigned to each Pin.
 
-<a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:400px; " src="../img/x86_pinout_braswell.png"></a>
+<a href="../img/uefibios_bootmanager.BMP" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
 
 ### UART 1 and UART 2
 
@@ -28,7 +28,7 @@ Accordingly to the [Braswell datasheet](http://www.intel.com/content/dam/www/pub
 | 16  | UART1_RTS |  UART1_RTS_B  |
 | 17  | UART1_CTS |  UART1_CTS_B  |
 | 18  | UART1_TXD |  UART1_TXD    |
-| 19  | UART1_RXD |  UART1_RXD    |  
+| 19  | UART1_RXD |  UART1_RXD    |
 
 **HSUART2**
 
