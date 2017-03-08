@@ -1,4 +1,4 @@
-The **external Pinout header** (Pins from 16 to 47) are connected to the **Intel&reg; Braswell x86** Processor of the UDOO X86.
+The **external row Pinout headers** (Pins from 16 to 47) are connected to the **Intel&reg; Braswell x86** Processor of the UDOO X86.
 
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
@@ -17,7 +17,7 @@ The image below shows the list of all possible functions assigned to each Pin.
 [Universal Asynchronous Receiver/Transmitter](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter) (**UART**) provides serial communication capability with external devices through a level converter and an RS-232 cable or through the use of external circuitry that converts infrared signals to electrical signals (for reception) or transforms electrical signals to signals that drive an infrared LED (for transmission) in order to provide low speed IrDA compatibility.
 
 The **Uart 1** is available at Pins *16*, *17*, *18*, *19*.  
-The **Uart 2** is available at Pins *20*, *21*, *22*, *23*.  
+The **Uart 2** is available at Pins *20*, 21*, *22*, *23*.  
 Both these serials are High-Speed UART (`HSUART`).  
 Accordingly to the [Braswell datasheet](http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/pentium-celeron-n-series-datasheet-vol-1.pdf) the **baud rate** goes from **300** to **3686400**.
 
@@ -126,6 +126,15 @@ These two I2C buses are *enabled* by default. You can `Enable/Disable` the **I2C
             DMA #2 Support             <Enabled (ACPI)>
               I2C #1 - CN14 pin10/12   <Enabled (ACPI)>
               I2C #2 - CN14 pin2/4     <Enabled (ACPI)>
+
+### GPIOs pins
+The Pins headers *36*, *37* can work as [GPIOs](https://en.wikipedia.org/wiki/General-purpose_input/output) only.  
+The GPIO function is *enabled* by default for these two Pins.
+
+| Pin | Function  | Processor PAD  |  GPIO device name from the Linux Driver |
+|-----|-----------|----------------|-----------------------------------------|
+| 36  | GPIO      |  SATA_GP2      |    gpio499                              |
+| 37  | GPIO      |  SATA_GP1      |    gpio497                              |
 
 ### SDIO
 A [SDIO](https://en.wikipedia.org/wiki/Secure_Digital#SDIO) (Secure Digital Input Output) card is an extension of the SD specification to cover I/O functions. SDIO cards are only fully functional in host devices designed to support their input-output functions (typically PDAs like the Palm Treo, but occasionally laptops or mobile phones).
