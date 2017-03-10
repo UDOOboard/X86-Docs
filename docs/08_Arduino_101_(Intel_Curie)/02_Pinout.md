@@ -1,6 +1,7 @@
 The embedded Arduino 101 input/output (I/O) pins operate at **3.3 V**, with a maximum **20 mA** DC current per pin. They are located on the inner columns of the dual headers.  
 
-<insert diagram>
+<a href="../img/x86_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_arduino.png"></a>
+
 
 The I/O voltage of 3.3 V is lower than the older Arduino UNO's 5 V. Keep this in mind when using shields and modules – Make sure you have set these accessories to operate at 3.3 V, which is typically performed by setting a jumper, a switch, or solder pad bridge (refer to the documentation of your shield/module for details). The I/O of the Arduino 101 is **5 V tolerant**, therefore, if a shield/module is incorrectly set to 5 V, you will fortunately not damage the Arduino.
 
