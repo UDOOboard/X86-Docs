@@ -17,7 +17,7 @@ The image below shows the list of all possible functions assigned to each Pin.
 [Universal Asynchronous Receiver/Transmitter](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter) (**UART**) provides serial communication capability with external devices through a level converter and an RS-232 cable or through the use of external circuitry that converts infrared signals to electrical signals (for reception) or transforms electrical signals to signals that drive an infrared LED (for transmission) in order to provide low speed IrDA compatibility.
 
 The **Uart 1** is available at Pins *16*, *17*, *18*, *19*.  
-The **Uart 2** is available at Pins *20*, 21*, *22*, *23*.  
+The **Uart 2** is available at Pins *20*, *21*, *22*, *23*.  
 Both these serials are High-Speed UART (`HSUART`).  
 Accordingly to the [Braswell datasheet](http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/pentium-celeron-n-series-datasheet-vol-1.pdf) the **baud rate** goes from **300** to **3686400**.
 

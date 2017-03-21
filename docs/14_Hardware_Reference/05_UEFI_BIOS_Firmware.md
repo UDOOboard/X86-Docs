@@ -1,7 +1,7 @@
 ## UEFI BIOS Menu
 
 The firmware for the main system is [InsydeH2O®](https://www.insyde.com/products), a flexible and fast booting UEFI BIOS.  
-To enter the BIOS, press your keyboard's escape key (esc) after turning on the board. This will enter the menu of the BIOS, offering the following options:
+To enter the BIOS, press your keyboard's escape key (`ESC`) after turning on the board. This will enter the menu of the BIOS, offering the following options:
 
 <a href="../img/uefibios_menu.BMP" target="_blank"><img style="width:400px; " src="../img/uefibios_menu.BMP"></a>
 
