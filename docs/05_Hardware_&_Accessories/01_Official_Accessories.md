@@ -21,8 +21,6 @@ For more info about this SSD module you can check the [official Transcend page](
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 
 ### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5ghz + antenna adhesive
 
@@ -36,10 +34,9 @@ For more info about this SSD module you can check the [official Transcend page](
 
 For more info about this WiFi/BT module you can check the [datasheet from the Intel website](http://www.intel.com/content/www/us/en/wireless-products/dual-band-wireless-ac-3168-brief.html)
 
-<br/>
-<br/>
-<br/>
-<br/>
+<span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released only few time ago so we suggest to use a recent distribution to find the latest drivers already installed.
+If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
+
 <br/>
 <br/>
 <br/>
