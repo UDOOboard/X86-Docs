@@ -93,7 +93,7 @@ Dimensions: 2.9 cm height, 2.9 cm width, 1cm depth
 HDMI A Male to A Male Cable 2MT: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)
 * [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.html) -
 The miniDP++ to HDMI Passive Adapter lets you connect the UDOO X86 to a high definition (up to 1080p) monitors and projectors
-* [MiniDP++ to DP](http://shop.udoo.org/cable-hdmi-to-hdmi.html) -
+* [MiniDP++ to DP](http://shop.udoo.org/cable-minidp-to-dp.html) -
 The 2MT miniDP++ to DP Adapter lets you connect the UDOO X86 to a high definition (up to 4k) monitors and projectors
 * [SATA data and power cables for UDOO X86](http://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) -
 SATA data and power cables for UDOO X86 (CN18 and CN30 connectors)
