@@ -10,7 +10,7 @@ When configured as an output, it is possible to write to an internal register to
 
 In the following image you can see in grey labels the 16 GPIOs manageable from the main Intel&reg; Braswell.
 
-<a href="../img/x86_pinout_braswell.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
+<a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
 
 Visit the [Pinout Braswell](!Hardware_Reference/Pinout_Braswell) section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
 
