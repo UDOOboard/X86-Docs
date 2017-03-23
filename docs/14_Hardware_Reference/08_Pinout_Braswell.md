@@ -3,9 +3,11 @@ The **external row Pinout headers** (Pins from 16 to 47) are connected to the **
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: UDOO X86 Pins are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
+  Warning: Warning: UDOO X86 Pins controlled by the main Braswell processor are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
   In order to properly work with an input voltage different from 1.8V use a bidirectional level shifter.
 </div>
+
+Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
 
 ## Pinmuxing
 The image below shows the list of all possible functions assigned to each Pin.

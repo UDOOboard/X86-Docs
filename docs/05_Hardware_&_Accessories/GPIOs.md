@@ -19,7 +19,7 @@ When configured as an output, it is possible to write to an internal register to
 
 In the following image you can see in grey labels the 20 GPIOs manageable from the main Intel&reg; Curie&trade;(Arduino 101-compatible embedded).
 
-<a href="../img/x86_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_arduino.png"></a>
+<a href="../img/x86_pinout_arduino.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_arduino.png"></a>
 
 Refer to the [Arduino 101 (Intel Curie)](!/Arduino_101_(Intel_Curie)/Overview) section to manage the Arduino GPIOs. You will be able to use the internal row pinout exactly like you do with an Arduino 101.
 
@@ -30,11 +30,20 @@ Refer to the [Arduino 101 (Intel Curie)](!/Arduino_101_(Intel_Curie)/Overview) s
 
 In the following image you can see in grey labels the 16 GPIOs manageable from the main Intel&reg; Braswell.
 
-<a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
+<a href="../img/x86_pinout_braswell.png" target="\_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
 
 Visit the [Pinout Braswell](!Hardware_Reference/Pinout_Braswell) section to see how to **enable/disable** the GPIO function for these pins from the UEFI BIOS Setup of the UDOO X86.
 
 The GPIO function is enabled by default in the UEFI BIOS Setup configuration of the UDOO X86.
+
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Warning!</span>
+  Warning: UDOO X86 Pins controlled by the main Braswell processor are 1.8V only compliant. Providing higher voltages, like 3.3V or 5V, could irreversibly damage the board.  
+  In order to properly work with an input voltage different from 1.8V use a bidirectional level shifter.
+</div>
+
+Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
 
 ## Linux Manipolation
 
