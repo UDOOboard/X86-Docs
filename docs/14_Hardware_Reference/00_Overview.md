@@ -2,6 +2,14 @@
 
 <img src="../img/x86_bottom.png" alt="UDOO versions" class="img-responsive" >
 
+## BLOCK DIAGRAM
+
+<br/>
+
+<a href="../img/x86_blockdiagram.png" target="\_blank"><img style="width:700px; " src="../img/x86_blockdiagram.png"></a>
+
+<br/>
+
 ## FULL SPECS INTEL BRASWELL SOC
 
 |                                                 |                  |                                                                                                               |

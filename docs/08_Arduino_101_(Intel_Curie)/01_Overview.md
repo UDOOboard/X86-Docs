@@ -12,5 +12,5 @@ The UDOO X86 contains an embedded Intel Arduino 101, powered by Intel's [Curie&t
 
 To start programming the Arduino 101 (Intel&reg; Curie&trade;) embedded microcontroller of the UDOO X86 you need the `Arduino IDE` or the `Arduino Web IDE`.
 
-You can refer the [Getting Started with the Arduino/Genuino 101](https://www.arduino.cc/en/Guide/Arduino101) page of the Arduino website.
-This Arduino page will guide you through the installation of the IDE and the core board manager of the Arduino 101.  
+You can refer the [Getting Started with the Arduino/Genuino 101](https://www.arduino.cc/en/Guide/Arduino101) page of the Arduino website.  
+This Arduino page will guide you through the installation of the IDE and the core board manager of the Arduino 101 other than everything you need to program the Arduino and use the pinout.

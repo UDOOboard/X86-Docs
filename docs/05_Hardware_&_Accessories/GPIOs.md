@@ -6,7 +6,27 @@ When configured as an output, it is possible to write to an internal register to
 * **16** GPIOs are available in the external Pinout columns manageable from the main Intel&reg; Braswell processor of the UDOO X86. These Pins are *1.8V only compliant*.
 * **20** GPIOs are available in the internal Arduino Pinout columns manageable from the Intel&reg; Curie&trade; processor of the Arduino 101 embedded. These Pins are *3.3V compliant and 5V tollerant*.
 
-# Braswell GPIOs
+<div>
+ <ul id="gpios" class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="active"><a href="#gpio-curie" aria-controls="curie" role="tab" data-toggle="tab"><h2>Curie&trade; GPIOs (Arduino 101)</h2></a></li>
+  <li role="presentation"><a href="#gpio-braswell" aria-controls="braswell" role="tab" data-toggle="tab"><h2>Braswell GPIOs</h2></a></li>
+ </ul>
+
+ <div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="gpio-curie">
+
+## Curie&trade; GPIOs (Arduino 101)
+
+In the following image you can see in grey labels the 20 GPIOs manageable from the main Intel&reg; Curie&trade;(Arduino 101-compatible embedded).
+
+<a href="../img/x86_pinout_arduino.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_arduino.png"></a>
+
+Refer to the [Arduino 101 (Intel Curie)](!/Arduino_101_(Intel_Curie)/Overview) section to manage the Arduino GPIOs. You will be able to use the internal row pinout exactly like you do with an Arduino 101.
+
+  </div>
+  <div role="tabpanel" class="tab-pane" id="gpio-braswell">
+
+## Braswell GPIOs
 
 In the following image you can see in grey labels the 16 GPIOs manageable from the main Intel&reg; Braswell.
 
@@ -108,3 +128,13 @@ If the direction is set to `in`, it is possible to read the GPIO value reading t
 cat /sys/class/gpio/gpio350/value
 ```
 If the direction is set to `out` and you try to read the value, is not guaranteed that the value is coherent with the voltage found on the external pinout.
+
+  </div>
+ </div>
+</div>
+<script>
+$('#gpios a').click(function (e) {
+e.preventDefault()
+$(this).tab('show')
+})
+</script>
