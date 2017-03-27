@@ -13,8 +13,7 @@ The supported version of Windows are:
 * Microsoft® Windows® 10 IoT
 * Microsoft® Windows® Embedded Standard 7 /8 (32/64 bit)
 
-<TODO: fix link>
-In the Getting Started section you can find a guide of how to install Windows, the example is based on Windows 10 64-bit.
+In the [Getting Started](http://www.udoo.org/get-started-x86/) section you can find a guide of how to install Windows, the example is based on Windows 10 64-bit.
 
 <span class="label label-warning">Heads up!</span> The Processors of the UDOO X86  and the Wi-Fi/BT module are released only few time ago so we suggest to use Windows&reg; 10 64-bit to find all the latest drivers already installed and have all the devices operating properly.
 

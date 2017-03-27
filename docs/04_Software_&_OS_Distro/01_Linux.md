@@ -6,8 +6,7 @@ We suggest to always use a **64-bit** OS version.
 
 <span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO X86 ULTRA version would be usable only with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (less than 4GB, however).
 
-<TODO: fix link>
-In the Getting Started section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
+In the [Getting Started](http://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
 <span class="label label-warning">Heads up!</span> The processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
 
