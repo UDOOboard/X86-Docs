@@ -18,6 +18,6 @@ To enter the BIOS, press your keyboard's escape key (`ESC`) after turning on the
 
 <a href="../img/uefibios_scu.BMP" target="_blank"><img style="width:400px; " src="../img/uefibios_scu.BMP"></a>  
 
-## UDOO X86 Hardware and BIOS User Manual
+## UDOO X86 Hardware and UEFI BIOS User Manual
 
-For a complete explenation of SCU items you can download the UDOO X86 Hardware and BIOS User Manual in .pdf <TODO: fix link>
+For a complete explanation of SCU menu items you can download the exhaustive UDOO X86 Hardware and UEFI BIOS User Manual *(link coming soon)* <TODO: fix link>
