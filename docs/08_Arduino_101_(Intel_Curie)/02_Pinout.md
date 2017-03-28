@@ -7,8 +7,16 @@ The I/O voltage of 3.3 V is lower than the older Arduino UNO's 5 V. Keep this in
 
 Be attentive when copying circuits from example diagrams that use a 5 V I/O. Make sure to adjust for the lower I/O voltage of the Arduino 101 where appropriate. This may include recalculating resisters using Ohm's Law for the components like LEDs. For guidance, please see the example project section of this documentation, or head to the [UDOO forum](http://www.udoo.org/forum/) to post any questions that you might have.  
 
-All the digital pins can have interrupts attached - A significant increase over the two interrupt capable pins on the Arduino UNO. An interrupt is an advantageous way of making code execute in response to abrupt input changes, for example, a rotary encoder being adjusted.  
+All the digital pins can have interrupts attached - A significant increase over the two interrupt capable pins on the Arduino&trade; UNO. An interrupt is an advantageous way of making code execute in response to abrupt input changes, for example, a rotary encoder being adjusted.  
 
 There are six analog input pins at 10-bit resolution, providing a range of 1024 values between ground and 3.3 V. The number of inputs and resolution can be increased if required, by using an external ADC module.  
 
 Analog output is simulated using pulse width modulation (PWM) on digital pins 3, 5, 6 and 9. For an explanation of PWM, refer to the following [Arduino tutorial](https://www.arduino.cc/en/Tutorial/PWM)
+
+
+## Arduino&trade; Shields compatibility
+
+Here you can find a very useful document by Intel&reg; regarding the compatibility of shields made for Arduino&trade; with the Intel® Curie™-based Arduino&trade; 101 board.  
+[Shield Testing Report for the Arduino 101* Board](http://www.intel.com/content/www/us/en/support/boards-and-kits/intel-curie-modules/000023506.html)
+
+<span class="label label-warning">Heads up!</span>  As you can see from the image on top of the page the *ICSP/SPI* connector proper of the Arduino&trade; Pinout is moved to the bottom side of the UDOO X86 board. If you need to use a shield that communicates through this connector you need to connect the pins accordingly.
