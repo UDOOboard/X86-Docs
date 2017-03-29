@@ -16,6 +16,12 @@ It is possible to access to InsydeH2O Setup Utility by pressing the escape key (
 * **Secure Boot Option**:
 * **SCU**: The *System Configuration Utility* is where you can configure basic system settings like the date and time, to advanced features like the security configuration. You can also set your preferred power options, for example, making sure the computer turns back on after a loss of power, useful if the board is located remotely.  
 
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Warning!</span>
+  Warning: Please do NOT "play" with the SCU menu voices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this situation. Seriously, someone did it! 
+</div>
+
 
 <a href="../img/uefi_scu.BMP" target="_blank"><img style="width:400px; " src="../img/uefi_scu.BMP"></a>  
 
