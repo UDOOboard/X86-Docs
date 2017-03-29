@@ -19,7 +19,7 @@ It is possible to access to InsydeH2O Setup Utility by pressing the escape key (
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: Please do NOT "play" with the SCU menu voices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this situation. Seriously, someone did it! 
+  Warning: Please do NOT "play" with the SCU menu voices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this situation.
 </div>
 
 
