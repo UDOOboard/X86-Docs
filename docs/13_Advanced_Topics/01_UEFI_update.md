@@ -4,7 +4,7 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
 
 ## UEFI Update utility
 
-At the following link you can find the latest UEFI Firmware and the UEFI Update Utility to quickly and easily updates flash devices with new BIOS firmware.
+At the following link you can find the latest UEFI Firmware and the UEFI Update Utility to quickly and easily updates flash devices with new UEFI Setup firmware.
 
 [UEFI BIOS Update Utility](http://download.udoo.org/files/UDOO_X86/UEFI_update/UDOOX86_B02-Bios_Update_rel101.zip)
 
@@ -24,7 +24,7 @@ The package contains:
   * Linux 64-bit programmer
 * Update procedure documentation (.pdf)
 
-<span class="label label-warning">Heads up!</span>  It is strongly suggested to reset the CMOS after every update by setting the BIOS to Factory Default.
+<span class="label label-warning">Heads up!</span>  Remember that update the UEFI firmware will revert the saved configuration to Factory Default.
 
 Please be aware that using **Windows** programmer, it must be run with Admin privileges.
 
