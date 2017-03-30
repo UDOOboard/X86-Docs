@@ -23,3 +23,14 @@ The package contains:
   * Linux 32-bit programmer
   * Linux 64-bit programmer
 * Update procedure documentation (.pdf)
+
+<span class="label label-warning">Heads up!</span>  It is strongly suggested to reset the CMOS after every update by setting the BIOS to Factory Default.
+
+Please be aware that using **Windows** programmer, it must be run with Admin privileges.
+
+Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and every operation must be done with root/administrator privileges.  
+Linux versions used for the test:
+* Ubuntu 16.04
+* Debian 8.5
+* Fedora 24
+* Opensuse 42

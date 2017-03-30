@@ -44,3 +44,7 @@
 
 
 <span class="label label-warning">Heads up!</span> The communications between the Braswell SOC and the CurieTM SOC come through a USB interface, exactly like Arduino 101 / Genuino 101 boards connect to external PCs.
+
+### UDOO X86 Hardware and BIOS User Manual
+
+For a complete explanation of the UDOO X86 hardware you can download the [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)

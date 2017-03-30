@@ -22,9 +22,8 @@ It is possible to access to InsydeH2O Setup Utility by pressing the escape key (
   Warning: Please do NOT "play" with the SCU menu voices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this situation.
 </div>
 
-
 <a href="../img/uefi_scu.BMP" target="_blank"><img style="width:400px; " src="../img/uefi_scu.BMP"></a>  
 
-## UDOO X86 Hardware and UEFI BIOS User Manual
+## UDOO X86 Hardware and UEFI User Manual
 
-For a complete explanation of SCU menu items you can download the exhaustive UDOO X86 Hardware and UEFI User Manual *(link coming soon)* <TODO: fix link>
+For a complete explanation of SCU menu items you can download the exhaustive [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)

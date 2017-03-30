@@ -45,4 +45,4 @@ You can use these [MiniDP++ to DP](http://shop.udoo.org/cable-minidp-to-dp.html)
 
 ### UDOO X86 Hardware and BIOS User Manual
 
-For a complete explanation of the UDOO X86 hardware you can download the UDOO X86 Hardware and UEFI BIOS User Manual *(link coming soon)* <TODO: fix link>
+For a complete explanation of the UDOO X86 hardware you can download the [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)
