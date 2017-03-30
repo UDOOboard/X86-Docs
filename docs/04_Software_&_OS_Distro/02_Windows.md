@@ -13,8 +13,27 @@ The supported version of Windows are:
 * Microsoft® Windows® 10 IoT
 * Microsoft® Windows® Embedded Standard 7 /8 (32/64 bit)
 
-In the [Getting Started](http://www.udoo.org/get-started-x86/) section you can find a guide of how to install Windows, the example is based on Windows 10 64-bit.
+In the [Getting Started](http://www.udoo.org/get-started-x86/) section you can find a guide of how to install Windows, the example is based on Windows® 10 64-bit.
+
+The procedure to install a Windows® 7 version is a little different so read the dedicated section on the bottom of this page.
 
 <span class="label label-warning">Heads up!</span> The Processors of the UDOO X86  and the Wi-Fi/BT module are released only few time ago so we suggest to use Windows&reg; 10 64-bit to find all the latest drivers already installed and have all the devices operating properly.
 
 In order to download the latest updated versions of the Intel&reg; devices drivers (e.g. Graphics HD drivers, chipset, wireless networking) you can download and run the [Intel® Driver Update Utility](https://downloadcenter.intel.com/download/24345/Intel-Driver-Update-Utility) for Windows&reg;.
+
+#### Windows® 7 Installation
+
+Please be aware that Windows® 7 OS doesn’t have native support for the xHCI controller for USB 3.0 port. It will be supported only after installing chipset’s driver.  
+This could lead to problems during OS installation, since during this phase USB keyboard and mouse will not work, if connected to any of the USB ports available on UDOO x86 board.
+
+It is possible to force the Windows® 7 Support for Keyboard and Mouse on USB ports by entering UEFI Setup utility(SCU) before performing Windows® 7 and chipset’s driver installation.  
+You can find the **Win7 Keyboard/Mouse Support** option in the menu **Advanced**, sub menu **Other
+Configuration**:
+
+    Advanced
+
+    ...
+    Other Configuration
+
+    ...
+    Win7 Keyboard/Mouse Support   <Enabled>
