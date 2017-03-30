@@ -5,7 +5,8 @@ The Arduino 101 on board can wake up the Braswell processor depending on various
 
 The Arduino 101 (Intel® Curie™) can trigger a power signal of the Braswell processor by producing a **20ms low pulse** in the **Arduino Pin 9** (IO9/PWM3 signal in the schematics). Technically speaking the pulse is catched by a SMT32 microcontroller onboard(STM32F100R4H6) and propagated to the Braswell to wake it up.
 
-You need to enable this feature of the UDOO X86 board in the UEFI setup(SCU). You can find the **Curie Power Management** option in the menu **Power**:
+You need to enable this feature of the UDOO X86 board in the UEFI Setup Utility(SCU).  
+You can find the **Curie Power Management** option in the menu **Power**:
 
     Power
 

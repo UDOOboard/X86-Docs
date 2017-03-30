@@ -19,7 +19,7 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 <span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 16.04, 16.10) need at least 8.4GB of free space for the installation. If you have one of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the lack of storage space.  
 Following you can find a **slim** modified version of **Ubuntu 16.10**. This installer won't install a some packages (e.g. libreoffice, thunderbird, docs, fonts etc.) to let you install Ubuntu in the 8GB eMMC.
 
-**SlimUbuntu 16.10**: [**slimubuntu1610.zip**](http://download.udoo.org/files//UDOO_X86/Ubuntu/slimubuntu1610.zip)  
+**SlimUbuntu 16.10**: [**slimubuntu1610.zip**](http://download.udoo.org/files/UDOO_X86/Ubuntu/slimubuntu1610.zip)  
 sha1: b0716d824d9dd5e1d1faa1c91bad599f1d389a67
 
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  

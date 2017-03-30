@@ -15,8 +15,12 @@ To resolve this issue the UDOO X86 implements a hardware solution:
 The Braswell x86 main processor can internally act on the Master Reset signal of the Intel&reg; Curie&trade;, resetting
 both the cores (Quark SE and ARC) in the Curie&trade; SoC and restarting the sketch and the USB communication.
 
-This feature can be Enabled/Disabled by the UEFI BIOS setup (SCU)
+This feature can be Enabled/Disabled by the UEFI BIOS setup (SCU).
+You can find the **Curie Reset on PowerON** option in the menu **Power**:
 
+    Power
+    ...
+      
     Curie Reset on PowerON    <Enabled>
 
     If enabled the system will automatically reset the Intel Curie when the system
