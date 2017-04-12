@@ -22,6 +22,8 @@ Following you can find a **slim** modified version of **Ubuntu 16.10**. This ins
 **SlimUbuntu 16.10**: [**slimubuntu1610.zip**](http://download.udoo.org/files/UDOO_X86/Ubuntu/slimubuntu1610.zip)  
 sha1: b0716d824d9dd5e1d1faa1c91bad599f1d389a67
 
+<span class="label label-warning">Heads up!</span> Extract the downloaded zip file and use the .img file to create the bootable USB drive for the installation like explained in the [UDOO X86 Getting Started](http://www.udoo.org/get-started-x86/) page. If you are using Windows do not use the preinstalled archive extractor, use [7-zip](http://www.7-zip.org/) or similar to decompress the zip file.
+
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 
 * [**Debian**](https://www.debian.org/) is an operating system composed only of free, open-source software. The Debian project has been operating since 1993 — over 20 years ago! This widely respected project is still releasing new versions of Debian, but it’s known for moving much more slowly than distributions like Ubuntu or Linux Mint. This can make it more stable and conservative, which is ideal for some systems.  
