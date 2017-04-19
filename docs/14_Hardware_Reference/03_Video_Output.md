@@ -43,6 +43,6 @@ The 1080p resolution is managed in 60fps.
 You can use these [MiniDP++ to DP](http://shop.udoo.org/cable-minidp-to-dp.html) and [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.html) cables to connect your displays.
 
 
-### UDOO X86 Hardware and BIOS User Manual
+### UDOO X86 Hardware and UEFI BIOS User Manual
 
 For a complete explanation of the UDOO X86 hardware you can download the [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)
