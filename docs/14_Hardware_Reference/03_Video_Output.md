@@ -22,25 +22,34 @@ The Intel® Braswell family of SoCs offer three Digital Display Interfaces, conf
 
 On the UDOO x86 board, the Digital Display Interface #0 is used to implement a HDMI interface.
 
-HDMI featured by the Intel&reg; Braswell processor is the version v1.4.  
-It can manage a resolution up to 4k 30fps 8bit.  
-The 1080p resolution is managed in 60fps.
+HDMI featured by the Intel&reg; Braswell processor is the version v1.4b.  
+
+Maximum resolution:
+* 3840x2160 @ 30Hz
+* 2560x1600 @ 60Hz
+* 24bpp
 
 <span class="label label-warning">Heads up!</span>  Always use HDMI-certified cables for the connection between the board and the HDMI display; a category 2 (High-Speed) cable is recommended for higher resolutions, category 1 cables can be used for 720p resolution.
 
-You can use this [HDMI to HDMI](http://shop.udoo.org/cable-hdmi-to-hdmi.html) cable to connect your display.
+You can use this [HDMI to HDMI](http://shop.udoo.org/cable-hdmi-to-hdmi.html) cable to connect to a HDMI display in 4k resolution.
 
 #### MiniDisplay Port ++ Connectors
 
-On the UDOO x86 board, the Digital Display Interfaces #1 and #2 are used to implement a multimode Display Port (DP++)interface, i.e. it can be used to support DP displays directly and, through an external adapter, also HDMI or DVI displays.
+On the UDOO x86 board, the Digital Display Interfaces #1 and #2 are used to implement a multimode Display Port (DP++) interface, i.e. it can be used to support DP displays directly and, through an external adapter, also HDMI or DVI displays.
 
 The configuration of this interface in DP or HDMI/DVI mode is automatic.
 
-HDMI featured by the Intel&reg; Braswell processor is the version v1.4.  
-It can manage a resolution up to 4k 30fps 8bit.  
-The 1080p resolution is managed in 60fps.
+DP++ featured by the Intel&reg; Braswell processor is the version v1.1a.  
 
-You can use these [MiniDP++ to DP](http://shop.udoo.org/cable-minidp-to-dp.html) and [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.html) cables to connect your displays.
+Maximum resolution:
+* 3840x2160 @ 30Hz
+* 2560x1600 @ 60Hz
+* 24bpp
+
+
+You can use this [MiniDP++ to DP](http://shop.udoo.org/cable-minidp-to-dp.html) cable to connect to a DisplayPort display in 4k resolution.  
+You can use this [MiniDP++ to HDMI](http://shop.udoo.org/cable-minidp-to-hdmi.html) cable to connect to an HDMI display in FullHD resolution. To have 4k resolution from mDP to HDMI you need an active adapter.
+
 
 
 ### UDOO X86 Hardware and UEFI BIOS User Manual
