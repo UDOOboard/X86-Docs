@@ -1,3 +1,8 @@
+### UDOO X86 Hardware and UEFI BIOS User Manual
+
+For a complete explanation of the UDOO X86 hardware you can download the  
+* [**UDOO X86** Hardware and UEFI **User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)
+
 ### Schematics
 
 Here you can find the schematics files of the UDOO X86:
@@ -9,9 +14,3 @@ Here you can find the schematics files of the UDOO X86:
 
 Here you can find the mechanical specs files of the UDOO X86:
 * [UDOO X86 3D Design File](http://udoo.org/download/files/mechanical_specs/udoo_x86_3d_model_revH.zip)
-
-
-### UDOO X86 Hardware and UEFI BIOS User Manual
-
-For a complete explanation of the UDOO X86 hardware you can download the  
-* [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)

@@ -9,6 +9,8 @@ UDOO X86 embeds two processors made by Intel&reg;:
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
 
+Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf) to have more complete explanation of the UDOO X86 hardware.
+
 <hr/>
 
 <span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:
