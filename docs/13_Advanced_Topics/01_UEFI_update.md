@@ -24,13 +24,15 @@ The package contains:
   * Linux 64-bit programmer
 * Update procedure documentation (.pdf)
 
-<span class="label label-warning">Heads up!</span>  Remember that update the UEFI firmware will revert the saved configuration to Factory Default.
+Follow the procedure in the .pdf file to update the UEFI BIOS firmware using DOS, Linux or Windows running on your UDOO X86.
 
-Please be aware that using **Windows** programmer, it must be run with Admin privileges.
+<span class="label label-warning">Heads up!</span> Remember that update the UEFI firmware will revert the saved configuration to Factory Default.
+
+Please be aware that using **Windows** programmer, it must be run in a cmd shell with Admin privileges.
 
 Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and every operation must be done with root/administrator privileges.  
 Linux versions used for the test:
-* Ubuntu 16.04
+* Ubuntu 16.04, 16.10
 * Debian 8.5
 * Fedora 24
 * Opensuse 42
