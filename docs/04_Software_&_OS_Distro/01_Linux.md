@@ -4,7 +4,7 @@ Thanks to the x86_64 instruction set, the **UDOO X86** supports all the *x86 Lin
 
 We suggest to always use a **64-bit** OS version.
 
-<span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO X86 ULTRA version would be usable only with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (less than 4GB, however).
+<span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO X86 ULTRA version would be usable with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (usually less than 4GB unless the OS isn't using [PAE](https://en.wikipedia.org/wiki/Physical_Address_Extension)).
 
 In the [Getting Started](http://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
