@@ -31,13 +31,13 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 <img src="../img/x86_ultra_top_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
 
 * Processor:
-  * CPU Intel&reg; Pentium N3710 2.56 Ghz (ULTRA version)
-  * CPU Intel&reg; Celeron N3160 2.24 Ghz (ADVANCED PLUS & ADVANCED versions)
-  * CPU Intel&reg; Atom X5-E8000 2.00 Ghz (BASIC version)
+  * CPU Intel&reg; Pentium N3710 up to 2.56 Ghz (ULTRA version)
+  * CPU Intel&reg; Celeron N3160 up to 2.24 Ghz (ADVANCED PLUS & ADVANCED versions)
+  * CPU Intel&reg; Atom X5-E8000 up to 2.00 Ghz (BASIC version)
 * GPU:
-  * Intel&reg; HD Graphics 405 Up to 700 MHz 16 execution units (ULTRA version)
-  * Intel&reg; HD Graphics 400 Up to 640 MHz 12 execution units (ADVANCED PLUS & ADVANCED versions)
-  * Intel&reg; HD Graphics Up to 320 MHz 12 execution units (BASIC version)
+  * Intel&reg; HD Graphics 405 up to 700 MHz 16 execution units (ULTRA version)
+  * Intel&reg; HD Graphics 400 up to 640 MHz 12 execution units (ADVANCED PLUS & ADVANCED versions)
+  * Intel&reg; HD Graphics up to 320 MHz 12 execution units (BASIC version)
 * RAM:
   * 8 GB DDR3L Dual Channel (ULTRA version)
   * 4 GB DDR3L Dual Channel (ADVANCED PLUS & ADVANCED versions)
