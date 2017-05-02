@@ -35,15 +35,13 @@ The package includes:
   * Weight: 8.5g (0.3 oz)
 * 1x Antenna
   * U.FL connector
-  * 10cm IPEX cable 
+  * 10cm IPEX cable
   * Adhesive backing on aerial plates
 
 For more info about this WiFi/BT module you can check the [datasheet from the Intel website](http://www.intel.com/content/www/us/en/wireless-products/dual-band-wireless-ac-3168-brief.html)
 
 <span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released in 2016 so we suggest to use a recent distribution to find the latest drivers already installed.
 If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
-
-<span class="label label-warning">Heads up!</span> The module comes with one antenna for the Main U.FL connector. If you want increase reception you should attach another antenna also in the Aux U.FL connector.
 
 <br/>
 <br/>
