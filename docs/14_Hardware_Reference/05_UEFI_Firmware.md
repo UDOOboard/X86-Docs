@@ -30,4 +30,4 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
 
 ## UDOO X86 Hardware and UEFI User Manual
 
-For a complete explanation of SCU menu items you can download the exhaustive [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.0.pdf)
+For a complete explanation of SCU menu items you can download the exhaustive [UDOO X86 Hardware and UEFI User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL_Rel.1.1.pdf)
