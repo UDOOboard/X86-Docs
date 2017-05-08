@@ -4,7 +4,11 @@ UDOO X86 is supplied with an [InsydeH2O®](https://www.insyde.com/products) UEFI
 
 If you are looking for how to update UEFI Firmware go to the [UEFI update](!/Advanced_Topics/UEFI_update) section.
 
-It is possible to access to InsydeH2O® Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase. The UEFI Menu show the following options:
+It is possible to access to InsydeH2O® Setup Utility by pressing the escape key (`ESC`) after System power up, during POST phase.
+
+<span class="label label-warning">Heads up!</span> Some wireless or mechanical keyboards that doesn't respect the standard USB HID protocol could doesn't work in the UEFI BIOS Firmware menu.
+
+The UEFI Menu show the following options:
 
 <a href="../img/uefi_menu.BMP" target="_blank"><img style="width:400px; " src="../img/uefi_menu.BMP"></a>
 
