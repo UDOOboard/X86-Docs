@@ -49,6 +49,8 @@ We compiled an updated version of Android 7.1.1 with a more updated kernel usefu
 [**bliss_android_x86_64.zip**](http://download.udoo.org/files/UDOO_X86/Android/bliss_android_x86_64.zip)  
 sha1: 91635f87f7f900676e255ad7e7e6e7944e81e83c
 
+<span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
+
 Alternatively you can download the builds in the official [download page](http://blissroms.com/downloads/devices.html).
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](http://www.udoo.org/get-started-x86/) guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions).
