@@ -38,10 +38,21 @@ To prepare a bootable USB with the installer you can follow the UDOO [Getting St
 
 ## BlissRom
 
-Another one useful Open-Source Android ROM for x86. You can find some additional features preinstalled in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
+Another one useful Open-Source Android ROM for x86.
+You can find some additional features preinstalled like Root permission in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
 
 ### Installation
 
-You can download the builds in the official [download page](http://blissroms.com/downloads/devices.html).
+We compiled an updated version of Android 7.1.1 with a more updated kernel useful to use the official WiFi/Bt M.2 module.  
+
+**BlissRom Android 7.1.1**:  
+[**bliss_android_x86_64.zip**](http://download.udoo.org/files/UDOO_X86/Android/bliss_android_x86_64.zip)  
+sha1: 91635f87f7f900676e255ad7e7e6e7944e81e83c
+
+Alternatively you can download the builds in the official [download page](http://blissroms.com/downloads/devices.html).
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](http://www.udoo.org/get-started-x86/) guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions).
+
+<span class="label label-warning">Heads up!</span> We have noticed some issues during the installation so we suggest to choose the `Legacy` mode at boot.
+
+<span class="label label-warning">Heads up!</span> If after a complete installation Android-x86 doesn't boot properly, we suggest to prepare the partition where you want to install the OS formatting it in `ext4` and **do not** format again the partition during the Android-x86 wizard installation. This is a known issue, we found this solution in different articles, like [this one](https://techposts.org/install-android-6-marshmallow-laptop-pc/), for example.
