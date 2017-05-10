@@ -70,11 +70,11 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 Visit the [official accessories](!Hardware_&_Accessories/Official_Accessories) sections.
 
 ## Community
-* Official web site [www.udoo.org](http://www.udoo.org)
-* Official forum [www.udoo.org/forum](http://www.udoo.org/forum/index.php)
+* Official web site [www.udoo.org](https://www.udoo.org)
+* Official forum [www.udoo.org/forum](https://www.udoo.org/forum/index.php)
 
 ### Forums
-The official UDOO forums can be found at [www.udoo.org/forum](http://www.udoo.org/forum)
+The official UDOO forums can be found at [www.udoo.org/forum](https://www.udoo.org/forum)
 
 The forum search facility has been tweaked to allow more general searching.
 **Please** do a search before making a post as the issue may already have been raised and answered.

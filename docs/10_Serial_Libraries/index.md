@@ -1,6 +1,6 @@
 ## UDOO X86 Serial Libraries Examples
 
-Serial Libraries Communication Samples for [UDOO Board](http://www.udoo.org)
+Serial Libraries Communication Samples for [UDOO Board](https://www.udoo.org)
 
 These example’s scripts are meant to demonstrate how to implement a uni\bidirectional communication between an Arduino sketch (running on the Arduino&trade; 101 Intel&reg; Curie&trade; embedded) and a binary application on the Braswell processor running Linux.
 

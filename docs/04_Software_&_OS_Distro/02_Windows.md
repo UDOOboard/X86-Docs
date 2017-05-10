@@ -13,7 +13,7 @@ The supported version of Windows are:
 * Microsoft® Windows® 10 IoT
 * Microsoft® Windows® Embedded Standard 7 /8 (32/64 bit)
 
-In the [Getting Started](http://www.udoo.org/get-started-x86/) section you can find a guide of how to install Windows, the example is based on Windows® 10 64-bit.
+In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install Windows, the example is based on Windows® 10 64-bit.
 
 The procedure to install a Windows® 7 version is a little different so read the dedicated section on the bottom of this page.
 

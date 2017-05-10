@@ -11,7 +11,7 @@ You can use the Bricks modules exactly like I2C modules connected to the I2C bus
 
 The LIGHT BRICK is a light sensor. It’s based on the `TSL2561T` sensor.
 
-You can find documentation as datasheet, schematics, and montage plane in the [Other Resurces](http://www.udoo.org/other-resources/) page of our website, in the `Accessories` tab.
+You can find documentation as datasheet, schematics, and montage plane in the [Other Resurces](https://www.udoo.org/other-resources/) page of our website, in the `Accessories` tab.
 
 ### Usage
 

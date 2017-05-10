@@ -15,7 +15,7 @@ From the official [android-x86.org](http://www.android-x86.org/) website:
 You can download the file `android-x86_64-6.0-r1.iso` from the official [downaload page](http://www.android-x86.org/download).  
 This is tested and perfectly working on UDOO X86.
 
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](http://www.udoo.org/get-started-x86/) guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
+To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
 
 <span class="label label-warning">Heads up!</span> We have noticed some issues during the installation so we suggest to choose the `Legacy` mode at boot.
 
@@ -34,7 +34,7 @@ From the official [remixos](http://www.jide.com/remixos-for-pc) website.
 You can download the iso `Remix_OS_for_PC_Android_64bit` from the official [download page](http://www.jide.com/remixos-for-pc#downloadNow).
 This is tested and perfectly working on UDOO X86.
 
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](http://www.udoo.org/get-started-x86/) guide, or the official RemixOS [video-guide for Windows users](https://www.youtube.com/watch?v=At7_g9ZXu8s).
+To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official RemixOS [video-guide for Windows users](https://www.youtube.com/watch?v=At7_g9ZXu8s).
 
 ## BlissRom
 
@@ -53,7 +53,7 @@ sha1: 91635f87f7f900676e255ad7e7e6e7944e81e83c
 
 Alternatively you can download the builds in the official [download page](http://blissroms.com/downloads/devices.html).
 
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](http://www.udoo.org/get-started-x86/) guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions).
+To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions).
 
 <span class="label label-warning">Heads up!</span> We have noticed some issues during the installation so we suggest to choose the `Legacy` mode at boot.
 
