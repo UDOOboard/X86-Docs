@@ -9,7 +9,7 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: Please do NOT "play" with the SCU menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this condition. if you stumbling upon this case take a look at this useful [post of @Jetguy](https://www.udoo.org/forum/threads/reset-bios-jumper-or-pins.6674/) in the UDOO Forum to know how restore default configuration.
+  Warning: Please do NOT "play" with the SCU menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this condition. if you stumbling upon this case take a look at this useful [threads of Jetguy](https://www.udoo.org/forum/threads/reset-bios-jumper-or-pins.6674/) in the UDOO Forum to know how restore default configuration.
 </div>
 
 ## UDOO X86 Hardware and UEFI BIOS User Manual
