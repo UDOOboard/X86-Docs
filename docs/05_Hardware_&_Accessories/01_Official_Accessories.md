@@ -33,15 +33,17 @@ The package includes:
   * Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (AC3168)
   * Dimensions: 4.9 x 3.5 x 0.4 inches
   * Weight: 8.5g (0.3 oz)
-* 1x Antenna
+* 2x Antennas
   * U.FL connector
   * 10cm IPEX cable
   * Adhesive backing on aerial plates
 
 For more info about this WiFi/BT module you can check the [datasheet from the Intel website](http://www.intel.com/content/www/us/en/wireless-products/dual-band-wireless-ac-3168-brief.html)
 
-<span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released in 2016 so we suggest to use a recent distribution to find the latest drivers already installed.
-If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
+<span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released in 2016 so we suggest to use a recent distribution to find the latest drivers already installed. If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
+
+<span class="label label-warning">Heads up!</span> You need both the antennas to module works properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
+
 
 <br/>
 <br/>
