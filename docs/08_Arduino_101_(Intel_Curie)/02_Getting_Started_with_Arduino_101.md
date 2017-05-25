@@ -6,7 +6,7 @@ This Arduino page will guide you through the [installation of the IDE and the co
 
 ## Linux known issues
 
-#### installation
+#### Installation
 
 Unfortunately the **Arduino IDE 1.8.2** was released with a bug in the `install.sh` script to install the software on Linux.  
 If you cannot install Arduino IDE 1.8.2 you need to edit with a text editor the `install.sh` script in this way:
