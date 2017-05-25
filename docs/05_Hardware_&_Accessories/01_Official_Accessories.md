@@ -24,7 +24,7 @@ For more info about this SSD module you can check the [official Transcend page](
 
 ### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5ghz + adhesive antenna
 
-<img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-left" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
+<img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
 
 [Buy it from the shop](http://shop.udoo.org/m-2-wi-fi-intel-dual-band-ac-wi-fi-bt-4-0-5ghz-antenna-adhesive.html)
 
@@ -77,7 +77,7 @@ Top and Bottom plexiglass acrylic case for UDOO X86
 
 ### CPU fan for UDOO X86 heatsink
 
-<img src="../img/accessories/fan_cpu.jpg" alt="fan_cpu" class="img-responsive pull-left" height="275px" width="370px" style="margin-right:30px;">
+<img src="../img/accessories/fan_cpu.jpg" alt="fan_cpu" class="img-responsive pull-right" height="275px" width="370px" style="margin-right:30px;">
 
 [Buy it from the shop](http://shop.udoo.org/cpu-fan-for-udoo-x86-heatsink.html)
 
