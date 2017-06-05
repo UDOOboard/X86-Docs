@@ -102,6 +102,6 @@ The miniDP++ to HDMI Passive Adapter lets you connect the UDOO X86 to a high def
 The 2MT miniDP++ to DP Adapter lets you connect the UDOO X86 to a high definition (up to 4k) monitors and projectors
 * [SATA data and power cables for UDOO X86](http://shop.udoo.org/sata-data-and-power-cables-for-udoo-x86.html) -
 SATA data and power cables for UDOO X86 (CN18 and CN30 connectors)
-* [Power Supply EU 12V 3A for UDOO X86](http://shop.udoo.org/power-supply-12v-3a-for-udoo-x86.html) -
+* [Power Supply EU 12V 3A for UDOO X86](http://shop.udoo.org/accessories/power-adapter-eu.html) -
   * OUTPUT: 12V, 3A
-  * Jack Dimensions: (Inner diameter) 2.5mm - (Outer diameter) 5.5mm.
+  * Jack Dimensions: (Inner diameter) 2.1mm - (Outer diameter) 5.5mm.
