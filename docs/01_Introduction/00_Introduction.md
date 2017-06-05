@@ -23,7 +23,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_
 ## Lineup
 UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_versions).
 
-<img src="../img/udoox86_lineup.png" alt="UDOO versions" class="img-responsive" >
+<img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
 
 ## Technical specifications
