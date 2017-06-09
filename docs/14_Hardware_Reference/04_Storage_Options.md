@@ -4,6 +4,8 @@ Depending on the [chosen model](!Hardware_Reference/Board_versions) of UDOO X86 
 
 The eMMC use a **SD 3.0** compliant interface.
 
+<span class="label label-warning">Heads up!</span> As a flash-based storage device, excessive drive access, particularly write commands, reduces its useful life. Therefore, it is strongly suggested to NOT create a swap partition on the eMMC device.
+
 
 ### S-ATA
 

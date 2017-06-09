@@ -8,15 +8,17 @@ This Arduino page will guide you through the [installation of the IDE and the co
 
 #### Installation
 
-Unfortunately the **Arduino IDE 1.8.2** was released with a bug in the `install.sh` script to install the software on Linux.  
+**Arduino IDE 1.8.3** for Linux was released fixing the installation issues of the previous version.
+
+If you want to use the **Arduino IDE 1.8.2** please remember that it was released with a bug in the `install.sh` script to install the software on Linux.   
 If you cannot install Arduino IDE 1.8.2 you need to edit with a text editor the `install.sh` script in this way:
 
 At the code line *9* Modify the `RESOURCE_NAME` variable from `RESOURCE_NAME=cc.arduino.arduinoide` to `RESOURCE_NAME=arduino-arduinoide` like you can see in [this commit of the Arduino IDE source](https://github.com/arduino/Arduino/pull/6110/commits/92fd7232da8b3c511c29e587929b453f6fb697b1).  
-This fix is already merged in the Arduino source and will be available on the next  Arduino IDE 1.8.3 release.
+This fix is already merged in the Arduino source and will be available on the next Arduino IDE 1.8.3 release.
 
 #### Upload Procedure
 
-Some Linux distributions need to be configured to to gain upload permissions.  
+Some `Linux` distributions need to be configured to to gain upload permissions.  
 Inside the Arduino 101 core you can find a script to allow the user to use the serial device. Using the latest Arduino 101 core package v2.0.2 run the script with this command:
 
     sudo ~/.arduino15/packages/Intel/tools/arduino101load/1.6.4+1.18/scripts/create_dfu_udev_
