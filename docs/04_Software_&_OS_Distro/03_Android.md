@@ -43,11 +43,11 @@ You can find some additional features preinstalled like Root permission in addit
 
 ### Installation
 
-We compiled an updated version of Android 7.1.1 with a more updated kernel useful to use the official WiFi/Bt M.2 module.  
+We compiled an updated version of Android 7.1.2 with a more updated kernel(4.9.31) useful to use the official WiFi/Bt M.2 module.  
 
-**BlissRom Android 7.1.1**:  
+**BlissRom Android 7.1.2**:  
 [**bliss_android_x86_64.zip**](http://download.udoo.org/files/UDOO_X86/Android/bliss_android_x86_64.zip)  
-sha1: 91635f87f7f900676e255ad7e7e6e7944e81e83c
+sha1: 7cd9afad22e02af01bace7ef4bb65018be5b3593
 
 <span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
 
