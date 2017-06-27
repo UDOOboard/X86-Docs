@@ -19,9 +19,10 @@ This fix is already merged in the Arduino source and will be available on the ne
 #### Upload Procedure
 
 Some `Linux` distributions need to be configured to to gain upload permissions.  
-Inside the Arduino 101 core you can find a script to allow the user to use the serial device. Using the latest Arduino 101 core package v2.0.2 run the script with this command:
+Inside the Arduino 101 core you can find a script to allow the user to use the serial device. Using the latest Arduino 101 core package v2.0.2 run the script with this commands:
 
-    sudo ~/.arduino15/packages/Intel/tools/arduino101load/1.6.4+1.18/scripts/create_dfu_udev_
+    chmod +x ~/.arduino15/packages/Intel/hardware/arc32/2.0.2/scripts/create_dfu_udev_rule
+    sudo ~/.arduino15/packages/Intel/hardware/arc32/2.0.2/scripts/create_dfu_udev_rule
 
 ## USB Devices
 
