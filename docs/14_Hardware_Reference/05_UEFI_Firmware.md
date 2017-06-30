@@ -22,12 +22,12 @@ The UEFI Firmware Setup Utility Menu show the following options:
 
 <span class="label label-warning">Heads up!</span> If you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display (HDMI or DisplayPort) or a different cable.
 
-<a href="../img/uefi_menu.BMP" target="_blank"><img style="width:400px; " src="../img/uefi_menu.BMP"></a>
+<a href="../img/uefi_menu.png" target="_blank"><img style="width:400px; " src="../img/uefi_menu.png"></a>
 
 * **Continue**: The Boot continue with the configured boot option.
 * **Boot Manager**: Here you can choose the device to boot from – eMMC, Micro SD, SATA drive, USBdisk, LAN, or other supported boot device.
 
-<a href="../img/uefi_bootmanager.BMP" target="_blank"><img style="width:400px; " src="../img/uefi_bootmanager.BMP"></a>
+<a href="../img/uefi_bootmanager.png" target="_blank"><img style="width:400px; " src="../img/uefi_bootmanager.png"></a>
 
 * **Device Manager**:
 * **Boot From File**:
@@ -36,4 +36,4 @@ The UEFI Firmware Setup Utility Menu show the following options:
 
 <span class="label label-warning">Heads up!</span> You can restore the factory default settings from the SCU or updating the UEFI BIOS.
 
-<a href="../img/uefi_scu.BMP" target="_blank"><img style="width:400px; " src="../img/uefi_scu.BMP"></a>  
+<a href="../img/uefi_scu.png" target="_blank"><img style="width:400px; " src="../img/uefi_scu.png"></a>  
