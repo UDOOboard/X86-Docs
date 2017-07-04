@@ -51,7 +51,7 @@ sha1: 7cd9afad22e02af01bace7ef4bb65018be5b3593
 
 <span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
 
-Alternatively you can download the builds in the official [download page](http://blissroms.com/downloads/devices.html).
+Alternatively you can download the builds in the official [download page](http://downloads.blissroms.com/).
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official [blissrom documentation](http://blissroms.com/downloads/bliss-x86-install-instructions).
 
