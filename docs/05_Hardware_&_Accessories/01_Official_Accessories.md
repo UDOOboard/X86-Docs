@@ -42,9 +42,22 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 
 <span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released in 2016 so we suggest to use a recent distribution to find the latest drivers already installed. If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
 
-<span class="label label-warning">Heads up!</span> You need both the antennas to module works properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
+<span class="label label-warning">Heads up!</span> You need both the antennas to make the module works properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
 
+#### Mounting a M.2 accessory
 
+Check this images to know how too correctly mount M.2 accessories.  
+
+<a href="../img/x86_m2_screws.png" target="_blank"><img style="width:400px;" src="../img/x86_m2_screws.png" class="pull-left"></a><a href="../img/x86_m2_screws_mounting.png" target="_blank"><img style="width:400px;margin-left:20px;" src="../img/x86_m2_screws_mounting.png" class="pull-left"></a>  
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
