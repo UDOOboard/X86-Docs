@@ -46,7 +46,7 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 
 #### Mounting a M.2 accessory
 
-Check this images to know how too correctly mount M.2 accessories.  
+Check this images to know how to correctly mount M.2 accessories.  
 
 <a href="../img/accessories/x86_m2_screws.png" target="_blank"><img style="width:400px;" src="../img/accessories/x86_m2_screws.png" class="pull-left"></a><a href="../img/accessories/x86_m2_screws_mounting.png" target="_blank"><img style="width:400px;margin-left:20px;" src="../img/accessories/x86_m2_screws_mounting.png" class="pull-left"></a>  
 
