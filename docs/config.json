@@ -18,7 +18,8 @@
 	        "Home": "https://www.udoo.org",
 	        "Downloads": "https://www.udoo.org/downloads",
 	        "Tutorials": "https://www.udoo.org/tutorial",
-	        "Forum": "https://www.udoo.org/forum"
+	        "Forum": "https://www.udoo.org/forum",
+          "Github Docs": "https://github.com/UDOOboard/X86-Docs"
 	    }
     }
 }
