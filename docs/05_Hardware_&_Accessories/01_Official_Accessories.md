@@ -112,10 +112,9 @@ You don’t need a CPU fan for your ordinary activities, but the fan will help y
 
 Dimensions: 2.9 cm height, 2.9 cm width, 1cm depth
 
-</br>
-</br>
-</br>
-</br>
+To mount the CPU fan is necessary the following fixtures (included with the shop item):
+
+* 2x **M3** self-tapping **L16mm** tip
 </br>
 </br>
 
