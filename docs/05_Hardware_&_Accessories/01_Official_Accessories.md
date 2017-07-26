@@ -17,9 +17,14 @@ In the [UDOO Shop](http://shop.udoo.org/) you can also find some accessories for
 
 For more info about this SSD module you can check the [official Transcend page](https://www.transcend-info.com/Products/No-643)
 
-<br/>
-<br/>
-<br/>
+To mount the SSD is necessary the following fixtures (not included with the item):
+
+* 1x **M3x12mm** Flat Head Screw
+* 1x **6mm** Round Spacer
+* 1x **0.5mm** Washer
+* 1x **M3 Hex** Bolt
+
+See the image below for mounting instructions.
 <br/>
 
 ### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5ghz + adhesive antenna
@@ -43,6 +48,15 @@ For more info about this WiFi/BT module you can check the [datasheet from the In
 <span class="label label-warning">Heads up!</span> Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (Intel® AC3168) was released in 2016 so we suggest to use a recent distribution to find the latest drivers already installed. If you are using a Linux distribution you need at least the v4.6 of the Linux Kernel to make this module work properly.
 
 <span class="label label-warning">Heads up!</span> You need both the antennas to make the module works properly. Connect an antenna to the `Main A` connector to enhance **Wi-Fi** signal. Connect an antenna to the `Aux B` connector to enhance **Bluetooth** and **BluetoothLE** signal.
+
+To mount the WiFi/BT Kit is necessary the following fixtures (not included with the item):
+
+* 1x **M3x8mm** Flat Head Screw
+* 1x **2mm** Round Spacer
+* 1x **0.5mm** Washer
+* 1x **M3** Hex Bolt
+
+See the image below for mounting instructions.
 
 #### Mounting a M.2 accessory
 
