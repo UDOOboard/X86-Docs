@@ -8,6 +8,8 @@ We suggest to always use a **64-bit** OS version.
 
 In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
+In order to download the latest updated versions of the Intel&reg; Graphics HD drivers you can download and run the [Intel® Graphics update tool for Linux](https://01.org/linuxgraphics/downloads/update-tool).
+
 <span class="label label-warning">Heads up!</span> The processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
 
 ### Famous Linux distributions
