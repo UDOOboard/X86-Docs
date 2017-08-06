@@ -9,7 +9,7 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
   <span class="sr-only">Warning!</span>
-  Warning: Please do NOT "play" with the SCU menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this condition. if you stumbling upon this case take a look at this useful <a href="https://www.udoo.org/forum/threads/reset-bios-jumper-or-pins.6674/">threads of Jetguy</a> in the UDOO Forum to know how restore default configuration.
+  Warning: Please do NOT "play" with the SCU menu choices if you don't know what you are doing. For example, if you disable USB ports or Video Outputs you will not be able to interact with the SCU to revert this condition. If you stumbling upon this case take a look at the **Restore Factory configuration** section below.
 </div>
 
 ## UDOO X86 Hardware and UEFI BIOS User Manual
@@ -34,6 +34,16 @@ The UEFI Firmware Setup Utility Menu show the following options:
 * **Secure Boot Option**:
 * **SCU**: The *System Configuration Utility* is where you can configure basic system settings like the date and time, to advanced features like the security configuration. You can also set your preferred power options, for example, making sure the computer turns back on after a loss of power, useful if the board is located remotely.  
 
-<span class="label label-warning">Heads up!</span> You can restore the factory default settings from the SCU or updating the UEFI BIOS.
-
 <a href="../img/uefi_scu.png" target="_blank"><img style="width:400px; " src="../img/uefi_scu.png"></a>  
+
+## Restore Factory configuration
+
+You can restore the factory default settings from the SCU pressing the **F9** key.
+
+You can also restore the factory UEFI BIOS configuration with a simple procedure involving the RTC battery: when the board is NOT connected to any power source, **unplug the RTC battery** on the bottom side of the board and keep it unplugged for **at least 1 minute**. Plug the RTC battery again and power up the board, all the configurations should now be reverted to the factory defaults.
+
+Updating the UEFI BIOS to a newer version will also restore the new factory default configuration.
+
+<span class="label label-warning">Heads up!</span> You can use the RTC battery procedure starting from the **UEFI BIOS v1.03** so check to have your UDOO X86 [updated](!/Advanced_Topics/UEFI_update).
+
+If you cannot use the precedents methods take a look at this useful [threads of Jetguy](https://www.udoo.org/forum/threads/reset-bios-jumper-or-pins.6674/) in the UDOO Forum.
