@@ -175,3 +175,9 @@ The **S/PDFI Output bus** is available at Pin *47*.
 | 47  | SPDIF_OUT |  AUDIO CODEC  |
 
 This Pin can't work as GPIO.
+
+To use the S/PDIF bus you need to install a connector type [TOSLINK](https://en.wikipedia.org/wiki/TOSLINK) or [RCA](https://en.wikipedia.org/wiki/RCA_connector).
+
+The following is an example of a TOSLINK connector schematic:
+
+<a href="../img/spdif_toslink_connector.png" target="_blank"><img src="../img/spdif_toslink_connector.png" class="pull-left"></a>  
