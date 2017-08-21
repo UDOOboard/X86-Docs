@@ -62,6 +62,8 @@ See the image below for mounting instructions.
 
 Check this images to know how to correctly mount M.2 accessories.  
 
+<span class="label label-warning">Heads up!</span> Screws, spacers and all other fixtures to mount the M.2 accessories are not included with the accessories items, but they are included when you buy any model of the UDOO X86 board.
+
 <a href="../img/accessories/x86_m2_screws.png" target="_blank"><img style="width:400px;" src="../img/accessories/x86_m2_screws.png" class="pull-left"></a><a href="../img/accessories/x86_m2_screws_mounting.png" target="_blank"><img style="width:400px;margin-left:20px;" src="../img/accessories/x86_m2_screws_mounting.png" class="pull-left"></a>  
 
 <br/>
