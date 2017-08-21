@@ -81,12 +81,13 @@ Check this images to know how to correctly mount M.2 accessories.
 
 ### Acrylic Case for UDOO X86
 
-<img src="../img/accessories/acrylic_case_side.jpg" alt="acrylic_case_side" class="img-responsive pull-right" height="345px" width="460px" style="margin-left:30px;">
-
 [Buy it from the shop](http://shop.udoo.org/acrylic-case-for-udoo-x86.html)
 
 Top and Bottom plexiglass acrylic case for UDOO X86
 
+<a href="../img/accessories/x86_acrylic_enclosure.png" target="_blank"><img style="width:380px;" src="../img/accessories/x86_acrylic_enclosure.png" class="pull-left"></a><img style="width:380px;margin-left:20px;" src="../img/accessories/acrylic_case_side.jpg" class="pull-left">
+
+<br/>
 <br/>
 <br/>
 <br/>
