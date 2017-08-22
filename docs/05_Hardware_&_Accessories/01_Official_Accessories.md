@@ -58,11 +58,30 @@ To mount the WiFi/BT Kit is necessary the following fixtures (not included with 
 
 See the image below for mounting instructions.
 
+### M.2 dual Ethernet Module Kit
+
+<img src="../img/accessories/m2_dual_ethernet.jpg" alt="m2_dual_ethernet.jpg" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
+
+[Buy it from the shop](https://shop.udoo.org/accessories/m-2-dual-ethernet-module-kit.html)
+
+When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO X86 board will offer three different Gigabit Ethernet ports.
+
+To mount the M.2 dual Ethernet Module Kit is necessary the following fixtures (not included with the item):
+
+* 1x **M3x12mm** Flat Head Screw
+* 1x **6mm** Round Spacer
+* 1x **0.5mm** Washer
+* 1x **M3 Hex** Bolt
+
+See the image below for mounting instructions.
+
 #### Mounting a M.2 accessory
 
 Check this images to know how to correctly mount M.2 accessories.  
 
 <span class="label label-warning">Heads up!</span> Screws, spacers and all other fixtures to mount the M.2 accessories are not included with the accessories items, but they are included when you buy any model of the UDOO X86 board.
+
+If you haven't the M.2 mounting kit arrived with the board you can buy it in the UDOO Shop: [Screws and spacers kit for M.2 accessories mounting](https://shop.udoo.org/screws-and-spacers-kit-for-m-2-accessories-mounting.html).
 
 <a href="../img/accessories/x86_m2_screws.png" target="_blank"><img style="width:400px;" src="../img/accessories/x86_m2_screws.png" class="pull-left"></a><a href="../img/accessories/x86_m2_screws_mounting.png" target="_blank"><img style="width:400px;margin-left:20px;" src="../img/accessories/x86_m2_screws_mounting.png" class="pull-left"></a>  
 
