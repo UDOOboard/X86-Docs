@@ -7,7 +7,7 @@ The Arduino 101 (Intel® Curie™) can trigger a power signal of the Braswell pr
 
 You need to **enable** this feature of the UDOO X86 board in the **UEFI Setup Utility(SCU)**.  
 
-<span class="label label-warning">Heads up!</span> This feature works correctly starting from the **UEFI BIOS v1.03** so check to have your UDOO X86 [updated](!/Advanced_Topics/UEFI_update).
+<span class="label label-warning">Heads up!</span> This feature works correctly starting from the **UEFI BIOS v1.03** so check to have your UDOO X86 [updated](!/Advanced_Topics/UEFI_update). Note that the description in the menu item **Curie Power Management** is incorrect and will be updated with the next UEFI BIOS release. The correct sequence to be used to power-on/power-off the Braswell processor is the one described in this page.
 
 You can find the **Curie Power Management** option in the menu **Power**:
 
