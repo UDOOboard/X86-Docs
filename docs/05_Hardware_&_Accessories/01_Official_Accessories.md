@@ -64,6 +64,8 @@ See the image below for mounting instructions.
 
 [Buy it from the shop](https://shop.udoo.org/accessories/m-2-dual-ethernet-module-kit.html)
 
+This module is based on **2x Realtek 8111GS** Ethernet controllers (fully compliant with *IEEE 802.3*, *IEEE 802.3u*, *IEEE 802.3ab*).
+
 When the M.2 dual Ethernet Module Kit accessory is plugged into M.2 Key B slot, the UDOO X86 board will offer three different Gigabit Ethernet ports.
 
 To mount the M.2 dual Ethernet Module Kit is necessary the following fixtures (not included with the item):
