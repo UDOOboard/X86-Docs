@@ -1,6 +1,6 @@
 ## Introduction
 
-**UDOO BRICKS** are modules you can use to augment your UDOO BOARDS and make them more versatile. Attach them into *I2C Bricks snap-in connector* with the related cable. UDOO BRICKS work along a cascade configuration, so you can attach them all together without wasting space in a truly intuitive way. Thanks to such configuration you can use cables up to 3,5 m long to connect UDOO BRICKS one another.
+[**UDOO BRICKS**](https://www.udoo.org/udoo-bricks/) are modules you can use to augment your UDOO BOARDS and make them more versatile. Attach them into *I2C Bricks snap-in connector* with the related cable. UDOO BRICKS work along a cascade configuration, so you can attach them all together without wasting space in a truly intuitive way. Thanks to such configuration you can use cables up to 3,5 m long to connect UDOO BRICKS one another.
 
 In the **UDOO X86** the *I2C Bricks snap-in connector(CN24)* is connected to the Intel&reg; Curie&trade; Processor (Arduino 101-compatible side).
 
