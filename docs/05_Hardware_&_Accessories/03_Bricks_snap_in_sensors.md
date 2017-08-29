@@ -4,6 +4,8 @@
 
 In the **UDOO X86** the *I2C Bricks snap-in connector(CN24)* is connected to the Intel&reg; Curie&trade; Processor (Arduino 101-compatible side).
 
+<span class="label label-warning">Heads up!</span> The main Intel&reg; Braswell processor cannot access the I2C Brick snap-in bus connector. To work in Linux, Windows or Android with the data from the UDOO BRICKS, you need to pass the data via the [internal serial communication](!/Serial_Libraries/index).
+
 You can use the Bricks modules exactly like I2C modules connected to the I2C bus of the Arduino 101 in *SCL/SDA* Pins.  
 **I2C** Bus support more devices simultaneously connected, so you can connect more than one brick to the the *I2C Bricks snap-in connector(CN24)* and connect other modules to the *SCL/SDA* Pins at the same time.
 
