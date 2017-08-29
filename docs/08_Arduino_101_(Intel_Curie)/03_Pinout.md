@@ -20,3 +20,8 @@ Here you can find a very useful document by Intel&reg; regarding the compatibili
 [Shield Testing Report for the Arduino 101* Board](http://www.intel.com/content/www/us/en/support/boards-and-kits/intel-curie-modules/000023506.html)
 
 <span class="label label-warning">Heads up!</span>  As you can see from the image on top of the page the *ICSP/SPI* connector proper of the Arduino&trade; Pinout is moved to the bottom side of the UDOO X86 board. If you need to use a shield that communicates through this connector you need to connect the pins accordingly.
+
+## UDOO BRICKs Snap-in
+
+The UDOO X86 features a *BRICKs Snap-in* connector to use [UDOO BRICKs](https://www.udoo.org/udoo-bricks/) sensors connected to the Intel® Curie™-based Arduino&trade; 101 side of the board.  
+Check the [Bricks snap-in sensors](!/Hardware_\&_Accessories/Bricks_snap_in_sensors) page to know how to use the sensors in Arduino™ programming.
