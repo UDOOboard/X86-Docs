@@ -21,6 +21,7 @@ To prepare a bootable USB with the installer you can follow the UDOO [Getting St
 
 <br/>
 <br/>
+
 ## Android-x86 Project - Run Android on Your UDOO X86
 
 From the official [android-x86.org](http://www.android-x86.org/) website:
@@ -40,6 +41,7 @@ To prepare a bootable USB with the installer you can follow the UDOO [Getting St
 
 <br/>
 <br/>
+
 ## Remix OS for PC
 
 Another one of the most famous Android projects for x86 is Remix OS.  
