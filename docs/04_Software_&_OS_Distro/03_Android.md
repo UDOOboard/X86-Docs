@@ -8,8 +8,8 @@ We suggest to always use a **64-bit** OS version.
 
 This is a really useful Open-Source Android ROM for x86 based on the AOSP.
 
-Bliss-x86 is for PC project, will have a few PC centric extras added in to help with application compatibility, mouse integration, keyboard shortcuts, tc. And the creators have added a few little linux throwbacks like bash and busybox commands, integrated Terminal and much more.
-You can find some additional features pre-installed on top of the like Root permission in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
+Bliss-x86 is for PC project, will have a few PC centric extras added in to help with application compatibility, mouse integration, keyboard shortcuts, tc. And the creators have added a few little Linux throwbacks like bash and busybox commands, integrated Terminal and much more.  
+You can also find some additional features pre-installed like Root permission (SuperSu), Houdini application compatibility (to run ARM application), TaskBar launcher for a Desktop experience, in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
 
 ### Installation
 
@@ -19,7 +19,8 @@ You can download the official BlissRom builds for UDOO X86 in the [download page
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide or check the official [BlissRom documentation](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657).
 
-
+<br/>
+<br/>
 ## Android-x86 Project - Run Android on Your UDOO X86
 
 From the official [android-x86.org](http://www.android-x86.org/) website:
@@ -37,7 +38,8 @@ To prepare a bootable USB with the installer you can follow the UDOO [Getting St
 
 <span class="label label-warning">Heads up!</span> If after a complete installation Android-x86 doesn't boot properly, we suggest to prepare the partition where you want to install the OS formatting it in `ext4` and **do not** format again the partition during the Android-x86 wizard installation. This is a known issue, we found this solution in different articles, like [this one](https://techposts.org/install-android-6-marshmallow-laptop-pc/), for example.
 
-
+<br/>
+<br/>
 ## Remix OS for PC
 
 Another one of the most famous Android projects for x86 is Remix OS.  
