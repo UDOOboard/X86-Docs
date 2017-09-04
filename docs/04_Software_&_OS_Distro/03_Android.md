@@ -4,6 +4,22 @@ Thanks to the x86_64 instruction set, the UDOO X86 supports all the x86 Android 
 
 We suggest to always use a **64-bit** OS version.
 
+## BlissRom - Bliss-x86 for UDOO X86
+
+This is a really useful Open-Source Android ROM for x86 based on the AOSP.
+
+Bliss-x86 is for PC project, will have a few PC centric extras added in to help with application compatibility, mouse integration, keyboard shortcuts, tc. And the creators have added a few little linux throwbacks like bash and busybox commands, integrated Terminal and much more.
+You can find some additional features pre-installed on top of the like Root permission in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
+
+### Installation
+
+<span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
+
+You can download the official BlissRom builds for UDOO X86 in the [download page](https://downloads.blissroms.com/Bliss/Official/x86/udoo/).
+
+To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide or check the official [BlissRom documentation](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657).
+
+
 ## Android-x86 Project - Run Android on Your UDOO X86
 
 From the official [android-x86.org](http://www.android-x86.org/) website:
@@ -35,26 +51,3 @@ You can download the iso `Remix_OS_for_PC_Android_64bit` from the official [down
 This is tested and perfectly working on UDOO X86.
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official RemixOS [video-guide for Windows users](https://www.youtube.com/watch?v=At7_g9ZXu8s).
-
-## BlissRom
-
-Another one useful Open-Source Android ROM for x86.
-You can find some additional features preinstalled like Root permission in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
-
-### Installation
-
-We compiled an updated version of Android 7.1.2 with a more updated kernel(4.9.31) useful to use the official WiFi/Bt M.2 module.  
-
-**BlissRom Android 7.1.2**:  
-[**bliss_android_x86_64.zip**](http://download.udoo.org/files/UDOO_X86/Android/bliss_android_x86_64.zip)  
-sha1: 7cd9afad22e02af01bace7ef4bb65018be5b3593
-
-<span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
-
-Alternatively you can download the builds in the official [download page](https://downloads.blissroms.com/Bliss/Official/x86/udoo/).
-
-To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide or check the official [BlissRom documentation](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657).
-
-<span class="label label-warning">Heads up!</span> We have noticed some issues during the installation so we suggest to choose the `Legacy` mode at boot.
-
-<span class="label label-warning">Heads up!</span> If after a complete installation Android-x86 doesn't boot properly, we suggest to prepare the partition where you want to install the OS formatting it in `ext4` and **do not** format again the partition during the Android-x86 wizard installation. This is a known issue, we found this solution in different articles, like [this one](https://techposts.org/install-android-6-marshmallow-laptop-pc/), for example.
