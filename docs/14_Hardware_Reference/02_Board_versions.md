@@ -15,5 +15,5 @@ The main differences between the four versions of the UDOO X86 are shown in the 
 | Storage eMMC | 32GB EMMC STORAGE                           | 32GB EMMC STORAGE                            |                                     |                                    |                                    |
 
 
-For a detailed comparison of the three processor versions follow this link:
+For a detailed comparison of the three processors follow this link:
 [Ark Intel® processors comparison](http://ark.intel.com/compare/92124,91831,91830)
