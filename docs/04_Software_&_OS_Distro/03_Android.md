@@ -30,7 +30,7 @@ From the official [android-x86.org](http://www.android-x86.org/) website:
 
 ### Installation
 
-You can download the file `android-x86_64-6.0-r1.iso` from the official [downaload page](http://www.android-x86.org/download).  
+You can download the file `android-x86_64-6.0-r3.iso` from the official [downaload page](http://www.android-x86.org/download).  
 This is tested and perfectly working on UDOO X86.
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
