@@ -16,7 +16,9 @@ In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can 
 
 The procedure to install a Windows® 7 version is a little different so read the dedicated section on the bottom of this page.
 
-<span class="label label-warning">Heads up!</span> The Processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use Windows&reg; 10 64-bit to find all the latest drivers already installed and have all the devices operating properly.
+<span class="label label-warning">Heads up!</span> The *Braswell Processors* of the UDOO X86 and the *Wi-Fi/BT Intel® AC3168 module* are released only few time ago so we suggest to use Windows&reg; 10 64-bit to find all the latest drivers already installed and have all the devices operating properly.
+
+<span class="label label-warning">Heads up!</span> If you have issues with the TRRS microphone in Windows® 10 try to install the *Realtek High Definition Audio Codecs* audio drivers from [this page](http://www.realtek.com.tw/Downloads/downloadsCheck.aspx?Langid=1&PNid=24&PFid=24&Level=4&Conn=3&DownTypeID=3)
 
 In order to download the latest updated versions of the Intel&reg; devices drivers (e.g. Graphics HD drivers, chipset, wireless networking) you can download and run the [Intel® Driver Update Utility](https://downloadcenter.intel.com/download/24345/Intel-Driver-Update-Utility) for Windows&reg;.
 
