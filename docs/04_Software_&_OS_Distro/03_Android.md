@@ -8,6 +8,10 @@ We suggest to always use a **64-bit** OS version.
 
 This is a really useful Open-Source Android ROM for x86 based on the AOSP.
 
+> Bliss x86 - For PC's and Laptops
+This is a newer spin on Bliss for your x86 PC's, Laptops, Tablets and x86 maker boards.
+Devices: Compatible with the growing number of Intel x86 CPU's This includes some AMD and Nvidia CPU's (MBR and UEFI Compatible)
+
 Bliss-x86 is for PC project, will have a few PC centric extras added in to help with application compatibility, mouse integration, keyboard shortcuts, tc. And the creators have added a few little Linux throwbacks like bash and busybox commands, integrated Terminal and much more.  
 You can also find some additional features pre-installed like Root permission (SuperSu), Houdini application compatibility (to run ARM application), TaskBar launcher for a Desktop experience, in addition to the Pico version of [OpenGapps](https://github.com/opengapps/).
 
@@ -18,6 +22,10 @@ You can also find some additional features pre-installed like Root permission (S
 You can download the official BlissRom builds for UDOO X86 in the [download page](https://downloads.blissroms.com/Bliss/Official/x86/udoo/).
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide or check the official [BlissRom documentation](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657).
+
+On the [UDOO youtube channel](https://www.youtube.com/user/UDOOboard) you can find an installation video-guide of how to install Android Bliss-x86 on an empty drive (e.g. eMMC) of the UDOO X86. [Android Installation on UDOO X86](https://www.youtube.com/watch?v=sa84l03dq8M).
+
+<span class="label label-warning">Heads up!</span> When you boot Android Bliss-x86 for the first time (first boot takes some minutes) the Google *SetupWizard* App will start automatically, like what append in a brand new Android phone. *SetupWizard* will crash if your device doesn't have working wifi module. If you have this issue, please add `SETUPWIZARD=0` to your grub command in order to skip it.  
 
 <br/>
 <br/>
