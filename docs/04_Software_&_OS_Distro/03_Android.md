@@ -19,13 +19,13 @@ You can also find some additional features pre-installed like Root permission (S
 
 <span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
 
-You can download the official BlissRom builds for UDOO X86 in the [download page](https://downloads.blissroms.com/Bliss/Official/x86/udoo/).
+You can download the official BlissRom builds for UDOO X86 in official the [download page](https://downloads.blissroms.com/Bliss/Official/x86/udoo/).
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide or check the official [BlissRom documentation](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657).
 
 On the [UDOO youtube channel](https://www.youtube.com/user/UDOOboard) you can find an installation video-guide of how to install Android Bliss-x86 on an empty drive (e.g. eMMC) of the UDOO X86. [Android Installation on UDOO X86](https://www.youtube.com/watch?v=sa84l03dq8M).
 
-<span class="label label-warning">Heads up!</span> If during the all installation procedure you'll experience any problem with wireless mouse or keyboard, just remember to use a USB cabled mouse or keyboard instead. 
+<span class="label label-warning">Heads up!</span> If during the all installation procedure you'll experience any problem with wireless mouse or keyboard, just remember to use a USB cabled mouse or keyboard instead.
 
 <span class="label label-warning">Heads up!</span> When you boot Android Bliss-x86 for the first time (first boot takes some minutes) the Google *SetupWizard* App will start automatically, like what append in a brand new Android phone. *SetupWizard* will crash if your device doesn't have working [wifi module](!Hardware_&_Accessories/Official_Accessories).  
 If you have this issue, please add `SETUPWIZARD=0` to your grub command in order to skip it.
