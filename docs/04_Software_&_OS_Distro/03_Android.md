@@ -25,6 +25,8 @@ To prepare a bootable USB with the installer you can follow the UDOO [Getting St
 
 On the [UDOO youtube channel](https://www.youtube.com/user/UDOOboard) you can find an installation video-guide of how to install Android Bliss-x86 on an empty drive (e.g. eMMC) of the UDOO X86. [Android Installation on UDOO X86](https://www.youtube.com/watch?v=sa84l03dq8M).
 
+<span class="label label-warning">Heads up!</span> If during the all installation procedure you'll experience any problem with wireless mouse or keyboard, just remember to use a USB cabled mouse or keyboard instead. 
+
 <span class="label label-warning">Heads up!</span> When you boot Android Bliss-x86 for the first time (first boot takes some minutes) the Google *SetupWizard* App will start automatically, like what append in a brand new Android phone. *SetupWizard* will crash if your device doesn't have working [wifi module](!Hardware_&_Accessories/Official_Accessories).  
 If you have this issue, please add `SETUPWIZARD=0` to your grub command in order to skip it.
 To do this you have to stop the boot at grub and press `e` to temporarily modify the standard boot command in this way:
