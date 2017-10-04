@@ -100,6 +100,34 @@ If you haven't the M.2 mounting kit arrived with the board you can buy it in the
 <br/>
 <br/>
 
+## Displays
+
+### 7inch HDMI/USB Display/Touch
+
+<img src="../img/accessories/lcd7_hdmi_touch.jpg" alt="mlcd7_hdmi_touch.jpg" class="img-responsive pull-right" height="250px" width="400px" style="margin-right:30px;margin-top:20px">
+
+[Buy it from the shop](https://shop.udoo.org/accessories/7inch-hdmi-usb-display-touch.html)
+
+The 7inch HDMI/USB Display/Touch has a 1024×600 pixel resolution and is supported by Windows 10/8.1/8/7, Linux, and Android Operating System
+
+Display Features:
+
+* 1024×600 high resolution;
+* Resistive touch control;
+* Compatible and Direct-connect with UDOO X86 with Windows 10/8.1/8/7, Linux and Android operating system;
+* Also works as a computer monitor, in this case, touch panel is unavailable and HDMI cable is required;
+* HDMI interface for displaying, no I/Os required (however, the touch panel still needs I/Os);
+* Multi-languages OSD menu, for power management, brightness adjustment, contrast adjustment, etc;
+* Supports 100-level backlight adjustment.
+
+To use it just:
+
+1- Turn On the “backlight” switch on the back of the LCD;  
+2- Connect the Touch ports on your UDOO. The device will be recognized automatically;  
+3- Connect the HDMI port of the LCD to the HDMI port on your UDOO with an HDMI cable.
+
+<span class="label label-warning">Heads up!</span> When multiple displays are detected by your UDOO, the LCD can only be used to control the cursor on main displays. So it is proposed to set the LCD as the main display.
+
 ## Cases
 
 ### Acrylic Case for UDOO X86
