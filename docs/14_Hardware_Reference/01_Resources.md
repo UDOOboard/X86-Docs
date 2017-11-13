@@ -19,3 +19,5 @@ Here you can find the Bill of Materials (BOM) file of the UDOO X86:
 
 Here you can find the mechanical specs files of the UDOO X86:
 * [UDOO X86 3D Design File](https://www.udoo.org/download/files/mechanical_specs/udoo_x86_3d_model_revH.zip)
+
+* [Cutting file of the Acrylic Enclosure](http://download.udoo.org/files//UDOO_X86/mechanical_specs/UDOO_X86_Acrylic_Enclosure.zip).

@@ -136,6 +136,8 @@ To use it just:
 
 Top and Bottom plexiglass acrylic case for UDOO X86
 
+Here you can download the [cutting file](http://download.udoo.org/files//UDOO_X86/mechanical_specs/UDOO_X86_Acrylic_Enclosure.zip) of the acrylic enclosure.
+
 <a href="../img/accessories/x86_acrylic_enclosure.png" target="_blank"><img style="width:380px;" src="../img/accessories/x86_acrylic_enclosure.png" class="pull-left"></a><img style="width:380px;margin-left:20px;" src="../img/accessories/acrylic_case_side.jpg" class="pull-left">
 
 <br/>
