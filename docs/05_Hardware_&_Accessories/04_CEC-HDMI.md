@@ -31,7 +31,7 @@ Kodi thread about using the CEC Framework alternatively to libCEC - [KODI Forum 
 
 ### Compile
 
-Make sure you have Linux kernel headers >= 4.10.
+Make sure you have Linux **kernel headers >= 4.14**  (if you want to compile with headers >= 4.10 you need to revert this [commit](https://github.com/ektor5/secocec/commit/3874d5ef2139b982878aac9b3d18ad2db1ce47e1)).
 
 install dependencies (make, git, ecc..)
 
@@ -57,9 +57,9 @@ This module depends on the Linux CEC Framework Module, and it needs to be loaded
 
     modprobe cec
 
-Note: this module conflicts with the official SMBus driver `i2c-i802` and therefore it needs to be blacklisted. On Ubuntu should be already blacklisted, if you're using
+Note: this module conflicts with the official SMBus driver `i2c-i801` and therefore it needs to be blacklisted. On Ubuntu should be already blacklisted, if you're using
 
-    echo "blacklist i2c-i802" > /etc/modprobe.d/i2c-i802.conf
+    echo "blacklist i2c-i801" > /etc/modprobe.d/i2c-i801.conf
 
 Load the module:
 
