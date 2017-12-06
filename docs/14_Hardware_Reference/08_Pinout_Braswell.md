@@ -18,12 +18,12 @@ The image below shows the list of all possible functions assigned to each Pin.
 
 [Universal Asynchronous Receiver/Transmitter](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter) (**UART**) provides serial communication capability with external devices through a level converter and an RS-232 cable or through the use of external circuitry that converts infrared signals to electrical signals (for reception) or transforms electrical signals to signals that drive an infrared LED (for transmission) in order to provide low speed IrDA compatibility.
 
-The **Uart 1** is available at Pins *16*, *17*, *18*, *19*.  
-The **Uart 2** is available at Pins *20*, *21*, *22*, *23*.  
+The **UART 1** is available at Pins *16*, *17*, *18*, *19*.  
+The **UART 2** is available at Pins *20*, *21*, *22*, *23*.  
 Both these serials are High-Speed UART (`HSUART`).  
 Accordingly to the [Braswell datasheet](http://www.intel.com/content/dam/www/public/us/en/documents/datasheets/pentium-celeron-n-series-datasheet-vol-1.pdf) the **baud rate** goes from **300** to **3686400**.
 
-**HSUART1**
+**HSUART 1**
 
 | Pin | Function  | Processor PAD |        
 |-----|-----------|---------------|
@@ -32,7 +32,7 @@ Accordingly to the [Braswell datasheet](http://www.intel.com/content/dam/www/pub
 | 18  | UART1_TXD |  UART1_TXD    |
 | 19  | UART1_RXD |  UART1_RXD    |
 
-**HSUART2**
+**HSUART 2**
 
 | Pin | Function  | Processor PAD |
 |-----|-----------|---------------|
@@ -53,6 +53,11 @@ These two HSUART buses are *enabled* by default. You can `Enable/Disable` the **
             DMA #1 Support          <Enabled (ACPI)>
               HSUART #1             <Enabled (ACPI)>
               HSUART #2             <Enabled (ACPI)>
+
+#### Use the UART in Linux
+
+The **UART 1** and **UART 2** are shown respectively as `/dev/ttyS4` and `/dev/ttyS5` when configured as *HSUART mode*(default configuration) or as `/dev/tty0` when configured in *Legacy mode*.
+
 
 ### LPC bus
 
