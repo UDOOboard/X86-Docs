@@ -128,6 +128,8 @@ To use it just:
 
 <span class="label label-warning">Heads up!</span> When multiple displays are detected by your UDOO, the LCD can only be used to control the cursor on main displays. So it is proposed to set the LCD as the main display.
 
+If you're looking for more info about this screen you can check the wiki page of the manufacturer: [7inch_HDMI_LCD_(C)](https://www.waveshare.com/wiki/7inch_HDMI_LCD_(C))
+
 ## Cases
 
 ### Acrylic Case for UDOO X86
