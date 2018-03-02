@@ -8,7 +8,7 @@ We suggest to always use a **64-bit** OS version.
 
 In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
 
-In order to download the latest updated versions of the Intel&reg; Graphics HD drivers you can download and run the [Intel® Graphics update tool for Linux](https://01.org/linuxgraphics/downloads/update-tool).
+In order to download the latest updated versions of the Intel&reg; Graphics HD drivers you can download and run the [Intel® Graphics update tool for Linux](!Cookbook_Linux/Intel_Graphics_update_tool).
 
 <span class="label label-warning">Heads up!</span> The processors of the UDOO X86 and the Wi-Fi/BT module are released only few time ago so we suggest to use a recent distribution to find all the latest drivers already installed and have all the devices operating properly.
 
@@ -18,7 +18,9 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 
 * [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
 
-<span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 16.04, 16.10) need at least 8.4GB of free space for the installation. If you have one of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the lack of storage space.  
+<span class="label label-warning">Heads up!</span> The latest **Ubuntu 17.10** use [Wayland](https://wiki.ubuntu.com/Wayland) as default display server and the standard *i915* GPU driver doesn't manage properly Wayland as expected. We suggest to switch to X display server or use the [Intel® Graphics update tool for Linux](!Cookbook_Linux/Intel_Graphics_update_tool) to resolve lack graphical issues.
+
+<span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 17.xx, 16.xx) need at least 8.4GB of free space for the installation. If you have one of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the lack of storage space.  
 Following you can find a **slim** modified version of **Ubuntu 16.10**. This installer won't install a some packages (e.g. libreoffice, thunderbird, docs, fonts etc.) to let you install Ubuntu in the 8GB eMMC.
 
 **SlimUbuntu 16.10**: [**slimubuntu1610.zip**](http://download.udoo.org/files/UDOO_X86/Ubuntu/slimubuntu1610.zip)  

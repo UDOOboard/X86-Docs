@@ -20,7 +20,7 @@ The procedure to install a Windows® 7 version is a little different so read the
 
 <span class="label label-warning">Heads up!</span> If you have issues with the TRRS microphone in Windows® 10 try to install the *Realtek High Definition Audio Codecs* audio drivers from [this page](http://www.realtek.com.tw/Downloads/downloadsCheck.aspx?Langid=1&PNid=24&PFid=24&Level=4&Conn=3&DownTypeID=3)
 
-In order to download the latest updated versions of the Intel&reg; devices drivers (e.g. Graphics HD drivers, chipset, wireless networking) you can download and run the [Intel® Driver Update Utility](https://downloadcenter.intel.com/download/24345/Intel-Driver-Update-Utility) for Windows&reg;.
+In order to download the latest updated versions of the Intel&reg; devices drivers (e.g. Graphics HD drivers, chipset, wireless networking) we suggest to download and run the [Intel® Driver & Support Assistant](https://downloadcenter.intel.com/download/24345/Intel-Driver-Support-Assistant) for Windows&reg;.
 
 ### Windows® 7 Installation
 

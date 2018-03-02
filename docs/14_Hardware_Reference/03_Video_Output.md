@@ -1,4 +1,4 @@
-The Graphic controller of the **UDOO X86** in the integrated **Intel&reg; HD Graphics**.  
+The Graphic controller of the **UDOO X86** is the integrated **Intel&reg; HD Graphics**.  
 Depending of the UDOO X86 version this are the specification:
 
 * Intel&reg; HD Graphics 405 Up to 700 MHz 16 execution units (**ULTRA** version)
