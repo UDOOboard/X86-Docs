@@ -18,6 +18,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_
 * Never provide more than 5V in input to the GPIOs of the Arduino 101(Intel&reg; Curie&trade;), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.
 * Never keep the board in touch with metal objects or surfaces while it is powered up
 * Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%)
+* Do not use a *NON*-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO X86 board with the risk of damage.
 
 
 ## Lineup
