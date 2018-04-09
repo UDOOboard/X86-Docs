@@ -135,45 +135,25 @@ These two I2C buses are *enabled* by default. You can `Enable/Disable` the **I2C
               I2C #2 - CN14 pin2/4     <Enabled (ACPI)>
 
 ### GPIOs pins
-The Pins headers *36*, *37* can work as [GPIOs](https://en.wikipedia.org/wiki/General-purpose_input/output) only.  
-The GPIO function is *enabled* by default for these two Pins.
+The Pins headers *36*, *37*, *40*, *41*, *42*, *43*, *44*, *45*, *46* can work as [GPIOs](https://en.wikipedia.org/wiki/General-purpose_input/output) only.  
+The GPIO function is *enabled* by default for these Pins.
 
 | Pin | Function  | Processor PAD  |  GPIO device name from the Linux Driver |
 |-----|-----------|----------------|-----------------------------------------|
 | 36  | GPIO      |  SATA_GP2      |    gpio499                              |
 | 37  | GPIO      |  SATA_GP1      |    gpio497                              |
-
-### SDIO
-A [SDIO](https://en.wikipedia.org/wiki/Secure_Digital#SDIO) (Secure Digital Input Output) card is an extension of the SD specification to cover I/O functions. SDIO cards are only fully functional in host devices designed to support their input-output functions (typically PDAs like the Palm Treo, but occasionally laptops or mobile phones).
-
-The **SDIO bus** is available at Pins *40*, *41*, *42*, *43*, *44*, *45*, *46*.  
-These Pins can also work as GPIOs if the SDIO bus function is disabled in the UEFI BIOS Setup.
-
-| Pin | Function  | Processor PAD  |  GPIO device name from the Linux Driver |
-|-----|-----------|----------------|-----------------------------------------|
-| 40  | SDIO_WAKE |  GPIO_SUS3     |    gpio408                              |
-| 41  | SDIO_DAT3 |  SDMMC2_D3_CD_N|    gpio326                              |
-| 42  | SDIO_DAT2 |  SDMMC2_D2     |    gpio332                              |
-| 43  | SDIO_DAT1 |  SDMMC2_D1     |    gpio329                              |
-| 44  | SDIO_DAT0 |  SDMMC2_D0     |    gpio336                              |
-| 45  | SDIO_CMD  |  SDMMC2_CMD    |    gpio333                              |
-| 46  | SDIO_CLK  |  SDMMC2_CLK    |    gpio330                              |
-
-The **SDIO bus** is *disabled* by default, so you can use these pins as GPIOs.  
-You can `Enable/Disable` the **SDIO bus** from the UEFI BIOS Setup by changing the configuration set in the section:
-
-    Advanced
-    --> Chipset configuration
-        --> LPSS & SCC Configuration
-
-          SCC Configuration
-          ...
-          SDIO          <Disabled>
+| 40  | GPIO      |  GPIO_SUS3     |    gpio408                              |
+| 41  | GPIO      |  SDMMC2_D3_CD_N|    gpio326                              |
+| 42  | GPIO      |  SDMMC2_D2     |    gpio332                              |
+| 43  | GPIO      |  SDMMC2_D1     |    gpio329                              |
+| 44  | GPIO      |  SDMMC2_D0     |    gpio336                              |
+| 45  | GPIO      |  SDMMC2_CMD    |    gpio333                              |
+| 46  | GPIO      |  SDMMC2_CLK    |    gpio330                              |
 
 ### S/PDIF
 [S/PDIF](https://en.wikipedia.org/wiki/S/PDIF) (Sony/Philips Digital Interface Format) is a type of digital audio interconnect used in consumer audio equipment to output audio over reasonably short distances. The signal is transmitted over either a coaxial cable with RCA connectors or a fibre optic cable with TOSLINK connectors. S/PDIF interconnects components in home theatres and other digital high-fidelity systems.
 
-The **S/PDFI Output bus** is available at Pin *47*.  
+The **S/PDIF Output bus** is available at Pin *47*.  
 
 | Pin | Function  | Processor PAD |
 |-----|-----------|---------------|
