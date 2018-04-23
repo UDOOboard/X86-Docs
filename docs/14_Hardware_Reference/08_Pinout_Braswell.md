@@ -58,6 +58,20 @@ These two HSUART buses are *enabled* by default. You can `Enable/Disable` the **
 
 The **UART 1** and **UART 2** are shown respectively as `/dev/ttyS4` and `/dev/ttyS5` when configured as *HSUART mode*(default configuration) or as `/dev/tty0` when configured in *Legacy mode*.
 
+#### Use the UART in Windows
+
+To use the UARTs in Windows, after enabling them in BIOS Setup, you need to
+download the corresponding drivers.
+
+Download and install the [Intel Serial IO Driver][intelserial]. Then download the specific [HSUART driver][secoserial] for UDOO X86. 
+Verify the presence of Unknown Device with Device ID as `ACPI\VCOM000x` or `ACPI\INT351x` in *Windows Device Manager*. 
+Extract the archive file, press mouse right-button on `x64\UartSample.inf` / `x86\UartSample.inf` (depending on the OS architecture) and select *Install*. 
+On *Device Manager*, one or more `UartSample Device` devices will appear under "*Port (COM & LPT)*" section. 
+
+Now the devices are ready and they can be used with a *HSUART Virtual Serial Terminal* like [extraPuTTY](http://www.extraputty.com/).
+
+[intelserial]: https://downloadcenter.intel.com/download/25601/Intel-Serial-IO-Driver-for-Windows-10
+[secoserial]: http://download.udoo.org/files/UDOO_X86/tools/UDOOX86_HS_UART_Driver_Rev_1.1.zip
 
 ### LPC bus
 
