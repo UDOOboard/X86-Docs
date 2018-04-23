@@ -45,7 +45,7 @@ The GPIO function is enabled by default in the UEFI BIOS Setup configuration of 
 
 Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.3V-5V devices](http://www.geduino.org/site/archives/284) by [Geduino Foundation](http://www.geduino.org) to learn how to proper use a level shifter to work with a different voltage from 1.8V in the Braswell pinout.
 
-## Linux Manipolation
+## Linux Manipulation
 
 The Linux driver used to manage the UDOO X86 Braswell GPIOs is [Cherryview/Braswell pinctrl driver](https://github.com/torvalds/linux/blob/master/drivers/pinctrl/intel/pinctrl-cherryview.c)
 
