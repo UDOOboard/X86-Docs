@@ -14,7 +14,7 @@ The image below shows the list of all possible functions assigned to each Pin.
 
 <a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
 
-### UART 1 and UART 2
+## UART 1 and UART 2
 
 [Universal Asynchronous Receiver/Transmitter](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver/transmitter) (**UART**) provides serial communication capability with external devices through a level converter and an RS-232 cable or through the use of external circuitry that converts infrared signals to electrical signals (for reception) or transforms electrical signals to signals that drive an infrared LED (for transmission) in order to provide low speed IrDA compatibility.
 
@@ -54,12 +54,26 @@ These two HSUART buses are *enabled* by default. You can `Enable/Disable` the **
               HSUART #1             <Enabled (ACPI)>
               HSUART #2             <Enabled (ACPI)>
 
-#### Use the UART in Linux
+### Use the UART in Linux
 
 The **UART 1** and **UART 2** are shown respectively as `/dev/ttyS4` and `/dev/ttyS5` when configured as *HSUART mode*(default configuration) or as `/dev/tty0` when configured in *Legacy mode*.
 
+### Use the UART in Windows 10
 
-### LPC bus
+To use the UARTs in Windows, after enabling them in BIOS Setup, you need to
+download the corresponding drivers.
+
+Download and install the [Intel Serial IO Driver][intelserial]. Then download the specific [HSUART driver][secoserial] for UDOO X86. 
+Verify the presence of Unknown Device with Device ID as `ACPI\VCOM000x` or `ACPI\INT351x` in *Windows Device Manager*. 
+Extract the archive file, press mouse right-button on `x64\UartSample.inf` / `x86\UartSample.inf` (depending on the OS architecture) and select *Install*. 
+On *Device Manager*, one or more `UartSample Device` devices will appear under "*Port (COM & LPT)*" section. 
+
+Now the devices are ready and they can be used with a *HSUART Virtual Serial Terminal* like [extraPuTTY](http://www.extraputty.com/).
+
+[intelserial]: https://downloadcenter.intel.com/download/25601/Intel-Serial-IO-Driver-for-Windows-10
+[secoserial]: http://download.udoo.org/files/UDOO_X86/tools/UDOOX86_HS_UART_Driver_Rev_1.1.zip
+
+## LPC bus
 
 LPC bus is a computer bus used to connect low-bandwidth devices such as serial and parallel ports, PS/2 etc.
 
@@ -88,7 +102,7 @@ The **LPC bus** is *disabled* by default, so you can use these pins as GPIOs. Yo
 
           LPC Support         <Disabled>
 
-### BUF_PLTRST
+## BUF_PLTRST
 
 This is a power sequencing signal. This is used to report that the UDOO X86 is actually turned on and to get off from the reset state all the connected peripherals.  
 For example, if you connect to the board a new peripheral that supports reset state you can connect this Pin to the new peripheral reset pin. This way the new peripheral will be in reset when the board is in a deep suspend state (S3/S4/S5) and out of the reset state when the UDOO X86 is actually turned on, with a considerable power saving.
@@ -99,7 +113,7 @@ For example, if you connect to the board a new peripheral that supports reset st
 
 This Pin can't work as GPIO.  
 
-### I2C 1 and I2C 2
+## I2C 1 and I2C 2
 
 The [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) (Inter-IC) bus is a bi-directional, two-wire serial bus that provides a communication link between integrated circuits (ICs). Phillips introduced the I2C bus 20 years ago for mass-produced items such as televisions, VCRs, and audio equipment. Today, I2C is the de-facto solution for embedded applications.  
 
@@ -134,7 +148,7 @@ These two I2C buses are *enabled* by default. You can `Enable/Disable` the **I2C
               I2C #1 - CN14 pin10/12   <Enabled (ACPI)>
               I2C #2 - CN14 pin2/4     <Enabled (ACPI)>
 
-### GPIOs pins
+## GPIOs pins
 The Pins headers *36*, *37*, *40*, *41*, *42*, *43*, *44*, *45*, *46* can work as [GPIOs](https://en.wikipedia.org/wiki/General-purpose_input/output) only.  
 The GPIO function is *enabled* by default for these Pins.
 
@@ -150,7 +164,7 @@ The GPIO function is *enabled* by default for these Pins.
 | 45  | GPIO      |  SDMMC2_CMD    |    gpio333                              |
 | 46  | GPIO      |  SDMMC2_CLK    |    gpio330                              |
 
-### S/PDIF
+## S/PDIF
 [S/PDIF](https://en.wikipedia.org/wiki/S/PDIF) (Sony/Philips Digital Interface Format) is a type of digital audio interconnect used in consumer audio equipment to output audio over reasonably short distances. The signal is transmitted over either a coaxial cable with RCA connectors or a fibre optic cable with TOSLINK connectors. S/PDIF interconnects components in home theatres and other digital high-fidelity systems.
 
 The **S/PDIF Output bus** is available at Pin *47*.  
