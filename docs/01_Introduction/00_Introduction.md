@@ -47,26 +47,32 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 * Video interfaces:
   * 1x HDMI 1.4 (CEC)
   * 2x Mini DisplayPort ++ (mDP++)
-* 3x USB 3.0 type-A sockets
+* Storage:
+  * 32GB eMMC soldered on-board (Advanced Plus and Ultra only)
+  * 1x M.2 Key B 2260 slot for SATA SSD modules** / PCIe (2x) modules
+  * 1x SATA III 6Gb/s connector
+  * 1x MicroSD slot
 * Networking:
   * 1x Gigabit Ethernet LAN interface
-  * M.2 Key E slot for optional Wireless(WiFi+BT) Module
+  * 1x M.2 Key E slot for optional Wireless(WiFi+BT) Module
 * Audio interfaces:
   * HD Audio Codec ALC283CG
   * Microphone + Headphone Combo Connector (TRRS)
-  * Preamplified Speaker output
+  * Pre-amplified stereo speaker output
   * S/PDIF output*
-* 2x UART ports*
+* 3x USB 3.0 type-A sockets
+* 2x HSUART ports*
 * 2x I2C interface*
 * 1x SDIO interface*
 * 1x LPC interface*
 * 12V (± 5%) DC Power Jack (standard 5.5mm/2.1mm barrel jack: internal positive)
 * RTC Battery Connector + RTC Coin Battery
 * Bi-color Power Status LED
-* 1x Sensor Snap-In I2C connector
+* 1x Sensor Snap-In I2C connector (UDOO Bricks)
 * Arduino&trade; 101-Compatible through the standard Arduino&trade; Pins layout and compatible with Arduino&trade; shields.
 
 &#42;Available on Pin Header
+&#42;&#42;Not compatible with NVMe modules
 
 Visit the [official accessories](!Hardware_&_Accessories/Official_Accessories) sections.
 
