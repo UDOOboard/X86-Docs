@@ -13,7 +13,7 @@ The package contains:
   * Firmware name:       0B020000.104
   * BIOS version:        1.04
   * Release Date:        2018-05-11
-  * SHA1 .zip file: 7e4563c8f8d1d706cb3a0c5de4b91d7b3fa0499a
+  * SHA1 .zip file: ce26fd39091ca6a888b7149a91a140df91e67c78
 * Update Utility Tool
   * DOS BIOS programming utility
   * Windows 32-bit BIOS programmer
