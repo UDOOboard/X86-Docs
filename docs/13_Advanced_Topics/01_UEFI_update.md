@@ -26,9 +26,7 @@ Follow the procedure in the .pdf file to update the UEFI BIOS firmware using DOS
 
 <span class="label label-warning">Heads up!</span> Remember that update the UEFI firmware will revert the saved configuration to Factory Default.
 
-<span class="label label-warning">Heads up!</span> Note that the description in the menu item **Power -> Curie Power Management** is incorrect and will be updated with the next UEFI BIOS release. The correct sequence to be used to power-on/power-off the Braswell processor is the one described in the page of this documentation [Braswell Power Management from Arduino 101](!/Arduino_101_\(Intel_Curie\)/Braswell_Power_Management_From_Arduino_101).
-
-Please be aware that using **Windows** programmer, it must be run in a cmd shell with Administrator privileges.
+Please be aware that using **Windows** programmer, it must be run in a Prompt CMD shell with Administrator privileges.
 
 Using **Linux** programmer, *gcc compiler* and *Kernel-headers* are needed and every operation must be done with root/administrator privileges.  
 Linux versions used for the test:
