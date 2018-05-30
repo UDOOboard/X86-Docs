@@ -1,8 +1,10 @@
 #!/bin/bash
 set -e # exit with nonzero exit code if anything fails
 
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
 # Compile
-./daux.phar
+daux generate
 
 # go to the out directory and create a *new* Git repo
 cd static
