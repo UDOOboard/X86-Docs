@@ -139,7 +139,7 @@ Done!
 ## Milestones
 
 The driver is still in development to add features and bugfixing.  
-The next steps will be: add the CEC notifier support, add the SMBus communication via i2ci801 module and add the IrDA support.  
+The next steps will be: add the CEC notifier support, add the SMBus communication via i2c-i801 module.
 
 The driver will be published mainline, once the driver will be insert in the mainline kernel, compile and mount the secocec driver manually won't be needed. A patch is already under review.
 
