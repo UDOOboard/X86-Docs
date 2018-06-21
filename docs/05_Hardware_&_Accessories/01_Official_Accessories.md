@@ -27,7 +27,7 @@ To mount the SSD is necessary the following fixtures (not included with the item
 See the image below for mounting instructions.
 <br/>
 
-### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5ghz + adhesive antenna
+### M.2 Wi-Fi Intel dual band ac Wi-Fi + BT 4.2 5GHz + adhesive antenna
 
 <img src="../img/accessories/m2_wifi_bt_ac3168.jpg" alt="m2_wifi_bt_ac3168" class="img-responsive pull-right" height="200px" width="270px" style="margin-right:30px;margin-top:20px">
 
@@ -38,8 +38,9 @@ The package includes:
   * Intel® Dual Band Wireless Wi-Fi AC and Bluetooth 4.2 module (AC3168)
   * Dimensions: 4.9 x 3.5 x 0.4 inches
   * Weight: 8.5g (0.3 oz)
+  * M.2 compatible RF micro coax type connector
 * 2x Antennas
-  * U.FL connector
+  * U.FL/IPEX connector
   * 10cm IPEX cable
   * Adhesive backing on aerial plates
 
@@ -132,7 +133,61 @@ If you're looking for more info about this screen you can check the wiki page of
 
 ## Cases
 
-### Acrylic Case for UDOO X86
+### Metal Case
+
+[Buy it from the shop](https://shop.udoo.org/udoo-x86-metal-case.html)
+
+A beautiful metal case for your UDOO X86 Board.  
+<span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat so you’ll need the Fan Accessory.
+
+UDOO X86 METAL CASE includes:
+* 1x Metal Top Part;
+* 1x Metal Bottom Part;
+* 8x Pinout Header Extender;
+
+<a href="../img/accessories/x86_metalcase1.jpg" target="_blank"><img style="width:380px;" src="../img/accessories/x86_metalcase1.jpg" class="pull-left"></a><img style="width:380px;margin-left:20px;" src="../img/accessories/x86_metalcase2.jpg" class="pull-left">
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+The case features also two holes, in the two sides, for connecting externally the WiFi and BT antennas of the M.2 module though a RP-SMA connector.  
+For example you can use 2x U.FL/IPEX to RP-SMA cables and 2x RP-SMA antennas like in the following image.  
+<span class="label label-warning">Heads up!</span> These items are not included.  
+
+<img style="width:300px;margin-left:20px;" src="../img/accessories/x86_external_antennas_RP-SMA.jpg" class="pull-left">
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### Acrylic Case
 
 [Buy it from the shop](https://shop.udoo.org/acrylic-case-for-udoo-x86.html)
 
