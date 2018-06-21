@@ -31,17 +31,22 @@ Kodi thread about using the CEC Framework alternatively to libCEC - [KODI Forum 
 
 ### Compile
 
-Make sure you have Linux **kernel headers >= 4.14**  (if you want to compile with headers >= 4.10 you need to revert this [commit](https://github.com/ektor5/secocec/commit/3874d5ef2139b982878aac9b3d18ad2db1ce47e1)).
+<span class="label label-warning">Heads up!</span> Make sure you have Linux
+**kernel headers >= 4.14** (if you want to compile with headers >= 4.10 you
+need to revert this [commit][commit414]) and make sure you have installed an
+updated FW version (**>= 1.04**) on your UDOO X86 (check this in BIOS Main Page).
 
-install dependencies (make, git, ecc..)
+[commit414]: https://github.com/ektor5/secocec/commit/3874d5ef2139b982878aac9b3d18ad2db1ce47e1
+
+Install dependencies (make, git, ecc..)
 
     sudo apt install git build-essential linux-headers-`uname -r`
 
-download the source code from git
+Download the source code from git
 
     git clone https://github.com/ektor5/secocec.git
 
-enter into the dir just donwloaded:
+Enter into the dir just downloaded:
 
     cd secocec
 
@@ -57,7 +62,7 @@ This module depends on the Linux CEC Framework Module, and it needs to be loaded
 
     modprobe cec
 
-Note: this module conflicts with the official SMBus driver `i2c-i801` and therefore it needs to be blacklisted. On Ubuntu should be already blacklisted, if you're using
+*Note:* this module conflicts with the official SMBus driver `i2c-i801` and therefore it needs to be blacklisted. On Ubuntu should be already blacklisted, if you're using
 
     echo "blacklist i2c-i801" > /etc/modprobe.d/i2c-i801.conf
 
@@ -114,7 +119,7 @@ With this command the TV remote keys are interpreted by the OS as a standard key
 
 ### Edit keymaps
 Sometimes, not all the remote keys are set like we want it to be.  
-E.g: the *OK* button is not understood as *Enter* by the X server input module(Xinput), so it is necessary to remap it.  
+E.g: the *OK* button is not understood as *Enter* by the X server input module (Xinput), so it is necessary to remap it.  
 
 To edit the keymap do the following:
 
@@ -139,7 +144,7 @@ Done!
 ## Milestones
 
 The driver is still in development to add features and bugfixing.  
-The next steps will be: add the CEC notifier support, add the SMBus communication via i2ci801 module and add the IrDA support.  
+The next steps will be: add the CEC notifier support, add the SMBus communication via i2c-i801 module.
 
 The driver will be published mainline, once the driver will be insert in the mainline kernel, compile and mount the secocec driver manually won't be needed. A patch is already under review.
 
