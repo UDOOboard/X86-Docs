@@ -41,20 +41,20 @@ setparams `Android-x86 ...`
 <br/>
 <br/>
 
-## Android-x86 Project - Run Android on Your UDOO X86
+## Android-x86 Project - Run Android 8.1 on Your UDOO X86
 
 From the official [android-x86.org](http://www.android-x86.org/) website:
 
 > This is a project to port [Android open source project](http://source.android.com/) to x86 platform, formerly known as "[patch hosting for android x86 support](http://code.google.com/p/patch-hosting-for-android-x86-support/)". The original plan is to host different patches for android x86 support from open source community. A few months after we created the project, we found out that we could do much more than just hosting patches. So we decide to create our code base to provide support on different x86 platforms, and set up a git server to host it.
 
+The last build of Android-x86 is based on Android 8.1 Oreo.
+
 ### Installation
 
-You can download the file `android-x86_64-6.0-r3.iso` from the official [downaload page](http://www.android-x86.org/download).  
+You can download the file `android-x86_64-8.1-rc1.iso` from the official [downaload page](https://osdn.net/projects/android-x86/releases/69704).  
 This is tested and perfectly working on UDOO X86.
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide, or the official [android-x86 documentation](http://www.android-x86.org/documents/installhowto).  
-
-<span class="label label-warning">Heads up!</span> We have noticed some issues during the installation so we suggest to choose the `Legacy` mode at boot.
 
 <span class="label label-warning">Heads up!</span> If after a complete installation Android-x86 doesn't boot properly, we suggest to prepare the partition where you want to install the OS formatting it in `ext4` and **do not** format again the partition during the Android-x86 wizard installation. This is a known issue, we found this solution in different articles, like [this one](https://techposts.org/install-android-6-marshmallow-laptop-pc/), for example.
 
