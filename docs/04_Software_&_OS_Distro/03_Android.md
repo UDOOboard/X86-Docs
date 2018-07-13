@@ -4,7 +4,7 @@ Thanks to the x86_64 instruction set, the UDOO X86 supports all the x86 Android 
 
 We suggest to always use a **64-bit** OS version.
 
-## BlissRom - Bliss-x86 for UDOO X86
+## BlissOS - BlissOS X86 Rom for UDOO X86
 
 This is a really useful Open-Source Android ROM for x86 based on the AOSP.
 
@@ -19,7 +19,7 @@ You can also find some additional features pre-installed like Root permission (S
 
 <span class="label label-warning">Heads up!</span> This is not developed by the UDOO Team so it is not official and supported directly.
 
-You can download the official BlissRom builds for UDOO X86 in official the [download page](https://downloads.blissroms.com/Bliss/Official/x86/udoo/).
+You can download the official BlissRom builds for UDOO X86 in official the [download page](https://downloads.blissroms.com/BlissOS/udoo/).
 
 To prepare a bootable USB with the installer you can follow the UDOO [Getting Started](https://www.udoo.org/get-started-x86/) guide or check the official [BlissRom documentation](https://forum.xda-developers.com/android/software/x86-bliss-x86-pc-s-t3534657).
 
