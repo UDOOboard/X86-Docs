@@ -20,7 +20,7 @@ For a complete explanation of the System Configuration Utility menu items you ca
 
 The UEFI Firmware Setup Utility Menu show the following options:
 
-<span class="label label-warning">Heads up!</span> If you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display (HDMI or DisplayPort) or a different cable.
+<span class="label label-warning">Heads up!</span> Since some resolutions or monitors are not managed well by the firmware, if you get a black screen when you try to enter in one of the UEFI Firmware Setup Utility Menu options, try using another Display with a 1080 resolution (HDMI or DisplayPort) or a different cable.
 
 <a href="../img/uefi_menu.png" target="_blank"><img style="width:400px; " src="../img/uefi_menu.png"></a>
 
