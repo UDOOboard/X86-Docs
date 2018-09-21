@@ -138,7 +138,9 @@ If you're looking for more info about this screen you can check the wiki page of
 [Buy it from the shop](https://shop.udoo.org/udoo-x86-metal-case.html)
 
 A beautiful metal case for your UDOO X86 Board.  
-<span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat so you’ll need the Fan Accessory.
+<span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat, so you’ll need the Fan Accessory if the temperature of the processor seems too high for the use you are doing of the board.  
+
+Check here the [mechanical drawing](http://download.udoo.org/files//UDOO_X86/mechanical_specs/UDOO_X86_metal_case_drawing.pdf) to see the dimensions of the case.
 
 UDOO X86 METAL CASE includes:
 * 1x Metal Top Part;
