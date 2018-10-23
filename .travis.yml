@@ -2,8 +2,6 @@ script: bash ./deploy.sh
 language: php
 php:
 - 7.2
-install:
-   - composer global require daux/daux.io
 env:
   global:
   - GH_REF: github.com/UDOOboard/X86-Docs.git
