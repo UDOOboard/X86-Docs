@@ -6,7 +6,7 @@ We suggest to always use a **64-bit** OS version.
 
 <span class="label label-warning">Heads up!</span> Please notice that total amount of 8GB of RAM of the UDOO X86 ULTRA version would be usable with 64-bit OS. Total amount of memory available with a 32-bit OS depends on the OS itself (usually less than 4GB unless the OS isn't using [PAE](https://en.wikipedia.org/wiki/Physical_Address_Extension)).
 
-In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu distro.
+In the [Getting Started](https://www.udoo.org/get-started-x86/) section you can find a guide of how to install a Linux distro, the example is based on the Ubuntu OS.
 
 In order to download the latest updated versions of the Intel&reg; Graphics HD drivers you can download and run the [Intel® Graphics update tool for Linux](!Cookbook_Linux/Intel_Graphics_update_tool).
 
@@ -16,17 +16,7 @@ In order to download the latest updated versions of the Intel&reg; Graphics HD d
 
 Here you can find an unordered list of 10 of the most popular Linux distributions:
 
-* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories.  
-
-<span class="label label-warning">Heads up!</span> The latest **Ubuntu 17.10** use [Wayland](https://wiki.ubuntu.com/Wayland) as default display server and the standard *i915* GPU driver doesn't manage properly Wayland as expected. We suggest to switch to X display server or use the [Intel® Graphics update tool for Linux](!Cookbook_Linux/Intel_Graphics_update_tool) to resolve lack graphical issues.
-
-<span class="label label-warning">Heads up!</span> The newest **Ubuntu** versions (e.g. 17.xx, 16.xx) need at least 8.4GB of free space for the installation. If you have one of the `UDOO X86 Kickstarter version` you'll be not able to install these versions on the eMMC due to the lack of storage space.  
-Following you can find a **slim** modified version of **Ubuntu 16.10**. This installer won't install a some packages (e.g. libreoffice, thunderbird, docs, fonts etc.) to let you install Ubuntu in the 8GB eMMC.
-
-**SlimUbuntu 16.10**: [**slimubuntu1610.zip**](http://download.udoo.org/files/UDOO_X86/Ubuntu/slimubuntu1610.zip)  
-sha1: b0716d824d9dd5e1d1faa1c91bad599f1d389a67
-
-<span class="label label-warning">Heads up!</span> Extract the downloaded zip file and use the .img file to create the bootable USB drive for the installation like explained in the [UDOO X86 Getting Started](https://www.udoo.org/get-started-x86/) page. If you are using Windows do not use the preinstalled archive extractor, use [7-zip](http://www.7-zip.org/) or similar to decompress the zip file.
+* [**Ubuntu**](https://www.ubuntu.com/): is probably the most well-known Linux distribution. Ubuntu is based on Debian, but it has its own software repositories. Much of the software in these repositories is synced from Debian’s repositories. **Ubuntu 18.10 Cosmic Cuttlefish** is the latest Ubuntu released version. **Ubuntu 18.04 LTS Bionic Beaver** is the latest Long Term Support version with a support end of life on April 2023.
 
 * [**Linux Mint**](http://linuxmint.com/) is a Linux distribution built on top of Ubuntu. It uses Ubuntu’s software repositories, so the same packages are available on both. Originally, Mint was an alternative distribution loved mainly because it included media codecs and proprietary software that Ubuntu didn’t include by default.  
 
@@ -50,7 +40,7 @@ Others useful distributions:
 
 * [**Lakka**](http://www.lakka.tv/) is a lightweight Linux distribution that transforms a computer into a full blown game console for retrogaming.
 
-* [**LibreELEC**](https://libreelec.tv/) Kodi is a free and open-source media player software application developed by the XBMC Foundation. LibreELEC (short for Libre Embedded Linux Entertainment Center) is a distro based on Kodi, is a non-profit fork of OpenELEC as an open source just enough OS (JeOS) Linux software appliance distro for Kodi.
+* [**LibreELEC – Just enough OS for KODI**](https://libreelec.tv/) Kodi is a free and open-source media player software application developed by the XBMC Foundation. LibreELEC (short for Libre Embedded Linux Entertainment Center) is a distro based on Kodi, is a non-profit fork of OpenELEC as an open source just enough OS (JeOS) Linux software appliance distro for Kodi.
 
 
 *source [www.howtogeek.com](https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/)*
