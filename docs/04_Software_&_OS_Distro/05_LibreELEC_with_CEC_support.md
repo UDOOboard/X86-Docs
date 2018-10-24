@@ -5,10 +5,11 @@ It is efficient with a tiny disk and memory footprint and provides cutting-edge 
 
 LibreELEC is the best choice if you want to build your own set-top box device to connect to your TV.
 
-In this page we release a LibreELEC image that include the [CEC](!Hardware_&_Accessories/CEC-HDMI) support for the UDOO X86 to exploit all the functionalities of the board as an HTPC.  
+In this page we release a LibreELEC image that include the [CEC](!Hardware_&_Accessories/CEC-HDMI) and [IR](!Hardware_&_Accessories/Consumer_IR) support for the UDOO X86 to exploit all the functionalities of the board as an HTPC.  
 This version of LibreELEC is the 9.0 with Linux kernel 4.19 RC8.
 
-<span class="label label-warning">Heads up!</span> At least the version *1.04* of the UEFI/BIOS firmware of the UDOO X86 need to be installed to make the CEC work properly. Visit the [UEFI Update](!Advanced_Topics/UEFI_update) section to know how to update your board.
+<span class="label label-warning">Heads up!</span> At least the version *1.04* of the UEFI/BIOS firmware of the UDOO X86 need to be installed to make the CEC and IRwork properly. Visit the [UEFI Update](!Advanced_Topics/UEFI_update) section to know how to update your board.
+<span class="label label-warning">Heads up!</span> Enable IR functionality from the Setup Utility Menu of the [UEFI/BIOS Firmware](!Hardware_Reference/UEFI_Firmware)
 
 The CEC and IR driver for the UDOO X86 will be integrated into the future mainline Linux Kernel so there won't be needed to download a dedicated version to have these functionalities.
 
