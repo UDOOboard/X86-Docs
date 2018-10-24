@@ -11,7 +11,7 @@ While the X86 Braswell processor can run all the Windows, Linux, Android X86 64b
 
 Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf) to have more complete explanation of the UDOO X86 hardware.  
 
-Visit the [**Get Started X86**](https://www.udoo.org/get-started-x86/) section of the UDOO website to find video tutorials of how to start use the UDOO X86 board. 
+Visit the [**Get Started X86**](https://www.udoo.org/get-started-x86/) section of the UDOO website to find video tutorials of how to start use the UDOO X86 board.
 
 <hr/>
 
@@ -24,7 +24,7 @@ Visit the [**Get Started X86**](https://www.udoo.org/get-started-x86/) section o
 
 
 ## Lineup
-UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_versions).
+UDOO X86 retail line up consists of [two models](!Hardware_Reference/Board_versions).
 
 <img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
 
@@ -35,16 +35,13 @@ UDOO X86 retail line up consists of [four models](!Hardware_Reference/Board_vers
 
 * Processor:
   * CPU Intel&reg; Pentium N3710 up to 2.56 Ghz (ULTRA version)
-  * CPU Intel&reg; Celeron N3160 up to 2.24 Ghz (ADVANCED PLUS & ADVANCED versions)
-  * CPU Intel&reg; Atom X5-E8000 up to 2.00 Ghz (BASIC version)
+  * CPU Intel&reg; Celeron N3160 up to 2.24 Ghz (ADVANCED PLUS)
 * GPU:
   * Intel&reg; HD Graphics 405 up to 700 MHz 16 execution units (ULTRA version)
-  * Intel&reg; HD Graphics 400 up to 640 MHz 12 execution units (ADVANCED PLUS & ADVANCED versions)
-  * Intel&reg; HD Graphics up to 320 MHz 12 execution units (BASIC version)
+  * Intel&reg; HD Graphics 400 up to 640 MHz 12 execution units (ADVANCED PLUS)
 * RAM:
   * 8 GB DDR3L Dual Channel (ULTRA version)
-  * 4 GB DDR3L Dual Channel (ADVANCED PLUS & ADVANCED versions)
-  * 2 GB DDR3L (BASIC version)
+  * 4 GB DDR3L Dual Channel (ADVANCED PLUS)
 * Intel&reg; Curie&trade; module (Quark SE core 32 MHz plus 32-bit ARC core 32 MHz) features Bluetooth LE, 6-axis accelerometer/gyro
 * Video interfaces:
   * 1x HDMI 1.4 (CEC)
