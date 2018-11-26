@@ -12,7 +12,7 @@ Take a look at this exhaustive guide [How to use 1.8V serial on UDOO X86 with 3.
 ## Pinmuxing
 The image below shows the list of all possible functions assigned to each Pin.
 
-<a href="../img/x86_pinout_braswell.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell.png"></a>
+<a href="../img/x86_pinout_braswell_post415.png" target="_blank"><img style="width:600px; " src="../img/x86_pinout_braswell_post415.png"></a>
 
 ## UART 1 and UART 2
 
@@ -63,10 +63,10 @@ The **UART 1** and **UART 2** are shown respectively as `/dev/ttyS4` and `/dev/t
 To use the UARTs in Windows, after enabling them in BIOS Setup, you need to
 download the corresponding drivers.
 
-Download and install the [Intel Serial IO Driver][intelserial]. Then download the specific [HSUART driver][secoserial] for UDOO X86. 
-Verify the presence of Unknown Device with Device ID as `ACPI\VCOM000x` or `ACPI\INT351x` in *Windows Device Manager*. 
-Extract the archive file, press mouse right-button on `x64\UartSample.inf` / `x86\UartSample.inf` (depending on the OS architecture) and select *Install*. 
-On *Device Manager*, one or more `UartSample Device` devices will appear under "*Port (COM & LPT)*" section. 
+Download and install the [Intel Serial IO Driver][intelserial]. Then download the specific [HSUART driver][secoserial] for UDOO X86.
+Verify the presence of Unknown Device with Device ID as `ACPI\VCOM000x` or `ACPI\INT351x` in *Windows Device Manager*.
+Extract the archive file, press mouse right-button on `x64\UartSample.inf` / `x86\UartSample.inf` (depending on the OS architecture) and select *Install*.
+On *Device Manager*, one or more `UartSample Device` devices will appear under "*Port (COM & LPT)*" section.
 
 Now the devices are ready and they can be used with a *HSUART Virtual Serial Terminal* like [extraPuTTY](http://www.extraputty.com/).
 
