@@ -18,7 +18,7 @@ The procedure to install a Windows® 7 version is a little different so read the
 
 <span class="label label-warning">Heads up!</span> The *Braswell Processors* of the UDOO X86 and the *Wi-Fi/BT Intel® AC3168 module* are released only few time ago so we suggest to use Windows&reg; 10 64-bit to find all the latest drivers already installed and have all the devices operating properly.
 
-<span class="label label-warning">Heads up!</span> If you have issues with the TRRS microphone in Windows® 10 try to install the *Realtek High Definition Audio Codecs* audio drivers from [this page](http://www.realtek.com.tw/Downloads/downloadsCheck.aspx?Langid=1&PNid=24&PFid=24&Level=4&Conn=3&DownTypeID=3)
+<span class="label label-warning">Heads up!</span> If you have issues with the TRRS microphone in Windows® 10 try to install the *Realtek High Definition Audio Codecs* audio drivers from [this page](https://www.realtek.cz/download-ALC283-sound-driver-for-Windows10-64bit.html)
 
 In order to download the latest updated versions of the Intel&reg; devices drivers (e.g. Graphics HD drivers, chipset, wireless networking) we suggest to download and run the [Intel® Driver & Support Assistant](https://downloadcenter.intel.com/download/24345/Intel-Driver-Support-Assistant) for Windows&reg;.
 
