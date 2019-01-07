@@ -6,14 +6,14 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
 
 At the following link you can find the latest UEFI Firmware and the UEFI Update Utility to quickly and easily updates flash devices with new UEFI Setup firmware.
 
-[UEFI BIOS + and Update Utility](http://download.udoo.org/files/UDOO_X86/UEFI_update/UDOOX86_B02-UEFI_Update_rel105.7z)
+[UEFI BIOS + and Update Utility](http://download.udoo.org/files/UDOO_X86/UEFI_update/UDOOX86_B02-UEFI_Update_rel106.zip)
 
 The package contains:
 * Latest UEFI Firmware binary
-  * Firmware name: 0B020000.105
-  * BIOS version:  1.05
-  * Release Date:  2018-11-16
-  * SHA1 .7z file:  b80b8083ebb4b823c9351d27ef957845190842f9
+  * Firmware name: 0B020000.106
+  * BIOS version:  1.06
+  * Release Date:  2019-01-07
+  * SHA1 .zip file:  D017F97E014351DA3705E9A8360B1C59E6F5D535
 * Update Utility Tool
   * DOS BIOS programming utility
   * Windows 32-bit BIOS programmer
