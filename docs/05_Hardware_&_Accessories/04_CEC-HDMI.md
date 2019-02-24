@@ -29,14 +29,51 @@ Kodi thread about using the CEC Framework alternatively to libCEC - [KODI Forum 
 
 ## Compile and mount the seco-cec driver for UDOO X86
 
-### Compile
+### Use
 
-<span class="label label-warning">Heads up!</span> Make sure you have Linux
-**kernel headers >= 4.14** (if you want to compile with headers >= 4.10 you
-need to revert this [commit][commit414]) and make sure you have installed an
-updated FW version (**>= 1.04**) on your UDOO X86 (check this in BIOS Main Page).
+<span class="label label-warning">Heads up!</span> 
+Make sure you have installed an updated FW version (**>= 1.04**) on your UDOO X86 (check this in BIOS Main Page).
 
-[commit414]: https://github.com/ektor5/secocec/commit/3874d5ef2139b982878aac9b3d18ad2db1ce47e1
+[v01]: https://github.com/ektor5/secocec/releases/tag/v0.1
+
+In order to use the driver, there are several methods:
+* Run Linux Kernel 5.0 with `CONFIG_VIDEO_SECO_CEC` and, optionally, `CONFIG_VIDEO_SECO_RC` (for IR) enabled
+* Use DKMS (Dynamic Kernel Module System)
+* Compile and mount the module manually
+
+<span class="label label-warning">Heads up!</span> 
+If you are compiling, make sure you have Linux **kernel headers >= 4.19** and *CEC_NOTIFIER* enabled 
+(if you want to compile with headers >= 4.14 you need to use version [0.1][v01] ). 
+
+## DKMS
+
+DKMS is an automatic system for mounting and managing Linux external modules.
+It is really useful in case of a kernel update or for automounting the module
+at boot.
+
+```bash
+# install dependencies (make, git, ecc..)
+sudo apt install git build-essential linux-headers-`uname -r` dkms
+
+# clone repo
+git clone https://github.com/ektor5/secocec
+
+# go to dir
+cd secocec
+
+# create dkms directory
+sudo mkdir '/usr/src/secocec-1.0'
+
+# copy files
+sudo cp seco-cec.? dkms.conf Makefile '/usr/src/secocec-1.0'
+
+# install module
+sudo dkms install secocec/1.0 -k `uname -r`
+```
+
+Now at reboot the module will be mounted automatically.
+
+## Compile
 
 Install dependencies (make, git, ecc..)
 
@@ -142,11 +179,6 @@ Rewrite it to the driver
 Done!
 
 ## Milestones
-
-The driver is still in development to add features and bugfixing.  
-The next steps will be: add the CEC notifier support, add the SMBus communication via i2c-i801 module.
-
-The driver will be published mainline, once the driver will be insert in the mainline kernel, compile and mount the secocec driver manually won't be needed. A patch is already under review.
 
 Regarding the CEC Framework state, you can see [this status update](https://hverkuil.home.xs4all.nl/cec-status.txt) from Hans Verkuil, the developer of the Framework.
 The CEC Framework is still in the process to be implemented for more different types of hardware. The 4.14 kernel will be a big step in that regard and when the list of supported hardware will be complete, the Framework will really becomes interesting for graphical media applications.
