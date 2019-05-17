@@ -8,15 +8,22 @@ This Arduino page will guide you through the [installation of the IDE and the co
 
 #### Installation
 
-In some previous Arduino IDE version there was some installation issues, but now you can download the latest Arduino IDE version **(at least Arduino IDE 1.8.3)** and you should not find any Linux installation.
+In some previous Arduino IDE version there was some installation issues, but now you can download the latest Arduino IDE version **(at least Arduino IDE 1.8.3)** and you should not find any Linux installation issue.  
+<span class="label label-warning">Heads up!</span> Remember to always keep updated you Arduino IDE installation.  
+Check the page [Install the Arduino Software (IDE) on Linux](https://www.arduino.cc/en/Guide/Linux) to have useful advice about the Linux installation.
 
 #### Upload Procedure
 
-Some `Linux` distributions need to be configured to to gain upload permissions.  
-Inside the Arduino 101 core you can find a script to allow the user to use the serial device. Using the latest Arduino 101 core package v2.0.2 run the script with this commands:
+Some Linux distributions need to be configured to gain upload permissions to the user.  
+Usually you can do it with the command:
 
-    chmod +x ~/.arduino15/packages/Intel/hardware/arc32/2.0.2/scripts/create_dfu_udev_rule
-    sudo ~/.arduino15/packages/Intel/hardware/arc32/2.0.2/scripts/create_dfu_udev_rule
+    sudo usermod -a -G dialout <username>
+
+Check the page [Install the Arduino Software (IDE) on Linux](https://www.arduino.cc/en/Guide/Linux) to find more info about it.  
+Inside the Arduino 101 core you can find a script to allow the user to use the serial device. Using the latest Arduino 101 core package v2.0.4 run the script with this commands:
+
+    chmod +x ~/.arduino15/packages/Intel/hardware/arc32/2.0.4/scripts/create_dfu_udev_rule
+    sudo ~/.arduino15/packages/Intel/hardware/arc32/2.0.4/scripts/create_dfu_udev_rule
 
 ## USB Devices
 
