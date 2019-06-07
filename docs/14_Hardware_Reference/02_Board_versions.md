@@ -4,7 +4,7 @@
 
 <br/>
 
-The main differences between the four versions of the UDOO X86 are shown in the following table.    
+The main differences between the two versions of the UDOO X86 are shown in the following table.    
 
 
 |              |                    ULTRA                    |                 ADVANCED PLUS                |
