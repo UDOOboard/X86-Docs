@@ -4,14 +4,19 @@
 On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino&trade; 101 world, including all the sketches, libraries and the official Arduino&trade; 101 IDE.
 
 UDOO X86 embeds two processors made by Intel&reg;:
-* a Quad Core 64-bit new-generation x86 Braswell 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP.)
-* the Intel&reg; Curie&trade; module, the same of Arduino&trade; 101, designed for wearables
+* a Quad Core 64-bit new-generation x86 **Braswell** 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP).
+* the **Intel&reg; Curie&trade;** module, the same of Arduino&trade; 101, designed for wearables.
 
 While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel&reg; Curie&trade; allows easy access to a Arduino&trade; 101 environment.
 
 Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf) to have more complete explanation of the UDOO X86 hardware.  
 
 Visit the [**Get Started X86**](https://www.udoo.org/get-started-x86/) section of the UDOO website to find video tutorials of how to start use the UDOO X86 board.
+
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+This is the documentation for the first revision of the UDOO X86 board with Arduino 101-compatible microcontroller with Intel&reg; Curie. A new revision of the UDOO X86 board has been released.<br>
+If you have the UDOO X86 II revision in your hands, please consult the <a href="https://www.udoo.org/docs-x86II"><b>UDOO X86 II doc at this page</b></a>. Check how to <a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html"><b>recognize the UDOO X86 revision</b></a>.  
+</p>
 
 <hr/>
 
