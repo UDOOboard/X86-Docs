@@ -14,11 +14,11 @@ The project offers different sized targets from "tiny" to fully featured images 
 As well as building Linux systems, there is also an ability to generate a toolchain for cross compilation and a software development kit (SDK) tailored to their own distribution, also referred to as the Application Developer Toolkit (ADT). The project tries to be software and vendor agnostic. Thus, for example, it is possible to select which package manager format to use (deb, rpm, or ipk).
 Within builds, there are options for various build-time sanity/regression tests, and also the option to boot and test certain images under QEMU to validate the build.
 
-## UDOO X86 image
+## UDOO X86 Yocto image
 Download: [core-image-sato-seco-64-udoo-logo.iso.bz2](http://download.udoo.org/files/UDOO_X86/Yocto_braswell/core-image-sato-seco-64-udoo-logo.iso.bz2)     
 SHA1: 47b370600a7b1e6f45c0f19bbd93bd29091a1ccb
 
-# Installation
+### Installation
 To install Yocto on the eMMC of the UDOO X86 follow this steps:
 
 <span class="label label-warning">Heads up!</span> In order not to risk to flash other drives we suggest to disconnect other storage devices connected.
@@ -38,3 +38,12 @@ To preserve the original archive, add the `-k` option:
 5. The installation should take about a minute.
 
 <span class="label label-warning">Heads up!</span> If you want the fastest boot as possible, once the installation is complete we suggest to modify the file `grub.cfg` changing the `timeout` voice to `0` (10 seconds are set by default).
+
+## Build From Source
+
+At the link below you can find the source used to compile this image, it is forked from the standard Yocto released by Intel&reg; for the **Bay Trail** family processors.
+
+Download: [meta-seco.7z](http://download.udoo.org/files/UDOO_X86/Yocto_braswell/meta-seco.7z)
+SHA1: 90128847699C2EC7B3729F61E0B3D9EF9167EA5F
+
+Inside the package you can find a guide you can follow to compile the Yocto image.
