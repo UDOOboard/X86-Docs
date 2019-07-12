@@ -1,4 +1,4 @@
-## CEC introduction
+## CEC Introduction
 
 Quoting from the Wikipedia page of the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control):
 
@@ -20,12 +20,26 @@ Here you can find [details on the framework](http://events.linuxfoundation.org/s
 
 
 ### State of Art - libCEC
-[libCEC](http://libcec.pulse-eight.com/) is a well established user-space library that media applications needed to use to let CEC work with their media application.
-Lots of graphical media applications, like Kodi, still uses the libCEC platform in its own code to interact with CEC protocol.  
-Now that a standard HDMI-CEC Framework is integrated into Linux Kernel, future hardware will adopt the standard, and will do away with the need to use LibCEC in Linux. Pulse-Eight, the Developer, could add the support for this new HDMI-CEC framework inside libCEC, as if it was just another CEC device to get best of both.
+[libCEC](http://libcec.pulse-eight.com/) is a well established user-space
+library. 
+Many graphical media applications, like Kodi, use the libCEC platform in its
+own code to interact with CEC protocol.  
+
+Now that a standard HDMI-CEC Framework is integrated into the Linux Kernel,
+future hardware will probably adopt it. LibCEC still has a pending [Pull Request][libcecpull] at
+the time of writing (2019/07/12) in order to add support for the Linux Framework.
+
+[LibreELEC](https://libreelec.tv/), a Linux distro for Kodi, has an option to add the patch and enabling
+the support, but it's not available in the official images. In the section
+[LibreELEC with CEC
+support](../Software_&_OS_Distro/LibreELEC_with_CEC_support.html) is possible
+to download a custom version with the CEC Support enabled.
 
 libCEC issue on github about adding the CEC Framework support - [GitHub link](https://github.com/Pulse-Eight/libcec/issues/67).  
+
 Kodi thread about using the CEC Framework alternatively to libCEC - [KODI Forum thread](http://forum.kodi.tv/showthread.php?tid=293256).
+
+[libcecpull]: https://github.com/Pulse-Eight/libcec/pull/380
 
 ## Compile and mount the seco-cec driver for UDOO X86
 
@@ -37,7 +51,7 @@ Make sure you have installed an updated FW version (**>= 1.04**) on your UDOO X8
 [v01]: https://github.com/ektor5/secocec/releases/tag/v0.1
 
 In order to use the driver, there are several methods:
-* Run Linux Kernel 5.0 with `CONFIG_VIDEO_SECO_CEC` and, optionally, `CONFIG_VIDEO_SECO_RC` (for IR) enabled
+* Install Linux Kernel version > 5.0 with `CONFIG_VIDEO_SECO_CEC` and, optionally, `CONFIG_VIDEO_SECO_RC` (for IR) enabled
 * Use DKMS (Dynamic Kernel Module System)
 * Compile and mount the module manually
 
@@ -177,8 +191,3 @@ Rewrite it to the driver
     ir-keytable -w seco-cec-keytable.conf
 
 Done!
-
-## Milestones
-
-Regarding the CEC Framework state, you can see [this status update](https://hverkuil.home.xs4all.nl/cec-status.txt) from Hans Verkuil, the developer of the Framework.
-The CEC Framework is still in the process to be implemented for more different types of hardware. The 4.14 kernel will be a big step in that regard and when the list of supported hardware will be complete, the Framework will really becomes interesting for graphical media applications.
