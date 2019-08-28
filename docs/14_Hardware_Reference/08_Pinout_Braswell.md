@@ -109,7 +109,7 @@ For example, if you connect to the board a new peripheral that supports reset st
 
 | Pin | Function  | Processor PAD |
 |-----|-----------|---------------|
-| 30  | PLTRST    |  PMU_PLTRST_N |
+| 31  | PLTRST    |  PMU_PLTRST_N |
 
 This Pin can't work as GPIO.  
 
