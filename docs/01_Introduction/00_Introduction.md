@@ -14,7 +14,7 @@ Download the [**User Manual**](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_
 Visit the [**Get Started X86**](https://www.udoo.org/get-started-x86/) section of the UDOO website to find video tutorials of how to start use the UDOO X86 board.
 
 <p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
-This is the documentation for the first revision of the UDOO X86 board with Arduino 101-compatible microcontroller with Intel&reg; Curie. A new revision of the UDOO X86 board has been released.<br>
+This is the documentation for the first revision of the <b>UDOO X86</b> board with Arduino 101-compatible microcontroller with Intel&reg; Curie. A new revision of the UDOO X86 board has been released.<br>
 If you have the UDOO X86 II revision in your hands, please consult the <a href="https://www.udoo.org/docs-x86II"><b>UDOO X86 II doc at this page</b></a>. Check how to <a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html"><b>recognize the UDOO X86 revision</b></a>.  
 </p>
 
