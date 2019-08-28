@@ -32,7 +32,7 @@ the time of writing (2019/07/12) in order to add support for the Linux Framework
 [LibreELEC](https://libreelec.tv/), a Linux distro for Kodi, has an option to add the patch and enabling
 the support, but it's not available in the official images. In the section
 [LibreELEC with CEC
-support](../Software_&_OS_Distro/LibreELEC_with_CEC_support.html) is possible
+support](!Operating_Systems/LibreELEC_with_CEC_support) is possible
 to download a custom version with the CEC Support enabled.
 
 libCEC issue on github about adding the CEC Framework support - [GitHub link](https://github.com/Pulse-Eight/libcec/issues/67).  

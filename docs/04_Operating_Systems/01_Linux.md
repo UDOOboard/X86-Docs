@@ -39,7 +39,7 @@ Here you can find an unordered list of 10 of the most popular Linux distribution
 Others useful distributions:
 
 * [**LibreELEC – Just enough OS for KODI**](https://libreelec.tv/) Kodi is a free and open-source media player software application developed by the XBMC Foundation. LibreELEC (short for Libre Embedded Linux Entertainment Center) is a distro based on Kodi, is a non-profit fork of OpenELEC as an open source just enough OS (JeOS) Linux software appliance distro for Kodi.  
-[**Go to the LibreELEC with CEC and IR support**](!Software_&_OS_Distro/LibreELEC_with_CEC_support) page to download a dedicated version of LibreELEC 9.0 with Linux kernel 4.19RC8 and support for UDOO X86 CEC and IR support.
+[**Go to the LibreELEC with CEC and IR support**](!Operating_Systems/LibreELEC_with_CEC_support) page to download a dedicated version of LibreELEC 9.0 with Linux kernel 4.19RC8 and support for UDOO X86 CEC and IR support.
 
 * [**Lakka**](http://www.lakka.tv/) is a lightweight Linux distribution that transforms a computer into a full blown game console for retrogaming.
 
