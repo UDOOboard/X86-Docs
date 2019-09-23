@@ -40,7 +40,7 @@ The package includes:
   * Weight: 8.5g (0.3 oz)
   * M.2 compatible RF micro coax type connector
 * 2x Antennas
-  * U.FL/IPEX connector
+  * IPEX MFH-4(W.FL) connector
   * 10cm IPEX cable
   * Adhesive backing on aerial plates
 
@@ -167,7 +167,7 @@ UDOO X86 METAL CASE includes:
 <br/>
 
 The case features also two holes, in the two sides, for connecting externally the WiFi and BT antennas of the M.2 module through a RP-SMA connector.  
-For example you can use 2x U.FL/IPEX to RP-SMA cables and 2x RP-SMA antennas like in the following image.  
+For example you can use 2x IPEX MFH-4(W.FL) to RP-SMA cables and 2x RP-SMA antennas like in the following image.  
 <span class="label label-warning">Heads up!</span> These items are not included.  
 
 <img style="width:300px;margin-left:20px;" src="../img/accessories/x86_external_antennas_RP-SMA.jpg" class="pull-left">
