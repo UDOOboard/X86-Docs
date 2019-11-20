@@ -71,7 +71,7 @@ On *Device Manager*, one or more `UartSample Device` devices will appear under "
 Now the devices are ready and they can be used with a *HSUART Virtual Serial Terminal* like [extraPuTTY](http://www.extraputty.com/).
 
 [intelserial]: https://downloadcenter.intel.com/download/25601/Intel-Serial-IO-Driver-for-Windows-10
-[secoserial]: http://download.udoo.org/files/UDOO_X86/tools/UDOOX86_HS_UART_Driver_Rev_1.1.zip
+[secoserial]: https://udoo.org/download/files/UDOO_X86/tools/UDOOX86_HS_UART_Driver_Rev_1.1.zip
 
 ## LPC bus
 

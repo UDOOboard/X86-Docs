@@ -15,7 +15,7 @@ As well as building Linux systems, there is also an ability to generate a toolch
 Within builds, there are options for various build-time sanity/regression tests, and also the option to boot and test certain images under QEMU to validate the build.
 
 ## UDOO X86 Yocto image
-Download: [core-image-sato-seco-64-udoo-logo.iso.bz2](http://download.udoo.org/files/UDOO_X86/Yocto_braswell/core-image-sato-seco-64-udoo-logo.iso.bz2)     
+Download: [core-image-sato-seco-64-udoo-logo.iso.bz2](https://sourceforge.net/projects/udooboard/files/UDOO_X86/Yocto_braswell/core-image-sato-seco-64-udoo-logo.iso.bz2/download)     
 SHA1: 47b370600a7b1e6f45c0f19bbd93bd29091a1ccb
 
 ### Installation
@@ -43,7 +43,7 @@ To preserve the original archive, add the `-k` option:
 
 At the link below you can find the source used to compile this image, it is forked from the standard Yocto released by Intel&reg; for the **Bay Trail** family processors.
 
-Download: [meta-seco.7z](http://download.udoo.org/files/UDOO_X86/Yocto_braswell/meta-seco.7z)
+Download: [meta-seco.7z](https://sourceforge.net/projects/udooboard/files/UDOO_X86/Yocto_braswell/meta-seco.7z/download)
 SHA1: 90128847699C2EC7B3729F61E0B3D9EF9167EA5F
 
 Inside the package you can find a guide you can follow to compile the Yocto image.

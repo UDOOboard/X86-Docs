@@ -14,7 +14,7 @@ It is possible to access to InsydeH2O® Setup Utility by pressing the escape key
 
 ## UDOO X86 Hardware and UEFI BIOS User Manual
 
-For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO X86 Hardware and UEFI BIOS User Manual](http://download.udoo.org/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf)
+For a complete explanation of the System Configuration Utility menu items you can download the exhaustive [UDOO X86 Hardware and UEFI BIOS User Manual](https://udoo.org/download/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf)
 
 ## Setup Utility Menu
 

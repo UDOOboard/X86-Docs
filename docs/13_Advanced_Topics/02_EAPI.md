@@ -11,7 +11,7 @@ software control for:
 The EAPI definition is open to be used for other embedded form factors too,
 such as SBCs. Read the full specification [here][specs].
 
-Download [here][dleapi] the official implementation for UDOO X86. 
+Download [here][dleapi] the official implementation for UDOO X86.
 
 The package contains:
 * Latest precompiled EAPI Libraries
@@ -27,4 +27,4 @@ The package contains:
 * Official Documentation (.pdf)
 
 [specs]: https://www.picmg.org/wp-content/uploads/COM_EAPI_R1_0.pdf
-[dleapi]: http://download.udoo.org/files/UDOO_X86/tools/EAPI_1_20_18_RC3_Build_1373_2018_11_20.zip
+[dleapi]: https://udoo.org/download/files/UDOO_X86/tools/EAPI_1_20_18_RC3_Build_1373_2018_11_20.zip

@@ -140,7 +140,7 @@ If you're looking for more info about this screen you can check the wiki page of
 A beautiful metal case for your UDOO X86 Board.  
 <span class="label label-warning">Heads up!</span> Please notice that the case does not dissipate heat, so you’ll need the Fan Accessory if the temperature of the processor seems too high for the use you are doing of the board.  
 
-Check here the [mechanical drawing](http://download.udoo.org/files//UDOO_X86/mechanical_specs/UDOO_X86_metal_case_drawing.pdf) to see the dimensions of the case.
+Check here the [mechanical drawing](https://udoo.org/download/files/UDOO_X86/mechanical_specs/UDOO_X86_metal_case_drawing.pdf) to see the dimensions of the case.
 
 UDOO X86 METAL CASE includes:
 * 1x Metal Top Part;
@@ -195,7 +195,7 @@ For example you can use 2x IPEX MFH-4(W.FL) to RP-SMA cables and 2x RP-SMA anten
 
 Top and Bottom plexiglass acrylic case for UDOO X86
 
-Here you can download the [cutting file](http://download.udoo.org/files//UDOO_X86/mechanical_specs/UDOO_X86_Acrylic_Enclosure.zip) of the acrylic enclosure.
+Here you can download the [cutting file](https://udoo.org/download/files/UDOO_X86/mechanical_specs/UDOO_X86_Acrylic_Enclosure.zip) of the acrylic enclosure.
 
 <a href="../img/accessories/x86_acrylic_enclosure.png" target="_blank"><img style="width:380px;" src="../img/accessories/x86_acrylic_enclosure.png" class="pull-left"></a><img style="width:380px;margin-left:20px;" src="../img/accessories/acrylic_case_side.jpg" class="pull-left">
 

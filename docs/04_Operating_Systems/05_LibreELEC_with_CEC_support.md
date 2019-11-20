@@ -70,6 +70,6 @@ Go through the installation wizard to install it permanently into the eMMC or an
 
 Enjoy the fast boot of LibreELEC.
 
-[imageold]: http://download.udoo.org/files/UDOO_X86/LibreELEC/LibreELEC-Generic.x86_64-9.0-devel-20181022184922-461ea72.img.gz
-[imageunstab]: http://download.udoo.org/files/UDOO_X86/LibreELEC/LibreELEC-Generic.x86_64-9.80-devel-20190710181224-ef834cb.img.gz
-[imagestab]: http://download.udoo.org/files/UDOO_X86/LibreELEC/LibreELEC-Generic.x86_64-9.1-devel-20190711122949-7c00387.img.gz
+[imageold]: https://sourceforge.net/projects/udooboard/files/UDOO_X86/LibreELEC/LibreELEC-Generic.x86_64-9.0-devel-20181022184922-461ea72.img.gz/download
+[imageunstab]: https://sourceforge.net/projects/udooboard/files/UDOO_X86/LibreELEC/LibreELEC-Generic.x86_64-9.80-devel-20190710181224-ef834cb.img.gz/download
+[imagestab]: https://sourceforge.net/projects/udooboard/files/UDOO_X86/LibreELEC/LibreELEC-Generic.x86_64-9.1-devel-20190711122949-7c00387.img.gz/download
