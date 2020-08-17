@@ -12,8 +12,8 @@ The package contains:
 * Latest UEFI Firmware binary
   * Firmware name: 0B020000.106
   * BIOS version:  1.06
-  * Release Date:  2019-01-07
-  * SHA1 .zip file:  D017F97E014351DA3705E9A8360B1C59E6F5D535
+  * Release Date:  2020-08-17
+  * SHA1 .zip file:   92ed05098594689c45638b3495e9783d87543357
 * Update Utility Tool
   * DOS BIOS programming utility
   * Windows 32-bit BIOS programmer
@@ -22,7 +22,7 @@ The package contains:
   * Linux 64-bit programmer
 * Update procedure documentation (.pdf)
 
-Follow the procedure in the .pdf file to update the UEFI BIOS firmware using DOS, Linux or Windows running on your UDOO X86.
+Follow the procedure in the `APN - BIOS programming using H2OFFT_rel1.8.pdf` file to update the UEFI BIOS firmware using DOS, Linux or Windows running on your UDOO X86.
 
 <span class="label label-warning">Heads up!</span> Remember that update the UEFI firmware will revert the saved configuration to Factory Default.
 
