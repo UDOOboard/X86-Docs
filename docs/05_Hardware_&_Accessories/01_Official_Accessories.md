@@ -40,7 +40,7 @@ The package includes:
   * Weight: 8.5g (0.3 oz)
   * M.2 compatible RF micro coax type connector
 * 2x Antennas
-  * IPEX MFH-4(W.FL) connector
+  * IPEX MFH-4 connector
   * 10cm IPEX cable
   * Adhesive backing on aerial plates
 
