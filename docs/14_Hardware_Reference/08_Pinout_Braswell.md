@@ -56,7 +56,9 @@ These two HSUART buses are *enabled* by default. You can `Enable/Disable` the **
 
 ### Use the UART in Linux
 
-The **UART 1** and **UART 2** are shown respectively as `/dev/ttyS4` and `/dev/ttyS5` when configured as *HSUART mode*(default configuration) or as `/dev/tty0` when configured in *Legacy mode*.
+The **UART 1** and **UART 2** are shown respectively as `/dev/ttyS4` and `/dev/ttyS5` when configured as *HSUART mode*(default configuration). If you can't find this two serial in Linux, you probably need to disable the `Virtual COM` option in the BIOS menu (Can be changed only when `HSUART #1` and `HSUART #2` are Enabled).  If Disabled, the Virtual COM won't be added to the ACPI table.
+
+The **UART 1** and **UART 2** are shown respectively as `/dev/tty0` and `/dev/tty1` when configured in *Legacy mode*.
 
 ### Use the UART in Windows 10
 
