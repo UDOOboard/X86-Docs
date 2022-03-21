@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Introduction - UDOO X86 Docs</title>
+    <meta name="description" content="UDOO X86 Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-udoo.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="../img/logo_docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO X86 Documentation</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451"><path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/></svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on" results=25 autosave=text_search>
+    </div>
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item Nav__item--active'><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Basic Setup</a><ul class='Nav'><li class='Nav__item '><a href="../Basic_Setup/Find_IP_Address.html">Find IP Address</a></li><li class='Nav__item '><a href="../Basic_Setup/Remote_Terminal_(SSH).html">Remote Terminal (SSH)</a></li><li class='Nav__item '><a href="../Basic_Setup/Remote_Desktop_(VNC).html">Remote Desktop (VNC)</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Operating Systems</a><ul class='Nav'><li class='Nav__item '><a href="../Operating_Systems/Linux.html">Linux</a></li><li class='Nav__item '><a href="../Operating_Systems/Windows.html">Windows</a></li><li class='Nav__item '><a href="../Operating_Systems/Android.html">Android</a></li><li class='Nav__item '><a href="../Operating_Systems/Yocto.html">Yocto</a></li><li class='Nav__item '><a href="../Operating_Systems/LibreELEC_with_CEC_support.html">LibreELEC with CEC support</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware & Accessories</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_Accessories/Official_Accessories.html">Official Accessories</a></li><li class='Nav__item '><a href="../Hardware_Accessories/GPIOs.html">GPIOs</a></li><li class='Nav__item '><a href="../Hardware_Accessories/Bricks_snap_in_sensors.html">Bricks snap in sensors</a></li><li class='Nav__item '><a href="../Hardware_Accessories/CEC_HDMI.html">CEC-HDMI</a></li><li class='Nav__item '><a href="../Hardware_Accessories/Consumer_IR.html">Consumer IR</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Cookbook Linux</a><ul class='Nav'><li class='Nav__item '><a href="../Cookbook_Linux/Understanding_Linux_Software_Management_And_Installing.html">Understanding Linux Software Management And Installing</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Linux_Command_Line_Interface.html">Linux Command Line Interface</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Intel_Graphics_update_tool.html">Intel Graphics update tool</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Play_videos_in_GPU.html">Play videos in GPU</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Arduino 101 (Intel Curie)</a><ul class='Nav'><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Getting_Started_with_Arduino_101.html">Getting Started with Arduino 101</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Pinout.html">Pinout</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Pattern_Matching_Engine.html">Pattern Matching Engine</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Braswell_Power_Management_From_Arduino_101.html">Braswell Power Management From Arduino 101</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Curie_Reset_on_PowerON.html">Curie Reset on PowerON</a></li></ul></li><li class='Nav__item  has-children'><a href="../Serial_Libraries/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Serial Libraries</a><ul class='Nav'><li class='Nav__item '><a href="../Serial_Libraries/Java_Serial_Libraries.html">Java Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/C_Serial_Libraries.html">C Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/PHP_Serial_Libraries.html">PHP Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/Python_Serial_Libraries.html">Python Serial Libraries</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Advanced Topics</a><ul class='Nav'><li class='Nav__item '><a href="../Advanced_Topics/UEFI_update.html">UEFI update</a></li><li class='Nav__item '><a href="../Advanced_Topics/EAPI.html">EAPI</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware Reference</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_Reference/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Hardware_Reference/Resources.html">Resources</a></li><li class='Nav__item '><a href="../Hardware_Reference/Board_versions.html">Board versions</a></li><li class='Nav__item '><a href="../Hardware_Reference/Video_Output.html">Video Output</a></li><li class='Nav__item '><a href="../Hardware_Reference/Storage_Options.html">Storage Options</a></li><li class='Nav__item '><a href="../Hardware_Reference/M.2_Connectors.html">M.2 Connectors</a></li><li class='Nav__item '><a href="../Hardware_Reference/UEFI_Firmware.html">UEFI Firmware</a></li><li class='Nav__item '><a href="../Hardware_Reference/Pinout_Braswell.html">Pinout Braswell</a></li><li class='Nav__item '><a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html">Recognize the UDOO X86 revision</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/other-resources/" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                            <a href="https://github.com/UDOOboard/X86-Docs" target="_blank">Github Docs</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Introduction</h1>
+            </div>
+
+
+    <div class="s-content">
+        <h1 id="page_UDOO-X86">UDOO X86</h1>
+<p><strong>UDOO X86</strong> is the New PC: the most powerful maker board ever and an Arduino™ 101-compatible platform, all embedded on the same board.</p>
+<p>On UDOO X86 you can run all the software available for the PC world, from gaming to video streaming, from graphical editors to professional development platforms, plus all the software for the Arduino™ 101 world, including all the sketches, libraries and the official Arduino™ 101 IDE.</p>
+<p>UDOO X86 embeds two processors made by Intel®:</p>
+<ul>
+<li>a Quad Core 64-bit new-generation x86 <strong>Braswell</strong> 14nm processors, designed for the PC domain (The N-Series Intel® Pentium® / Celeron® and x5-Series Atom family of System-on-Chips (SoCs) formerly coded as Braswell is a series of Quad Core SoCs with 64-bit instruction set and very low TDP).</li>
+<li>the <strong>Intel® Curie™</strong> module, the same of Arduino™ 101, designed for wearables.</li>
+</ul>
+<p>While the X86 Braswell processor can run all the Windows, Linux, Android X86 64bit Distros you want to use as desktop PC, the Intel® Curie™ allows easy access to a Arduino™ 101 environment.</p>
+<p>Download the <a href="https://udoo.org/download/files/UDOO_X86/Doc/UDOO_X86_MANUAL.pdf" class="Link--external"><strong>User Manual</strong></a> to have more complete explanation of the UDOO X86 hardware.</p>
+<p>Visit the <a href="https://www.udoo.org/get-started-x86/" class="Link--external"><strong>Get Started X86</strong></a> section of the UDOO website to find video tutorials of how to start use the UDOO X86 board.</p>
+<p style="background-color: rgba(255, 170, 50, 0.3);padding: 20px;border-left: 5px solid orange; border-radius: 4px; color:rgb(45, 45, 45);">
+This is the documentation for the first revision of the <b>UDOO X86</b> board with Arduino 101-compatible microcontroller with Intel&reg; Curie. A new revision of the UDOO X86 board has been released.<br>
+If you have the UDOO X86 II revision in your hands, please consult the <a href="https://www.udoo.org/docs-x86II"><b>UDOO X86 II doc at this page</b></a>. Check how to <a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html"><b>recognize the UDOO X86 revision</b></a>.  
+</p>
+<hr/>
+<p><span class="label label-warning">Heads up!</span> In order to prevent damages to your board, remember to:</p>
+<ul>
+<li>Never provide more than 3.3V in input to the GPIOs of the Arduino 101(Intel® Curie™), and never provide more than 1.8V in input to the GPIOs of the Braswell processor.</li>
+<li>Never keep the board in touch with metal objects or surfaces while it is powered up</li>
+<li>Power the board with a stabilized power supply (DC-jack with a standard 5.5mm/2.1mm barrel jack, internal positive, Voltage 12V ± 5%, at least 3A).</li>
+<li>Do not use a <em>NON</em>-standard USB 3.0 peripheral. If you use a non-standard USB 3.0 peripheral with an external power plug, this could send back the power source to the UDOO X86 board with the risk of damage.</li>
+</ul>
+<h2 id="page_Lineup">Lineup</h2>
+<p>UDOO X86 retail line up consists of <a href="../Hardware_Reference/Board_versions.html">two models</a>.</p>
+<img src="../img/x86_lineup.png" alt="UDOO versions" class="img-responsive" >
+<h2 id="page_Technical-specifications">Technical specifications</h2>
+<img src="../img/x86_ultra_top_rotate.png" alt="UDOO Boards" class="img-responsive pull-right" height="441px" width="350px"  style="margin-bottom:20px; margin-left:30px;">
+<ul>
+<li>Processor:
+<ul>
+<li>CPU Intel® Pentium N3710 up to 2.56 Ghz (ULTRA version)</li>
+<li>CPU Intel® Celeron N3160 up to 2.24 Ghz (ADVANCED PLUS)</li>
+</ul>
+</li>
+<li>GPU:
+<ul>
+<li>Intel® HD Graphics 405 up to 700 MHz 16 execution units (ULTRA version)</li>
+<li>Intel® HD Graphics 400 up to 640 MHz 12 execution units (ADVANCED PLUS)</li>
+</ul>
+</li>
+<li>RAM:
+<ul>
+<li>8 GB DDR3L Dual Channel (ULTRA version)</li>
+<li>4 GB DDR3L Dual Channel (ADVANCED PLUS)</li>
+</ul>
+</li>
+<li>Intel® Curie™ module (Quark SE core 32 MHz plus 32-bit ARC core 32 MHz) features Bluetooth LE, 6-axis accelerometer/gyro</li>
+<li>Video interfaces:
+<ul>
+<li>1x HDMI 1.4 (CEC)</li>
+<li>2x Mini DisplayPort ++ (mDP++)</li>
+</ul>
+</li>
+<li>Storage:
+<ul>
+<li>32GB eMMC soldered on-board (Advanced Plus and Ultra only)</li>
+<li>1x M.2 Key B 2260 slot for SATA SSD modules** / PCIe (2x) modules</li>
+<li>1x SATA III 6Gb/s connector</li>
+<li>1x MicroSD slot</li>
+</ul>
+</li>
+<li>Networking:
+<ul>
+<li>1x Gigabit Ethernet LAN interface</li>
+<li>1x M.2 Key E slot for optional Wireless(WiFi+BT) Module</li>
+</ul>
+</li>
+<li>Audio interfaces:
+<ul>
+<li>HD Audio Codec ALC283CG</li>
+<li>Microphone + Headphone Combo Connector (TRRS)</li>
+<li>Pre-amplified stereo speaker output</li>
+<li>S/PDIF output*</li>
+</ul>
+</li>
+<li>3x USB 3.0 type-A sockets</li>
+<li>2x HSUART ports*</li>
+<li>2x I2C interface*</li>
+<li>1x SDIO interface*</li>
+<li>1x LPC interface*</li>
+<li>12V (± 5%) DC Power Jack (standard 5.5mm/2.1mm barrel jack: internal positive), at least 3A.</li>
+<li>RTC Battery Connector + RTC Coin Battery</li>
+<li>Bi-color Power Status LED</li>
+<li>1x Sensor Snap-In I2C connector (UDOO Bricks)</li>
+<li>Arduino™ 101-Compatible through the standard Arduino™ Pins layout and compatible with Arduino™ shields.</li>
+</ul>
+<p>*Available on Pin Header
+**Not compatible with NVMe modules</p>
+<p>Visit the <a href="../Hardware_Accessories/Official_Accessories.html">official accessories</a> sections.</p>
+<h2 id="page_Community">Community</h2>
+<ul>
+<li>Official web site <a href="https://www.udoo.org" class="Link--external">www.udoo.org</a>
+</li>
+<li>Official forum <a href="https://www.udoo.org/forum/index.php" class="Link--external">www.udoo.org/forum</a>
+</li>
+</ul>
+<h3 id="page_Forums">Forums</h3>
+<p>The official UDOO forums can be found at <a href="https://www.udoo.org/forum" class="Link--external">www.udoo.org/forum</a></p>
+<p>The forum search facility has been tweaked to allow more general searching.
+<strong>Please</strong> do a search before making a post as the issue may already have been raised and answered.</p>
+<h3 id="page_IRC-channel">IRC channel</h3>
+<p>There is an (unofficial) UDOO discussion channel on IRC. Using the IRC client of your choice, use server information: <code>irc.freenode.net</code>. Room name is <code>#udoo</code>.</p>
+<h3 id="page_Social-networks">Social networks</h3>
+<ul>
+<li>
+<a href="http://www.facebook.com/udooboard" class="Link--external">Facebook fan page</a>
+</li>
+<li>
+<a href="http://twitter.com/UDOO_Board" class="Link--external">Twitter</a>
+</li>
+<li>
+<a href="https://plus.google.com/u/0/110742692974455430878/posts" class="Link--external">Google+</a>
+</li>
+<li>
+<a href="http://www.youtube.com/channel/UCXv5UyGn5jArK8xOAmuSeHg" class="Link--external">YouTube</a>
+</li>
+</ul>
+<!-- Google Code -->
+<script type="text/javascript">
+var google_conversion_id = 983836026;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+</script>
+</noscript>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../index.html">Previous</a></li>            <li class=Pager--next><a href="../Basic_Setup/Find_IP_Address.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, March 21, 2022 at 5:26 AM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+            <!-- Tipue Search -->
+        <script type="text/javascript" src="../tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': '../'
+                });
+            });
+        </script>
+    
+</body>
+</html>

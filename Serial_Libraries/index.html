@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Serial Libraries - UDOO X86 Docs</title>
+    <meta name="description" content="UDOO X86 Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-udoo.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="../img/logo_docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO X86 Documentation</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451"><path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/></svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on" results=25 autosave=text_search>
+    </div>
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Basic Setup</a><ul class='Nav'><li class='Nav__item '><a href="../Basic_Setup/Find_IP_Address.html">Find IP Address</a></li><li class='Nav__item '><a href="../Basic_Setup/Remote_Terminal_(SSH).html">Remote Terminal (SSH)</a></li><li class='Nav__item '><a href="../Basic_Setup/Remote_Desktop_(VNC).html">Remote Desktop (VNC)</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Operating Systems</a><ul class='Nav'><li class='Nav__item '><a href="../Operating_Systems/Linux.html">Linux</a></li><li class='Nav__item '><a href="../Operating_Systems/Windows.html">Windows</a></li><li class='Nav__item '><a href="../Operating_Systems/Android.html">Android</a></li><li class='Nav__item '><a href="../Operating_Systems/Yocto.html">Yocto</a></li><li class='Nav__item '><a href="../Operating_Systems/LibreELEC_with_CEC_support.html">LibreELEC with CEC support</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware & Accessories</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_Accessories/Official_Accessories.html">Official Accessories</a></li><li class='Nav__item '><a href="../Hardware_Accessories/GPIOs.html">GPIOs</a></li><li class='Nav__item '><a href="../Hardware_Accessories/Bricks_snap_in_sensors.html">Bricks snap in sensors</a></li><li class='Nav__item '><a href="../Hardware_Accessories/CEC_HDMI.html">CEC-HDMI</a></li><li class='Nav__item '><a href="../Hardware_Accessories/Consumer_IR.html">Consumer IR</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Cookbook Linux</a><ul class='Nav'><li class='Nav__item '><a href="../Cookbook_Linux/Understanding_Linux_Software_Management_And_Installing.html">Understanding Linux Software Management And Installing</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Linux_Command_Line_Interface.html">Linux Command Line Interface</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Intel_Graphics_update_tool.html">Intel Graphics update tool</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Play_videos_in_GPU.html">Play videos in GPU</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Arduino 101 (Intel Curie)</a><ul class='Nav'><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Getting_Started_with_Arduino_101.html">Getting Started with Arduino 101</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Pinout.html">Pinout</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Pattern_Matching_Engine.html">Pattern Matching Engine</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Braswell_Power_Management_From_Arduino_101.html">Braswell Power Management From Arduino 101</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Curie_Reset_on_PowerON.html">Curie Reset on PowerON</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="../Serial_Libraries/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Serial Libraries</a><ul class='Nav'><li class='Nav__item '><a href="../Serial_Libraries/Java_Serial_Libraries.html">Java Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/C_Serial_Libraries.html">C Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/PHP_Serial_Libraries.html">PHP Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/Python_Serial_Libraries.html">Python Serial Libraries</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Advanced Topics</a><ul class='Nav'><li class='Nav__item '><a href="../Advanced_Topics/UEFI_update.html">UEFI update</a></li><li class='Nav__item '><a href="../Advanced_Topics/EAPI.html">EAPI</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware Reference</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_Reference/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Hardware_Reference/Resources.html">Resources</a></li><li class='Nav__item '><a href="../Hardware_Reference/Board_versions.html">Board versions</a></li><li class='Nav__item '><a href="../Hardware_Reference/Video_Output.html">Video Output</a></li><li class='Nav__item '><a href="../Hardware_Reference/Storage_Options.html">Storage Options</a></li><li class='Nav__item '><a href="../Hardware_Reference/M.2_Connectors.html">M.2 Connectors</a></li><li class='Nav__item '><a href="../Hardware_Reference/UEFI_Firmware.html">UEFI Firmware</a></li><li class='Nav__item '><a href="../Hardware_Reference/Pinout_Braswell.html">Pinout Braswell</a></li><li class='Nav__item '><a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html">Recognize the UDOO X86 revision</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/other-resources/" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                            <a href="https://github.com/UDOOboard/X86-Docs" target="_blank">Github Docs</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Serial Libraries</h1>
+            </div>
+
+
+    <div class="s-content">
+        <h2 id="page_UDOO-X86-Serial-Libraries-Examples">UDOO X86 Serial Libraries Examples</h2>
+<p>Serial Libraries Communication Samples for <a href="https://www.udoo.org" class="Link--external">UDOO Board</a></p>
+<p>These example’s scripts are meant to demonstrate how to implement a uni\bidirectional communication between an Arduino sketch (running on the Arduino™ 101 Intel® Curie™ embedded) and a binary application on the Braswell processor running Linux.</p>
+<p>The Arduino sketch will remain the same no matter which programming language you’ll use to develop the binary on Linux.</p>
+<p><span class="label label-warning">Heads up!</span> The sources could be used also for Windows programs, however the libraries installation and compilation instructions aren't valid.</p>
+<p>There are two example scripts for each programming language: C, Java, PHP, Python.</p>
+<p>You can find the whole repo in our <a href="https://github.com/UDOOboard/serial_libraries_examples" class="Link--external">Github Channel</a>.
+Clone the repo in your system and switch to proper <code>udoo-x86</code> branch using these commands on a terminal:</p>
+<pre><code>git clone https://github.com/UDOOboard/serial_libraries_examples.git
+cd serial_libraries_examples
+git checkout udoo-x86
+</code></pre>
+<p><span class="label label-warning">Heads up!</span> Make sure the user has the proper permission to read and write from the Arduino™ 101 serial device (<code>/dev/ttyACM0</code> by default)</p>
+<p>Each program is meant to be executed while the matching Arduino Sketch is running on Arduino™ 101 Intel® Curie™.</p>
+<p>Program the Arduino™ embedded with the sketch named <code>arduino_serial_example.ino</code> before run these examples:</p>
+<pre><code>c_serial_example.c
+java_serial_example.java
+php_serial_example.php
+python_serial_example.py
+</code></pre>
+<p>Program the Arduino™ embedded with the sketch named <code>arduino_serial_example_bidirectional.ino</code> before run these examples:</p>
+<pre><code>c_serial_example_bidirectional.c
+java_serial_example_bidirectional.java
+php_serial_example_bidirectional.php
+python_serial_example_bidirectional.py
+</code></pre>
+<h2 id="page_Useful-libraries-to-communicate-with-Arduino-from-a-software-on-the-Braswell-processor">Useful libraries to communicate with Arduino from a software on the Braswell processor</h2>
+<h3 id="page_Firmata">Firmata</h3>
+<p>The Firmata library implements the <a href="https://github.com/firmata/protocol" class="Link--external">Firmata protocol</a> for communicating with software on the host computer. This allows you to write custom firmware without having to create your own protocol and objects for the programming environment that you are using.</p>
+<p>You can check the Firmata documentation in the <a href="https://www.arduino.cc/en/Reference/Firmata" class="Link--external">Arduino Reference page</a> or the <a href="http://firmata.org/wiki/Main_Page" class="Link--external">firmata wiki page</a>.<br />
+Here you find the <a href="https://github.com/firmata/arduino" class="Link--external">Firmata firmware for Arduino</a>.<br />
+You can install the Firmata library directly from the Arduino IDE library manager.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../Arduino_101_(Intel_Curie)/Curie_Reset_on_PowerON.html">Previous</a></li>            <li class=Pager--next><a href="../Serial_Libraries/Java_Serial_Libraries.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, March 21, 2022 at 5:26 AM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+            <!-- Tipue Search -->
+        <script type="text/javascript" src="../tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': '../'
+                });
+            });
+        </script>
+    
+</body>
+</html>

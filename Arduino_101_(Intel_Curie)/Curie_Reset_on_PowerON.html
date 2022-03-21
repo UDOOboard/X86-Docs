@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>       <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>          <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>          <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>Curie Reset on PowerON - UDOO X86 Docs</title>
+    <meta name="description" content="UDOO X86 Documentation" />
+    <meta name="author" content="UDOO Team">
+    <meta charset="UTF-8">
+    <link rel="icon" href="../themes/daux/img/favicon-udoo.ico" type="image/x-icon">
+    <!-- Mobile -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin' rel='stylesheet' type='text/css'>
+    <!-- CSS -->
+    <link href='../themes/daux/css/theme-navy.min.css' rel='stylesheet' type='text/css'><link href='../themes/daux/css/udoo.css' rel='stylesheet' type='text/css'>
+            <!-- Tipue Search -->
+        <link href="../tipuesearch/tipuesearch.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="../themes/daux/js/jquery-1.11.3.min.js"></script>
+    <script src="../themes/daux/js/bootstrap.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body class="">
+    
+<header class="Navbar hidden-print">
+    <img class="pull-left udoologo" src="../img/logo_docs.png"> 
+<a class="Navbar__brand" href="../index.html">
+UDOO X86 Documentation</a>
+
+    <div class="Search">
+        <svg class="Search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 451 451"><path d="M447.05 428l-109.6-109.6c29.4-33.8 47.2-77.9 47.2-126.1C384.65 86.2 298.35 0 192.35 0 86.25 0 .05 86.3.05 192.3s86.3 192.3 192.3 192.3c48.2 0 92.3-17.8 126.1-47.2L428.05 447c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.2-5.2 5.2-13.8 0-19zM26.95 192.3c0-91.2 74.2-165.3 165.3-165.3 91.2 0 165.3 74.2 165.3 165.3s-74.1 165.4-165.3 165.4c-91.1 0-165.3-74.2-165.3-165.4z"/></svg>
+        <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on" results=25 autosave=text_search>
+    </div>
+</header>
+<div class="Columns content">
+    <aside class="Columns__left Collapsible">
+        <div class="Collapsible__container">
+            <button type="button" class="Button Collapsible__trigger">
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+                <span class="Collapsible__trigger--bar"></span>
+            </button>
+        </div>
+
+        <div class="Collapsible__content">
+            <!-- Navigation -->
+            <ul class='Nav'><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Introduction</a><ul class='Nav'><li class='Nav__item '><a href="../Introduction/Introduction.html">Introduction</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Basic Setup</a><ul class='Nav'><li class='Nav__item '><a href="../Basic_Setup/Find_IP_Address.html">Find IP Address</a></li><li class='Nav__item '><a href="../Basic_Setup/Remote_Terminal_(SSH).html">Remote Terminal (SSH)</a></li><li class='Nav__item '><a href="../Basic_Setup/Remote_Desktop_(VNC).html">Remote Desktop (VNC)</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Operating Systems</a><ul class='Nav'><li class='Nav__item '><a href="../Operating_Systems/Linux.html">Linux</a></li><li class='Nav__item '><a href="../Operating_Systems/Windows.html">Windows</a></li><li class='Nav__item '><a href="../Operating_Systems/Android.html">Android</a></li><li class='Nav__item '><a href="../Operating_Systems/Yocto.html">Yocto</a></li><li class='Nav__item '><a href="../Operating_Systems/LibreELEC_with_CEC_support.html">LibreELEC with CEC support</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware & Accessories</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_Accessories/Official_Accessories.html">Official Accessories</a></li><li class='Nav__item '><a href="../Hardware_Accessories/GPIOs.html">GPIOs</a></li><li class='Nav__item '><a href="../Hardware_Accessories/Bricks_snap_in_sensors.html">Bricks snap in sensors</a></li><li class='Nav__item '><a href="../Hardware_Accessories/CEC_HDMI.html">CEC-HDMI</a></li><li class='Nav__item '><a href="../Hardware_Accessories/Consumer_IR.html">Consumer IR</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Cookbook Linux</a><ul class='Nav'><li class='Nav__item '><a href="../Cookbook_Linux/Understanding_Linux_Software_Management_And_Installing.html">Understanding Linux Software Management And Installing</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Linux_Command_Line_Interface.html">Linux Command Line Interface</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Intel_Graphics_update_tool.html">Intel Graphics update tool</a></li><li class='Nav__item '><a href="../Cookbook_Linux/Play_videos_in_GPU.html">Play videos in GPU</a></li></ul></li><li class='Nav__item Nav__item--open has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Arduino 101 (Intel Curie)</a><ul class='Nav'><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Getting_Started_with_Arduino_101.html">Getting Started with Arduino 101</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Pinout.html">Pinout</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Pattern_Matching_Engine.html">Pattern Matching Engine</a></li><li class='Nav__item '><a href="../Arduino_101_(Intel_Curie)/Braswell_Power_Management_From_Arduino_101.html">Braswell Power Management From Arduino 101</a></li><li class='Nav__item Nav__item--active'><a href="../Arduino_101_(Intel_Curie)/Curie_Reset_on_PowerON.html">Curie Reset on PowerON</a></li></ul></li><li class='Nav__item  has-children'><a href="../Serial_Libraries/index.html" class="folder"><i class="Nav__arrow">&nbsp;</i>Serial Libraries</a><ul class='Nav'><li class='Nav__item '><a href="../Serial_Libraries/Java_Serial_Libraries.html">Java Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/C_Serial_Libraries.html">C Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/PHP_Serial_Libraries.html">PHP Serial Libraries</a></li><li class='Nav__item '><a href="../Serial_Libraries/Python_Serial_Libraries.html">Python Serial Libraries</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Advanced Topics</a><ul class='Nav'><li class='Nav__item '><a href="../Advanced_Topics/UEFI_update.html">UEFI update</a></li><li class='Nav__item '><a href="../Advanced_Topics/EAPI.html">EAPI</a></li></ul></li><li class='Nav__item  has-children'><a href="#" class="aj-nav folder"><i class="Nav__arrow">&nbsp;</i>Hardware Reference</a><ul class='Nav'><li class='Nav__item '><a href="../Hardware_Reference/Overview.html">Overview</a></li><li class='Nav__item '><a href="../Hardware_Reference/Resources.html">Resources</a></li><li class='Nav__item '><a href="../Hardware_Reference/Board_versions.html">Board versions</a></li><li class='Nav__item '><a href="../Hardware_Reference/Video_Output.html">Video Output</a></li><li class='Nav__item '><a href="../Hardware_Reference/Storage_Options.html">Storage Options</a></li><li class='Nav__item '><a href="../Hardware_Reference/M.2_Connectors.html">M.2 Connectors</a></li><li class='Nav__item '><a href="../Hardware_Reference/UEFI_Firmware.html">UEFI Firmware</a></li><li class='Nav__item '><a href="../Hardware_Reference/Pinout_Braswell.html">Pinout Braswell</a></li><li class='Nav__item '><a href="../Hardware_Reference/Recognize_the_UDOO_X86_revision.html">Recognize the UDOO X86 revision</a></li></ul></li></ul>
+
+            <div class="Links">
+                                    <hr/>
+                                            <a href="https://www.udoo.org" target="_blank">Home</a>
+                        <br />
+                                            <a href="https://www.udoo.org/other-resources/" target="_blank">Downloads</a>
+                        <br />
+                                            <a href="https://www.udoo.org/tutorial" target="_blank">Tutorials</a>
+                        <br />
+                                            <a href="https://www.udoo.org/forum" target="_blank">Forum</a>
+                        <br />
+                                            <a href="https://github.com/UDOOboard/X86-Docs" target="_blank">Github Docs</a>
+                        <br />
+                                    
+                
+                            </div>
+        </div>
+    </aside>
+    <div class="Columns__right ">
+        <div class="Columns__right__content">
+            <div class="doc_content">
+                <article class="Page">
+
+    <div class="Page__header">
+        <h1>Curie Reset on PowerON</h1>
+            </div>
+
+
+    <div class="s-content">
+        <p>Arduino 101 (Intel® Curie™) firmware doesn't manage correctly the USB serial communication during the reboot procedure, or after the suspend state resume of the computer
+which is connected to.</p>
+<p>Leaving the Arduino 101 connected to the PC (as for an embedded installation or as in the UDOO X86 setup), the Serial
+communication over USB (Arduino Serial Object) doesn't work properly at reboot or after suspend state resume.</p>
+<p>Both in Windows or Linux the COM or tty is shown at reboot, but it doesn't allow you to write data from PC to Arduino101 throught the Serial.
+In this case Arduino IDE freezes while trying to write data on Serial through Serial Monitor.</p>
+<p>Only a Master Reset resolves this issue.</p>
+<h2 id="page_UDOO-X86-solution">UDOO X86 solution</h2>
+<p>To resolve this issue the UDOO X86 implements a hardware solution:
+The Braswell x86 main processor can internally act on the Master Reset signal of the Intel® Curie™, resetting
+both the cores (Quark SE and ARC) in the Curie™ SoC and restarting the sketch and the USB communication.</p>
+<p>This feature can be Enabled/Disabled by the UEFI BIOS setup (SCU).
+You can find the <strong>Curie Reset on PowerON</strong> option in the menu <strong>Power</strong>:</p>
+<pre><code>Power
+...
+  
+Curie Reset on PowerON    &lt;Enabled&gt;
+
+If enabled the system will automatically reset the Intel Curie when the system
+is waking from a low power state (S3/S4/S5)
+</code></pre>
+<p>By default this feature is enabled until the bug is fixed in the Intel's Arduino 101 firmware.<br />
+This issue <a href="https://github.com/01org/corelibs-arduino101/issues/399" class="Link--external">CDCSerial not available after PC reboot or resume from suspend</a> is opened in the Intel's <a href="https://github.com/01org/corelibs-arduino101" class="Link--external">corelibs-arduino101</a> repository.<br />
+You can <code>Add your reaction</code> to thumbs up <code>👍(+1)</code> the issue.</p>
+<h3 id="page_Manage-the-possible-loss-of-value-of-the-variables">Manage the possible loss of value of the variables</h3>
+<p>Since this solution implemented in the UDOO X86 acts on the Master Reset signal of the Intel® Curie™, the sketch is reset and restarted at reboot or after the suspend state resume of the Braswell processor. Therefore the sketch isn't erased but you will lose the value of the variables.</p>
+<p>To avoid this you can use the Arduino <a href="https://www.arduino.cc/en/Reference/EEPROM" class="Link--external">EEPROM library</a> to permanently save the values of the variables.</p>
+<p>The Arduino 101 embedded has an emulated EEPROM space of <strong>1024 bytes</strong>: memory whose values are kept when the board is turned off (like a tiny hard drive).</p>
+<p>For example you can simply store and get values using the methods
+<code>EEPROM.put(eeAddress, f);</code> and <code>EEPROM.get(eeAddress, f);</code></p>
+<p>Check the <a href="https://www.arduino.cc/en/Reference/EEPROM" class="Link--external">Arduino EEPROM library</a> page or the <a href="https://github.com/01org/corelibs-arduino101/tree/master/libraries/EEPROM" class="Link--external">Intel EEPROM Library V2.0</a> for exhaustive references and examples.</p>
+    </div>
+
+        <nav>
+        <ul class="Pager">
+            <li class=Pager--prev><a href="../Arduino_101_(Intel_Curie)/Braswell_Power_Management_From_Arduino_101.html">Previous</a></li>            <li class=Pager--next><a href="../Serial_Libraries/index.html">Next</a></li>        </ul>
+    </nav>
+    
+<span style="float: left; font-size: 10px; color: gray;">
+This page was last updated on Monday, March 21, 2022 at 5:26 AM.
+</span>
+
+</article>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- hightlight.js -->
+    <script src="../themes/daux/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- JS -->
+    
+    <script src="../themes/daux/js/daux.js"></script>
+
+            <!-- Tipue Search -->
+        <script type="text/javascript" src="../tipuesearch/tipuesearch.js"></script>
+
+        <script>
+            window.onunload = function(){}; // force $(document).ready to be called on back/forward navigation in firefox
+            $(function() {
+                tipuesearch({
+                    'base_url': '../'
+                });
+            });
+        </script>
+    
+</body>
+</html>
